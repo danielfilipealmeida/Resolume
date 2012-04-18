@@ -1,0 +1,93 @@
+TResolumeKinectClient
+v7
+r0
+t355692480.219059
+cCheck dependencies
+cCompileC build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E0FAA5100000000000000EE
+t1309649489
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EB3D0000000000003197
+t1242688317
+s12695
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/ResolumeKinectClient.LinkFileList
+c000000004F83384000000000000000A4
+t1333999680
+s164
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp
+c000000004F833813000000000000028B
+t1333999635
+s651
+i<zmq.hpp>
+i<string.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.h
+c000000004F83325000000000000000C5
+t1333998160
+s197
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.h
+c000000004F7C2CC000000000000025C4
+t1333537984
+s9668
+i<errno.h>
+i<stddef.h>
+i<winsock2.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.hpp
+c000000004F68DEE700000000000021C1
+t1332272871
+s8641
+i"zmq.h"
+i<algorithm>
+i<cassert>
+i<cstring>
+i<exception>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies355692480#355692480#0(0"0(0#1#0"8626683776#0"0#
+
+CCompileC build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s355692480.106908
+e355692480.218998
+r0
+xCompileC
+xbuild/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp: In function 'int main(int, char* const*)':
+o/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp:16: error: 'cout' was not declared in this scope
+o/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp:16: error: 'endl' was not declared in this scope
+lSLF07#2@85"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp355692480#355692480#0(376"/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp: In function 'int main(int, char* const*)':/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp:16: error: 'cout' was not declared in this scope/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp:16: error: 'endl' was not declared in this scope2(4@37"'cout' was not declared in this scope355692480#122#127#0(6@77"/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp355692435#16#0#16#0#34"'*' was not declared in this scope0(4@37"'endl' was not declared in this scope355692480#249#127#0(6@77"/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp355692435#16#0#16#0#34"'*' was not declared in this scope0(0#0#77"/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp8631422240#1914"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-generated-files.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-own-target-headers.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-all-target-headers.hmap" -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-project-headers.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/DerivedSources/x86_64" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o"1#
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient" normal x86_64
+r0
+

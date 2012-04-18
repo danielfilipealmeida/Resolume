@@ -1,0 +1,209 @@
+TkinectServer
+v7
+r0
+t356476744.569973
+cCheck dependencies
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E0FAA5100000000000000EE
+t1309649489
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EB240000000000003197
+t1242688292
+s12695
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer.LinkFileList
+c000000004F8F2FC80000000000000097
+t1334783944
+s151
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o
+t1334783944
+s90640
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp
+c000000004F8356BB000000000000032D
+t1334007483
+s813
+i<zmq.hpp>
+i<string>
+i<iostream>
+i<unistd.h>
+i"zhelpers.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/zhelpers.h
+c000000004F83558900000000000013F5
+t1334007177
+s5109
+i<zmq.h>
+i<stdint.h>
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i<string.h>
+i<sys/time.h>
+i<time.h>
+i<unistd.h>
+i<assert.h>
+i<signal.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.h
+c000000004F7C2CC000000000000025C4
+t1333537984
+s9668
+i<errno.h>
+i<stddef.h>
+i<winsock2.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.hpp
+c000000004F68DEE700000000000021C1
+t1332272871
+s8641
+i"zmq.h"
+i<algorithm>
+i<cassert>
+i<cstring>
+i<exception>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies356476744#356476744#0(0"0(0#1#0"8618462624#0"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s356476744.237376
+e356476744.526533
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp356476744#356476744#0(0"0(0#0#78"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp8614418464#1814"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer-generated-files.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer-own-target-headers.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer-all-target-headers.hmap" -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer-project-headers.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/x86_64" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o"0#
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal x86_64
+s356476744.526607
+e356476744.569937
+r0
+xLd
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer
+xnormal
+xx86_64
+old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not found
+old: warning: in ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)
+oUndefined symbols:
+o  "_zmq_socket", referenced from:
+o      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o
+o  "_zmq_recv", referenced from:
+o      s_dump(void*) in server.o
+o      s_recv(void*) in server.o
+o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
+o  "_zmq_msg_init", referenced from:
+o      s_dump(void*) in server.o
+o      s_recv(void*) in server.o
+o      zmq::message_t::message_t()in server.o
+o  "_zmq_setsockopt", referenced from:
+o      s_set_id(void*) in server.o
+o  "_zmq_errno", referenced from:
+o      zmq::error_t::error_t()in server.o
+o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
+o  "_zmq_msg_size", referenced from:
+o      s_dump(void*) in server.o
+o      s_recv(void*) in server.o
+o  "_zmq_getsockopt", referenced from:
+o      s_dump(void*) in server.o
+o  "_zmq_msg_data", referenced from:
+o      s_dump(void*) in server.o
+o      s_recv(void*) in server.o
+o      s_sendmore(void*, char*)in server.o
+o      s_send(void*, char*)in server.o
+o  "_zmq_bind", referenced from:
+o      zmq::socket_t::bind(char const*)in server.o
+o  "_zmq_init", referenced from:
+o      zmq::context_t::context_t(int)in server.o
+o  "_zmq_msg_close", referenced from:
+o      s_dump(void*) in server.o
+o      s_recv(void*) in server.o
+o      s_sendmore(void*, char*)in server.o
+o      s_send(void*, char*)in server.o
+o      zmq::message_t::~message_t()in server.o
+o  "_zmq_close", referenced from:
+o      zmq::socket_t::close()    in server.o
+o  "_zmq_term", referenced from:
+o      zmq::context_t::~context_t()in server.o
+o  "_zmq_msg_init_size", referenced from:
+o      s_sendmore(void*, char*)in server.o
+o      s_send(void*, char*)in server.o
+o  "_zmq_strerror", referenced from:
+o      zmq::error_t::what() constin server.o
+o  "_zmq_send", referenced from:
+o      s_sendmore(void*, char*)in server.o
+o      s_send(void*, char*)in server.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@101"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer356476744#356476744#0(2171"ld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not foundld: warning: in ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)Undefined symbols:  "_zmq_socket", referenced from:      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o  "_zmq_recv", referenced from:      s_dump(void*) in server.o      s_recv(void*) in server.o      zmq::socket_t::recv(zmq::message_t*, int)in server.o  "_zmq_msg_init", referenced from:      s_dump(void*) in server.o      s_recv(void*) in server.o      zmq::message_t::message_t()in server.o  "_zmq_setsockopt", referenced from:      s_set_id(void*) in server.o  "_zmq_errno", referenced from:      zmq::error_t::error_t()in server.o      zmq::socket_t::recv(zmq::message_t*, int)in server.o  "_zmq_msg_size", referenced from:      s_dump(void*) in server.o      s_recv(void*) in server.o  "_zmq_getsockopt", referenced from:      s_dump(void*) in server.o  "_zmq_msg_data", referenced from:      s_dump(void*) in server.o      s_recv(void*) in server.o      s_sendmore(void*, char*)in server.o      s_send(void*, char*)in server.o  "_zmq_bind", referenced from:      zmq::socket_t::bind(char const*)in server.o  "_zmq_init", referenced from:      zmq::context_t::context_t(int)in server.o  "_zmq_msg_close", referenced from:      s_dump(void*) in server.o      s_recv(void*) in server.o      s_sendmore(void*, char*)in server.o      s_send(void*, char*)in server.o      zmq::message_t::~message_t()in server.o  "_zmq_close", referenced from:      zmq::socket_t::close()    in server.o  "_zmq_term", referenced from:      zmq::context_t::~context_t()in server.o  "_zmq_msg_init_size", referenced from:      s_sendmore(void*, char*)in server.o      s_send(void*, char*)in server.o  "_zmq_strerror", referenced from:      zmq::error_t::what() constin server.o  "_zmq_send", referenced from:      s_sendmore(void*, char*)in server.o      s_send(void*, char*)in server.old: symbol(s) not foundcollect2: ld returned 1 exit status51(22@124"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not found356476744#0#138#0(6@0"356476744#0#0#0#0#0"0(22@131"In ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)356476744#138#145#0(6@0"356476744#0#0#0#0#0"0(4@31""_zmq_socket", referenced from:356476744#302#34#0(6@0"356476744#0#0#0#0#0"0(13@56"Zmq::socket_t::socket_t(zmq::context_t&, int)in server.o356476744#336#63#0(6@0"356476744#0#0#0#0#0"0(4@29""_zmq_recv", referenced from:356476744#399#32#0(6@0"356476744#0#0#0#0#0"0(13@25"S_dump(void*) in server.o356476744#431#32#0(6@0"356476744#0#0#0#0#0"0(13@25"S_recv(void*) in server.o356476744#463#32#0(6@0"356476744#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356476744#495#59#0(6@0"356476744#0#0#0#0#0"0(4@33""_zmq_msg_init", referenced from:356476744#554#36#0(6@0"356476744#0#0#0#0#0"0(13@25"S_dump(void*) in server.o356476744#590#32#0(6@0"356476744#0#0#0#0#0"0(13@25"S_recv(void*) in server.o356476744#622#32#0(6@0"356476744#0#0#0#0#0"0(13@38"Zmq::message_t::message_t()in server.o356476744#654#45#0(6@0"356476744#0#0#0#0#0"0(4@35""_zmq_setsockopt", referenced from:356476744#699#38#0(6@0"356476744#0#0#0#0#0"0(13@27"S_set_id(void*) in server.o356476744#737#34#0(6@0"356476744#0#0#0#0#0"0(4@30""_zmq_errno", referenced from:356476744#771#33#0(6@0"356476744#0#0#0#0#0"0(13@34"Zmq::error_t::error_t()in server.o356476744#804#41#0(6@0"356476744#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356476744#845#59#0(6@0"356476744#0#0#0#0#0"0(4@33""_zmq_msg_size", referenced from:356476744#904#36#0(6@0"356476744#0#0#0#0#0"0(13@25"S_dump(void*) in server.o356476744#940#32#0(6@0"356476744#0#0#0#0#0"0(13@25"S_recv(void*) in server.o356476744#972#32#0(6@0"356476744#0#0#0#0#0"0(4@35""_zmq_getsockopt", referenced from:356476744#1004#38#0(6@0"356476744#0#0#0#0#0"0(13@25"S_dump(void*) in server.o356476744#1042#32#0(6@0"356476744#0#0#0#0#0"0(4@33""_zmq_msg_data", referenced from:356476744#1074#36#0(6@0"356476744#0#0#0#0#0"0(13@25"S_dump(void*) in server.o356476744#1110#32#0(6@0"356476744#0#0#0#0#0"0(13@25"S_recv(void*) in server.o356476744#1142#32#0(6@0"356476744#0#0#0#0#0"0(13@35"S_sendmore(void*, char*)in server.o356476744#1174#42#0(6@0"356476744#0#0#0#0#0"0(13@31"S_send(void*, char*)in server.o356476744#1216#38#0(6@0"356476744#0#0#0#0#0"0(4@29""_zmq_bind", referenced from:356476744#1254#32#0(6@0"356476744#0#0#0#0#0"0(13@43"Zmq::socket_t::bind(char const*)in server.o356476744#1286#50#0(6@0"356476744#0#0#0#0#0"0(4@29""_zmq_init", referenced from:356476744#1336#32#0(6@0"356476744#0#0#0#0#0"0(13@41"Zmq::context_t::context_t(int)in server.o356476744#1368#48#0(6@0"356476744#0#0#0#0#0"0(4@34""_zmq_msg_close", referenced from:356476744#1416#37#0(6@0"356476744#0#0#0#0#0"0(13@25"S_dump(void*) in server.o356476744#1453#32#0(6@0"356476744#0#0#0#0#0"0(13@25"S_recv(void*) in server.o356476744#1485#32#0(6@0"356476744#0#0#0#0#0"0(13@35"S_sendmore(void*, char*)in server.o356476744#1517#42#0(6@0"356476744#0#0#0#0#0"0(13@31"S_send(void*, char*)in server.o356476744#1559#38#0(6@0"356476744#0#0#0#0#0"0(13@39"Zmq::message_t::~message_t()in server.o356476744#1597#46#0(6@0"356476744#0#0#0#0#0"0(4@30""_zmq_close", referenced from:356476744#1643#33#0(6@0"356476744#0#0#0#0#0"0(13@37"Zmq::socket_t::close()    in server.o356476744#1676#44#0(6@0"356476744#0#0#0#0#0"0(4@29""_zmq_term", referenced from:356476744#1720#32#0(6@0"356476744#0#0#0#0#0"0(13@39"Zmq::context_t::~context_t()in server.o356476744#1752#46#0(6@0"356476744#0#0#0#0#0"0(4@38""_zmq_msg_init_size", referenced from:356476744#1798#41#0(6@0"356476744#0#0#0#0#0"0(13@35"S_sendmore(void*, char*)in server.o356476744#1839#42#0(6@0"356476744#0#0#0#0#0"0(13@31"S_send(void*, char*)in server.o356476744#1881#38#0(6@0"356476744#0#0#0#0#0"0(4@33""_zmq_strerror", referenced from:356476744#1919#36#0(6@0"356476744#0#0#0#0#0"0(13@37"Zmq::error_t::what() constin server.o356476744#1955#44#0(6@0"356476744#0#0#0#0#0"0(4@29""_zmq_send", referenced from:356476744#1999#32#0(6@0"356476744#0#0#0#0#0"0(13@35"S_sendmore(void*, char*)in server.o356476744#2031#42#0(6@0"356476744#0#0#0#0#0"0(13@31"S_send(void*, char*)in server.o356476744#2073#38#0(6@0"356476744#0#0#0#0#0"0(13@19"Symbol(s) not found356476744#2111#24#0(6@0"356476744#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status356476744#2135#36#0(6@0"356476744#0#0#0#0#0"0(0#0#0"8615998272#827"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -L../../zeromq-2.2.0/src "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer.LinkFileList" -mmacosx-version-min=10.6 ../../zeromq-2.2.0/src/libzmq.la -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer"1#
+

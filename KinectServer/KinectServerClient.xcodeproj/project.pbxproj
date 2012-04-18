@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65FF0FAB153F4CCC0020C387 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FF0FA9153F4C8E0020C387 /* client.cpp */; };
+		65FF0FAC153F4CCE0020C387 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FF0FA7153F4C800020C387 /* server.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65EE84481533681F00F07A7F /* ResolumeKinectClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResolumeKinectClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FF0FA7153F4C800020C387 /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = server.cpp; path = src/server.cpp; sourceTree = "<group>"; };
+		65FF0FA9153F4C8E0020C387 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = client.cpp; path = src/client.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* ResolumeKinectServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResolumeKinectServer; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65EE84461533681F00F07A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ResolumeKinectServer */ = {
+			isa = PBXGroup;
+			children = (
+				65EE84441533680A00F07A7F /* Client */,
+				08FB7795FE84155DC02AAC07 /* Server */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = ResolumeKinectServer;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				65FF0FA7153F4C800020C387 /* server.cpp */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* ResolumeKinectServer */,
+				65EE84481533681F00F07A7F /* ResolumeKinectClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65EE84441533680A00F07A7F /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				65FF0FA9153F4C8E0020C387 /* client.cpp */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65EE84471533681F00F07A7F /* kinectClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EE844F1533683300F07A7F /* Build configuration list for PBXNativeTarget "kinectClient" */;
+			buildPhases = (
+				65EE84451533681F00F07A7F /* Sources */,
+				65EE84461533681F00F07A7F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kinectClient;
+			productName = ResolumeKinectClient;
+			productReference = 65EE84481533681F00F07A7F /* ResolumeKinectClient */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F620486A84900D96B5E /* kinectServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "kinectServer" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kinectServer;
+			productInstallPath = "$(HOME)/bin";
+			productName = ResolumeKinectServer;
+			productReference = 8DD76F6C0486A84900D96B5E /* ResolumeKinectServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "KinectServerClient" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ResolumeKinectServer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* kinectServer */,
+				65EE84471533681F00F07A7F /* kinectClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65EE84451533681F00F07A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FF0FAB153F4CCC0020C387 /* client.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FF0FAC153F4CCE0020C387 /* server.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../zeromq-2.2.0/src/.libs\"",
+				);
+				PRODUCT_NAME = ResolumeKinectServer;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../zeromq-2.2.0/src/.libs\"",
+				);
+				PRODUCT_NAME = ResolumeKinectServer;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(ZMQ_ROOT)/include/",
+					"$(ZMQ_ROOT)/src/",
+				);
+				LIBRARY_SEARCH_PATHS = "$(ZMQ_ROOT)/src/";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"\"$(ZMQ_ROOT)/src/libzmq_la-clock.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-command.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-connect_session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-ctx.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-decoder.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-device.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-devpoll.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-dist.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-encoder.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-epoll.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-err.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-fq.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-io_object.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-io_thread.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-ip.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-kqueue.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-lb.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-mailbox.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-named_session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-object.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-options.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-own.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pair.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pgm_receiver.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pgm_sender.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pgm_socket.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pipe.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-poll.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-poller_base.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pull.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-push.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-reaper.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-rep.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-req.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-select.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-signaler.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-socket_base.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-sub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-swap.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-tcp_connecter.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-tcp_listener.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-tcp_socket.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-thread.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-transient_session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-trie.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-uuid.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xpub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xrep.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xreq.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xsub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_connecter.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_engine.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_init.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_listener.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq.o\"",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				ZMQ_ROOT = "../../zeromq-2.2.0";
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(ZMQ_ROOT)/include/",
+					"$(ZMQ_ROOT)/src/",
+				);
+				LIBRARY_SEARCH_PATHS = "$(ZMQ_ROOT)/src/";
+				OTHER_LDFLAGS = (
+					"\"$(ZMQ_ROOT)/src/libzmq_la-clock.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-command.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-connect_session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-ctx.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-decoder.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-device.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-devpoll.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-dist.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-encoder.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-epoll.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-err.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-fq.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-io_object.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-io_thread.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-ip.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-kqueue.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-lb.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-mailbox.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-named_session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-object.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-options.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-own.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pair.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pgm_receiver.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pgm_sender.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pgm_socket.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pipe.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-poll.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-poller_base.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-pull.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-push.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-reaper.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-rep.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-req.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-select.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-signaler.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-socket_base.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-sub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-swap.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-tcp_connecter.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-tcp_listener.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-tcp_socket.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-thread.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-transient_session.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-trie.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-uuid.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xpub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xrep.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xreq.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-xsub.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_connecter.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_engine.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_init.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq_listener.o\"",
+					"\"$(ZMQ_ROOT)/src/libzmq_la-zmq.o\"",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				ZMQ_ROOT = "../../zeromq-2.2.0";
+			};
+			name = Release;
+		};
+		65EE844A1533681F00F07A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = ResolumeKinectClient;
+			};
+			name = Debug;
+		};
+		65EE844B1533681F00F07A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = ResolumeKinectClient;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "kinectServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "KinectServerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EE844F1533683300F07A7F /* Build configuration list for PBXNativeTarget "kinectClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EE844A1533681F00F07A7F /* Debug */,
+				65EE844B1533681F00F07A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

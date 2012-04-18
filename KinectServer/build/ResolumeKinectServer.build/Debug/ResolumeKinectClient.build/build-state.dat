@@ -1,0 +1,788 @@
+TResolumeKinectClient
+v7
+r0
+t355738190.500109
+cCheck dependencies
+cCompileC build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E0FAA5100000000000000EE
+t1309649489
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EB240000000000003197
+t1242688292
+s12695
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB3D00000000000010DD
+t1242688317
+s4317
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EB3D0000000000003197
+t1242688317
+s12695
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/powerpc-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB3D000000000000190C
+t1242688317
+s6412
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-clock.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-command.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-connect_session.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-ctx.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-decoder.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-device.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-devpoll.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-dist.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-encoder.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-epoll.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-err.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-fq.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-io_object.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-io_thread.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-ip.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-kqueue.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-lb.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-mailbox.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-named_session.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-object.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-options.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-own.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-pair.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_receiver.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_sender.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_socket.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-pipe.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-poll.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-poller_base.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-pub.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-pull.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-push.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-reaper.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-rep.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-req.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-select.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-session.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-signaler.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-socket_base.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-sub.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-swap.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_connecter.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_listener.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_socket.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-thread.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-transient_session.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-trie.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-uuid.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-xpub.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-xrep.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-xreq.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-xsub.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-zmq.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_connecter.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_engine.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_init.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_listener.o
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectClient
+c000000004F83565C000000000005E058
+t1334007388
+s385112
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/ResolumeKinectClient.LinkFileList
+c000000004F83384000000000000000A4
+t1333999680
+s164
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o
+t1334007384
+s91164
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/clientMain.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/zhelpers.h
+c000000004F83558900000000000013F5
+t1334007177
+s5109
+i<zmq.h>
+i<stdint.h>
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i<string.h>
+i<sys/time.h>
+i<time.h>
+i<unistd.h>
+i<assert.h>
+i<signal.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-clock.o
+c000000004F83128F000000000000225C
+t1333990031
+s8796
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-command.o
+c000000004F83128F00000000000010DC
+t1333990031
+s4316
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-connect_session.o
+c000000004F83129100000000000221E8
+t1333990033
+s139752
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-ctx.o
+c000000004F8312910000000000050944
+t1333990033
+s330052
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-decoder.o
+c000000004F8312920000000000007EB0
+t1333990034
+s32432
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-device.o
+c000000004F83129200000000000243B8
+t1333990034
+s148408
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-devpoll.o
+c000000004F8312920000000000000564
+t1333990034
+s1380
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-dist.o
+c000000004F831293000000000001D50C
+t1333990035
+s120076
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-encoder.o
+c000000004F8312930000000000006EB4
+t1333990035
+s28340
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-epoll.o
+c000000004F8312930000000000000564
+t1333990035
+s1380
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-err.o
+c000000004F8312940000000000000F10
+t1333990036
+s3856
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-fq.o
+c000000004F831294000000000001BAE0
+t1333990036
+s113376
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-io_object.o
+c000000004F8312950000000000016694
+t1333990037
+s91796
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-io_thread.o
+c000000004F83129500000000000268A4
+t1333990037
+s157860
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-ip.o
+c000000004F831296000000000000AFE8
+t1333990038
+s45032
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-kqueue.o
+c000000004F8312960000000000014064
+t1333990038
+s82020
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-lb.o
+c000000004F831297000000000001B86C
+t1333990039
+s112748
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-mailbox.o
+c000000004F8312970000000000008B40
+t1333990039
+s35648
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-named_session.o
+c000000004F83129800000000000313CC
+t1333990040
+s201676
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-object.o
+c000000004F831299000000000003C5BC
+t1333990041
+s247228
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-options.o
+c000000004F83129A000000000000ED80
+t1333990042
+s60800
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-own.o
+c000000004F83129B0000000000027D08
+t1333990043
+s163080
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pair.o
+c000000004F83129B000000000002AF5C
+t1333990043
+s175964
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_receiver.o
+c000000004F83129B0000000000000568
+t1333990043
+s1384
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_sender.o
+c000000004F83129B0000000000000568
+t1333990043
+s1384
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_socket.o
+c000000004F83129B0000000000000568
+t1333990043
+s1384
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pipe.o
+c000000004F83129C0000000000017AC0
+t1333990044
+s96960
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-poll.o
+c000000004F83129D000000000001906C
+t1333990045
+s102508
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-poller_base.o
+c000000004F83129D0000000000010128
+t1333990045
+s65832
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pub.o
+c000000004F8312A00000000000028628
+t1333990048
+s165416
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pull.o
+c000000004F83129E00000000000293E4
+t1333990046
+s168932
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-push.o
+c000000004F83129E0000000000029424
+t1333990046
+s168996
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-reaper.o
+c000000004F83129F0000000000024C74
+t1333990047
+s150644
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-rep.o
+c000000004F8312A0000000000002FF84
+t1333990048
+s196484
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-req.o
+c000000004F8312A1000000000002B474
+t1333990049
+s177268
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-select.o
+c000000004F8312A10000000000015F38
+t1333990049
+s89912
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-session.o
+c000000004F8312A2000000000002EEC8
+t1333990050
+s192200
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-signaler.o
+c000000004F8312A200000000000034CC
+t1333990050
+s13516
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-socket_base.o
+c000000004F8312A40000000000058590
+t1333990052
+s361872
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-sub.o
+c000000004F8312A40000000000029444
+t1333990052
+s169028
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-swap.o
+c000000004F8312A5000000000001CD0C
+t1333990053
+s118028
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_connecter.o
+c000000004F8312A6000000000000647C
+t1333990054
+s25724
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_listener.o
+c000000004F8312A60000000000003818
+t1333990054
+s14360
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_socket.o
+c000000004F8312A600000000000032A8
+t1333990054
+s12968
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-thread.o
+c000000004F8312A60000000000001C54
+t1333990054
+s7252
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-transient_session.o
+c000000004F8312A7000000000001F70C
+t1333990055
+s128780
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-trie.o
+c000000004F8312A7000000000000649C
+t1333990055
+s25756
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-uuid.o
+c000000004F8312A70000000000002444
+t1333990055
+s9284
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xpub.o
+c000000004F8312A80000000000029924
+t1333990056
+s170276
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xrep.o
+c000000004F8312A9000000000004F27C
+t1333990057
+s324220
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xreq.o
+c000000004F8312AA000000000002B84C
+t1333990058
+s178252
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xsub.o
+c000000004F8312AA000000000002A920
+t1333990058
+s174368
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq.o
+c000000004F8312AB000000000003438C
+t1333990059
+s213900
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_connecter.o
+c000000004F8312AC000000000001EF7C
+t1333990060
+s126844
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_engine.o
+c000000004F8312AD00000000000263C4
+t1333990061
+s156612
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_init.o
+c000000004F8312AD000000000002EE3C
+t1333990061
+s192060
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_listener.o
+c000000004F8312AE000000000001DE5C
+t1333990062
+s122460
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient
+t1334007388
+s385112
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/ResolumeKinectClient.LinkFileList
+c000000004F83384000000000000000A4
+t1333999680
+s164
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o
+t1334007384
+s91164
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp
+c000000004F835643000000000000043A
+t1334007363
+s1082
+i<zmq.hpp>
+i<string>
+i<iostream>
+i<iostream>
+i"zhelpers.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.h
+c000000004F83325000000000000000C5
+t1333998160
+s197
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/zhelpers.h
+c000000004F83558900000000000013F5
+t1334007177
+s5109
+i<zmq.h>
+i<stdint.h>
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i<string.h>
+i<sys/time.h>
+i<time.h>
+i<unistd.h>
+i<assert.h>
+i<signal.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.h
+c000000004F7C2CC000000000000025C4
+t1333537984
+s9668
+i<errno.h>
+i<stddef.h>
+i<winsock2.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.hpp
+c000000004F68DEE700000000000021C1
+t1332272871
+s8641
+i"zmq.h"
+i<algorithm>
+i<cassert>
+i<cstring>
+i<exception>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies355738190#355738190#0(0"0(0#1#0"8243086452320464896#0"0#
+
+CCompileC build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/clientMain.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s355700165.376106
+e355700184.830031
+r1
+xCompileC
+xbuild/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp355700165#355700184#0(0"0(0#0#77"/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp8622548384#1914"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-generated-files.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-own-target-headers.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-all-target-headers.hmap" -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/ResolumeKinectClient-project-headers.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/DerivedSources/x86_64" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/clientMain.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/clientMain.o"0#
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectClient" normal x86_64
+r0
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient" normal x86_64
+s355700184.830112
+e355700188.927383
+r1
+xLd
+x/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient
+xnormal
+xx86_64
+lSLF07#2@100"Link /Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient355700184#355700188#0(0"0(0#0#0"8614158240#6733"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/ResolumeKinectServer.build/Debug/ResolumeKinectClient.build/Objects-normal/x86_64/ResolumeKinectClient.LinkFileList" -mmacosx-version-min=10.6 "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-clock.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-command.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-connect_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-ctx.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-decoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-device.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-devpoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-dist.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-encoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-epoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-err.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-fq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-io_object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-io_thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-ip.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-kqueue.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-lb.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-mailbox.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-named_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-options.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-own.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pair.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_receiver.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_sender.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pgm_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pipe.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-poll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-poller_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-pull.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-push.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-reaper.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-rep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-req.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-select.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-signaler.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-socket_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-sub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-swap.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-tcp_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-transient_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-trie.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-uuid.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xpub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xrep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xreq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-xsub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_engine.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_init.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/../zeromq-2.2.0/src/libzmq_la-zmq.o" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/ResolumeKinectServer/build/Debug/ResolumeKinectClient"0#
+
