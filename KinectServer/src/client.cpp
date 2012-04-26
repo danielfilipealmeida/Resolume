@@ -7,7 +7,8 @@
 #include <string>
 #include <iostream>
 #include <iostream>
-#include "zhelpers.h"
+#include "zhelpers.hpp"
+
 
 int main (void)
 {
@@ -22,18 +23,15 @@ int main (void)
 	
     //  Do 10 requests, waiting each time for a response
     for (int request_nbr = 0; request_nbr != 10; request_nbr++) {
-		/*
-        zmq::message_t request (6);
-        memcpy ((void *) request.data (), "Hello", 5);
-        std::cout << "Sending Hello " << request_nbr << "…" << std::endl;
-        socket.send (request);
-		 */
-		s_send(socket, (char *) "Hello");
+		// ask for the depth map
+		s_send(socket, "getDepthmap");
 		
-        //  Get the reply.
-        zmq::message_t reply;
-        socket.recv (&reply);
-        std::cout << "Received World " << request_nbr << std::endl;
+		// receive result
+		std::string requestResult = s_recv(socket);
+		
+		uint8_t *depthMap = (uint8_t *) strdup(requestResult.c_str());
     }
+		 
+		
     return 0;
 }
