@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-
+#include <math.h>
 
 /*
 	KinectControl error codes
@@ -17,14 +17,31 @@ Code	String
 
 KinectControl *kinectControlRef = NULL;
 uint16_t t_gamma[2048];
+//double t_gamma[2048];
 int got_rgb = 0;
 int got_depth = 0;
 volatile int die = 0;
 pthread_t freenect_thread;	
+int color=0;
 
 
 pthread_mutex_t gl_backbuf_mutex = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t gl_frame_cond = PTHREAD_COND_INITIALIZER;
+
+uint8_t *depth_mid, *depth_front;
+uint8_t *rgb_back, *rgb_mid, *rgb_front;
+
+
+freenect_context *f_ctx;
+freenect_device *f_dev;
+freenect_video_format requested_format;
+freenect_video_format current_format;
+
+
+int freenect_angle;
+int freenect_led;
+unsigned int user_device_number;
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -41,64 +58,92 @@ void depth_cb(freenect_device *dev, void *v_depth, uint32_t timestamp)
 	
 	pthread_mutex_lock(&gl_backbuf_mutex);
 	for (i=0; i<640*480; i++) {
-		int pval = t_gamma[depth[i]];
+		//int val = depth[i];
+		//int pval = t_gamma[depth[i]];
+		/*
+		int pval = (int) round(depth[i] / 256);
+		pval = 128;
+		kinectControlRef->depth_mid[3*i+0] = pval;
+		kinectControlRef->depth_mid[3*i+1] = pval;
+		kinectControlRef->depth_mid[3*i+2] = pval;
+		*/
+
+		int pval = t_gamma[depth[i]];		
 		int lb = pval & 0xff;
 		switch (pval>>8) {
 			case 0:
-				kinectControlRef->depth_mid[3*i+0] = 255;
-				kinectControlRef->depth_mid[3*i+1] = 255-lb;
-				kinectControlRef->depth_mid[3*i+2] = 255-lb;
+				depth_mid[3*i+0] = 255;
+				depth_mid[3*i+1] = 255-lb;
+				depth_mid[3*i+2] = 255-lb;
 				break;
 			case 1:
-				kinectControlRef->depth_mid[3*i+0] = 255;
-				kinectControlRef->depth_mid[3*i+1] = lb;
-				kinectControlRef->depth_mid[3*i+2] = 0;
+				depth_mid[3*i+0] = 255;
+				depth_mid[3*i+1] = lb;
+				depth_mid[3*i+2] = 0;
 				break;
 			case 2:
-				kinectControlRef->depth_mid[3*i+0] = 255-lb;
-				kinectControlRef->depth_mid[3*i+1] = 255;
-				kinectControlRef->depth_mid[3*i+2] = 0;
+				depth_mid[3*i+0] = 255-lb;
+				depth_mid[3*i+1] = 255;
+				depth_mid[3*i+2] = 0;
 				break;
 			case 3:
-				kinectControlRef->depth_mid[3*i+0] = 0;
-				kinectControlRef->depth_mid[3*i+1] = 255;
-				kinectControlRef->depth_mid[3*i+2] = lb;
+				depth_mid[3*i+0] = 0;
+				depth_mid[3*i+1] = 255;
+				depth_mid[3*i+2] = lb;
 				break;
 			case 4:
-				kinectControlRef->depth_mid[3*i+0] = 0;
-				kinectControlRef->depth_mid[3*i+1] = 255-lb;
-				kinectControlRef->depth_mid[3*i+2] = 255;
+				depth_mid[3*i+0] = 0;
+				depth_mid[3*i+1] = 255-lb;
+				depth_mid[3*i+2] = 255;
 				break;
 			case 5:
-				kinectControlRef->depth_mid[3*i+0] = 0;
-				kinectControlRef->depth_mid[3*i+1] = 0;
-				kinectControlRef->depth_mid[3*i+2] = 255-lb;
+				depth_mid[3*i+0] = 0;
+				depth_mid[3*i+1] = 0;
+				depth_mid[3*i+2] = 255-lb;
 				break;
 			default:
-				kinectControlRef->depth_mid[3*i+0] = 0;
-				kinectControlRef->depth_mid[3*i+1] = 0;
-				kinectControlRef->depth_mid[3*i+2] = 0;
+				depth_mid[3*i+0] = 0;
+				depth_mid[3*i+1] = 0;
+				depth_mid[3*i+2] = 0;
 				break;
 		}
+	
+		
+		
 	}
 	got_depth++;
+	
 	pthread_cond_signal(&gl_frame_cond);
 	pthread_mutex_unlock(&gl_backbuf_mutex);
+	 
 }
 
 void rgb_cb(freenect_device *dev, void *rgb, uint32_t timestamp)
 {
+	
 	//printf("Kinect RGB Callback Iteration.\n");
 
 	pthread_mutex_lock(&gl_backbuf_mutex);
-	
+
 	// swap buffers
-	assert (kinectControlRef->rgb_back == rgb);
-	kinectControlRef->rgb_back = kinectControlRef->rgb_mid;
-	freenect_set_video_buffer(dev, kinectControlRef->rgb_back);
-	kinectControlRef->rgb_mid = (uint8_t*)rgb;
-	
+	assert (rgb_back == rgb);
+	rgb_back = rgb_mid;
+	freenect_set_video_buffer(dev, rgb_back);
+	rgb_mid = (uint8_t*)rgb;
 	got_rgb++;
+	
+	//assert (kinectControlRef->rgb_buffer == rgb);
+	//kinectControlRef->rgb = (uint8_t*)rgb;
+	/*
+	for (int i=0; i<640*480; i++) {
+		kinectControlRef->rgb[3*i+0] = color;
+		kinectControlRef->rgb[3*i+1] = color;
+		kinectControlRef->rgb[3*i+1] = color;
+	}
+	color++;
+	if(color==256);
+	*/
+	 
 	pthread_cond_signal(&gl_frame_cond);
 	pthread_mutex_unlock(&gl_backbuf_mutex);
 }
@@ -113,49 +158,49 @@ void *freenect_threadfunc(void *arg) {
 	
 	int accelCount = 0;
 	
-	freenect_set_tilt_degs(kinectControlRef->f_dev,kinectControlRef->freenect_angle);
-	freenect_set_led(kinectControlRef->f_dev,LED_RED);
-	freenect_set_depth_callback(kinectControlRef->f_dev, depth_cb);
-	freenect_set_video_callback(kinectControlRef->f_dev, rgb_cb);
-	freenect_set_video_mode(kinectControlRef->f_dev, freenect_find_video_mode(FREENECT_RESOLUTION_MEDIUM, kinectControlRef->current_format));
-	freenect_set_depth_mode(kinectControlRef->f_dev, freenect_find_depth_mode(FREENECT_RESOLUTION_MEDIUM, FREENECT_DEPTH_11BIT));
-	freenect_set_video_buffer(kinectControlRef->f_dev, kinectControlRef->rgb_back);
+	freenect_set_tilt_degs(f_dev,freenect_angle);
+	freenect_set_led(f_dev,LED_RED);
+	freenect_set_depth_callback(f_dev, depth_cb);
+	freenect_set_video_callback(f_dev, rgb_cb);
+	freenect_set_video_mode(f_dev, freenect_find_video_mode(FREENECT_RESOLUTION_MEDIUM, current_format));
+	freenect_set_depth_mode(f_dev, freenect_find_depth_mode(FREENECT_RESOLUTION_MEDIUM, FREENECT_DEPTH_11BIT));
+	freenect_set_video_buffer(f_dev, rgb_back);
 	
-	freenect_start_depth(kinectControlRef->f_dev);
-	freenect_start_video(kinectControlRef->f_dev);
+	freenect_start_depth(f_dev);
+	freenect_start_video(f_dev);
 	
 	//printf("'w'-tilt up, 's'-level, 'x'-tilt down, '0'-'6'-select LED mode, 'f'-video format\n");
 	
-	while (!die && freenect_process_events(kinectControlRef->f_ctx) >= 0) {
+	while (!die && freenect_process_events(f_ctx) >= 0) {
 		//printf("Kinect Thread Iteration.\n");
 		//Throttle the text output
 		if (accelCount++ >= 2000)
 		{
 			accelCount = 0;
 			freenect_raw_tilt_state* state;
-			freenect_update_tilt_state(kinectControlRef->f_dev);
-			state = freenect_get_tilt_state(kinectControlRef->f_dev);
+			freenect_update_tilt_state(f_dev);
+			state = freenect_get_tilt_state(f_dev);
 			double dx,dy,dz;
 			freenect_get_mks_accel(state, &dx, &dy, &dz);
-			printf("\r raw acceleration: %4d %4d %4d  mks acceleration: %4f %4f %4f", state->accelerometer_x, state->accelerometer_y, state->accelerometer_z, dx, dy, dz);
-			fflush(stdout);
+			//printf("\r raw acceleration: %4d %4d %4d  mks acceleration: %4f %4f %4f", state->accelerometer_x, state->accelerometer_y, state->accelerometer_z, dx, dy, dz);
+			//fflush(stdout);
 		}
 		
-		if (kinectControlRef->requested_format != kinectControlRef->current_format) {
-			freenect_stop_video(kinectControlRef->f_dev);
-			freenect_set_video_mode(kinectControlRef->f_dev, freenect_find_video_mode(FREENECT_RESOLUTION_MEDIUM, kinectControlRef->requested_format));
-			freenect_start_video(kinectControlRef->f_dev);
-			kinectControlRef->current_format = kinectControlRef->requested_format;
+		if (requested_format != current_format) {
+			freenect_stop_video(f_dev);
+			freenect_set_video_mode(f_dev, freenect_find_video_mode(FREENECT_RESOLUTION_MEDIUM, requested_format));
+			freenect_start_video(f_dev);
+			current_format = requested_format;
 		}
 	}
 	
 	//printf("\nshutting down streams...\n");
 	
-	freenect_stop_depth(kinectControlRef->f_dev);
-	freenect_stop_video(kinectControlRef->f_dev);
+	freenect_stop_depth(f_dev);
+	freenect_stop_video(f_dev);
 	
-	freenect_close_device(kinectControlRef->f_dev);
-	freenect_shutdown(kinectControlRef->f_ctx);
+	freenect_close_device(f_dev);
+	freenect_shutdown(f_ctx);
 
 	printf("Kinect Thread Finished.\n");
 	//printf("-- done!\n");
@@ -178,29 +223,20 @@ KinectControl::KinectControl() {
 		return;
 	}
 	
+	int i;
+	for (i=0; i<2048; i++) {
+		float v = i/2048.0;
+		v = powf(v, 3)* 6.0;
+		v = v*6.0*256.0;
+		t_gamma[i] = v;
+	}
+	
 	
 	kinectControlRef = this;
-
-	//gl_backbuf_mutex = PTHREAD_MUTEX_INITIALIZER;
-	//gl_frame_cond = PTHREAD_COND_INITIALIZER;
-	
-
-	
-	// /////////////
-	// freenect init
-	
 	freenect_angle = 0;
 	user_device_number = -1;
-	
-
-	// freenect formats
 	requested_format = FREENECT_VIDEO_RGB;
 	current_format = FREENECT_VIDEO_RGB;
-	
-	
-	
-	
-	// init the bitmaps
 	depth_mid = (uint8_t*)malloc(640*480*3);
 	depth_front = (uint8_t*)malloc(640*480*3);
 	rgb_back = (uint8_t*)malloc(640*480*3);
@@ -232,17 +268,6 @@ KinectControl::KinectControl() {
 	}
 	
 
-
-	// init the thread
-	/*
-	int res;
-	res = pthread_create(&freenect_thread, NULL, freenect_threadfunc, NULL);
-	if (res) {
-		printf("pthread_create failed\n");
-		freenect_shutdown(f_ctx);
-		//return 1;
-	}
-	*/
 }
 
 
@@ -252,27 +277,21 @@ KinectControl::~KinectControl() {
 	
 	die = 1;
 	
-	//freenect_shutdown(f_ctx);
 	pthread_join(freenect_thread, NULL);
+	freenect_shutdown(f_ctx);
 	free(depth_mid);
 	free(depth_front);
 	free(rgb_back);
 	free(rgb_mid);
 	free(rgb_front);
+
 	
 	kinectControlRef = NULL;
 }
 
 
 int KinectControl::initDevice(unsigned int _user_device_number) {
-	printf("KinectControl. initing the device.\n");
-	/*
-	if ((isInited == true) || (kinectControlRef->isInited == true)) {
-		printf("KinectControl already initialized.\n");
-		return 1;
-	}
-	*/
-	
+	printf("KinectControl. initing the device.\n");	
 	
 	user_device_number = _user_device_number;
 	if (freenect_open_device(f_ctx, &f_dev, user_device_number) < 0) {
@@ -301,37 +320,6 @@ int KinectControl::initDevice(unsigned int _user_device_number) {
 	return res;
 }
 
-void KinectControl::initTextures() {
-	
-/*
-	printf("KinectControl. Initing Textures.\n");
-	if ((isInited == true) || (kinectControlRef->isInited == true)) {
-		printf("KinectControl already initialized.\n");
-		return;
-	}
-*/
-	glEnable(GL_TEXTURE_2D);
-	
-	glGenTextures(1, &gl_depth_tex);
-	glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	unsigned char* temp = (unsigned char*) malloc(640*480*3);
-	
-	memset(temp, 128, 640*480*3);
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, temp);
-	
-
-	glGenTextures(1, &gl_rgb_tex);
-	glBindTexture(GL_TEXTURE_2D, gl_rgb_tex);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, temp);
-	delete temp;
-	
-	glBindTexture(GL_TEXTURE_2D, 0);
-}
-
 ///////////////////////////////////////////////////////////////////////////////////////////
 // Other Funcs
 #pragma mark Other Funcs
@@ -341,7 +329,12 @@ void KinectControl::initTextures() {
 
 
 uint8_t *KinectControl::getDepthMid() {
-	return kinectControlRef->depth_mid;
+	return depth_mid;
+}
+
+uint8_t *KinectControl::getRGB() {
+	uint8_t *res = rgb_mid;
+	return res;
 }
 
 
@@ -364,39 +357,10 @@ bool KinectControl::updateData() {
 	}
 	
 	
-	if (got_depth) {
-		
-		tmp = depth_front;
-		depth_front = depth_mid;
-		depth_mid = tmp;
-		got_depth = 0;
-	}
-	if (got_rgb) {
-		tmp = rgb_front;
-		rgb_front = rgb_mid;
-		rgb_mid = tmp;
-		got_rgb = 0;
-	}
-	
 	pthread_mutex_unlock(&gl_backbuf_mutex);	
 	return true;
 }
 
-bool KinectControl::bindDepthTexture() 
-{
-	/*
-	if (depth_front == NULL) 
-	{
-		printf("KinectControl::bindDepthTexture(). depth_front is NULL.\n");
-		return false;
-	}
-*/
-	glEnable(GL_TEXTURE_2D);
-	glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
-	//memset(depth_front, 128, 640*480*3);
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, depth_mid);
-	return true;
-}
 
 
 

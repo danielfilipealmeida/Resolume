@@ -1,0 +1,12 @@
+In file included from /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:1:
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.h:11:25: error: libfreenect.h: No such file or directory
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.h:17:20: error: libusb.h: No such file or directory
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:35: error: expected constructor, destructor, or type conversion before '*' token
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:36: error: expected constructor, destructor, or type conversion before '*' token
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:37: error: 'freenect_video_format' does not name a type
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:38: error: 'freenect_video_format' does not name a type
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:52: error: variable or field 'depth_cb' declared void
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:52: error: 'freenect_device' was not declared in this scope
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:52: error: 'dev' was not declared in this scope
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:52: error: expected primary-expression before 'void'
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:52: error: expected primary-expression before 'timestamp'

@@ -10,11 +10,14 @@
 #include <unistd.h>
 #include "KinectControl.h"
 #include "zhelpers.hpp"
+#include "math.h"
 
 // Possible Messages: getDepthmap 
 
 KinectControl *kinectControl;
 
+
+int fps, frameDuration;
 
 bool initKinect() 
 {
@@ -32,6 +35,8 @@ int main ()
 {
 	std::cout << "starting server..."<<std::endl;
 
+	fps = 25;
+	frameDuration = (int) round(1000.0 / (float) fps);
     
 	//  Prepare our context and socket
     zmq::context_t context (1);
@@ -56,17 +61,16 @@ int main ()
 
 		if (request.compare("getDepthmap") == 0) {
 			std::cout<<"sending depth map."<<std::endl;
-			
-			//s_send(socket, "here goes the depth map");
 			uint8_t *depthMap = kinectControl->getDepthMid();
-			depthMap[0]=10;
 			s_send(socket, (char *) depthMap);
-			
 		}
-		sleep(1);
 		
-		
-		
+		if (request.compare("getRGB") == 0) {
+			std::cout<<"sending RGB."<<std::endl;
+			uint8_t *rgb = kinectControl->getRGB();
+			s_send(socket, (char *) rgb);
+		}		
+		usleep(frameDuration);		
     }
     return 0;
 }

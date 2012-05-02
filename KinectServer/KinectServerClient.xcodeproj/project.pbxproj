@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		650874AC1545F76000420130 /* KinectControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 650874A91545F76000420130 /* KinectControl.cpp */; };
-		650874AD1545F76000420130 /* KinectControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 650874A91545F76000420130 /* KinectControl.cpp */; };
 		650874E21545F8D100420130 /* cameras.c in Sources */ = {isa = PBXBuildFile; fileRef = 650874CA1545F8D100420130 /* cameras.c */; };
 		650874E31545F8D100420130 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 650874CD1545F8D100420130 /* core.c */; };
 		650874E41545F8D100420130 /* freenect.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 650874D31545F8D100420130 /* freenect.lib */; };
@@ -31,6 +30,7 @@
 		650B1E0C1544111600A94281 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 650B1E041544111600A94281 /* FFGLPluginInfoData.cpp */; };
 		650B1E0D1544111600A94281 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 650B1E061544111600A94281 /* FFGLPluginManager.cpp */; };
 		650B1E0E1544111600A94281 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 650B1E081544111600A94281 /* FFGLPluginSDK.cpp */; };
+		6532299F154D69C600AA6A52 /* KinectClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6532299E154D69C600AA6A52 /* KinectClient.cpp */; };
 		654007091544173E00AD571D /* FFGLKinect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654007071544173E00AD571D /* FFGLKinect.cpp */; };
 		65400730154419D200AD571D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6540072F154419D200AD571D /* CoreFoundation.framework */; };
 		65400732154419DA00AD571D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65400731154419DA00AD571D /* IOKit.framework */; };
@@ -39,6 +39,10 @@
 		6540074C15441C2400AD571D /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6540074915441C2400AD571D /* FFGLShader.cpp */; };
 		6540085B1544B31F00AD571D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6540072F154419D200AD571D /* CoreFoundation.framework */; };
 		6540085C1544B31F00AD571D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65400731154419DA00AD571D /* IOKit.framework */; };
+		65FC74641550476400D540C6 /* glClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65FC74631550476400D540C6 /* glClient.mm */; };
+		65FC746B1550479500D540C6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6508755B1545FB4D00420130 /* OpenGL.framework */; };
+		65FC746D1550479C00D540C6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FC746C1550479C00D540C6 /* GLUT.framework */; };
+		65FC746F155047AD00D540C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FC746E155047AD00D540C6 /* Cocoa.framework */; };
 		65FF0FAB153F4CCC0020C387 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FF0FA9153F4C8E0020C387 /* client.cpp */; };
 		65FF0FAC153F4CCE0020C387 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FF0FA7153F4C800020C387 /* server.cpp */; };
 /* End PBXBuildFile section */
@@ -154,6 +158,8 @@
 		650B1E071544111600A94281 /* FFGLPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFGLPluginManager.h; path = src/FFGL_Plugins/FFGLPluginManager.h; sourceTree = "<group>"; };
 		650B1E081544111600A94281 /* FFGLPluginSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFGLPluginSDK.cpp; path = src/FFGL_Plugins/FFGLPluginSDK.cpp; sourceTree = "<group>"; };
 		650B1E091544111600A94281 /* FFGLPluginSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFGLPluginSDK.h; path = src/FFGL_Plugins/FFGLPluginSDK.h; sourceTree = "<group>"; };
+		6532299D154D69C600AA6A52 /* KinectClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinectClient.h; sourceTree = "<group>"; };
+		6532299E154D69C600AA6A52 /* KinectClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KinectClient.cpp; sourceTree = "<group>"; };
 		654007071544173E00AD571D /* FFGLKinect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFGLKinect.cpp; path = src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp; sourceTree = "<group>"; };
 		654007081544173E00AD571D /* FFGLKinect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFGLKinect.h; path = src/FFGL_Plugins/FFGLKinect/FFGLKinect.h; sourceTree = "<group>"; };
 		6540072F154419D200AD571D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
@@ -167,6 +173,11 @@
 		65F86CF2154B4ABB00F18BE5 /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
 		65F86CF3154B4ABB00F18BE5 /* zmq.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zmq.hpp; sourceTree = "<group>"; };
 		65F86CF4154B4ABB00F18BE5 /* zmq_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq_utils.h; sourceTree = "<group>"; };
+		65FC745D1550474A00D540C6 /* GLClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC745F1550474A00D540C6 /* GLClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLClient-Info.plist"; sourceTree = "<group>"; };
+		65FC74631550476400D540C6 /* glClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = glClient.mm; sourceTree = "<group>"; };
+		65FC746C1550479C00D540C6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		65FC746E155047AD00D540C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		65FF0FA7153F4C800020C387 /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = server.cpp; path = src/server.cpp; sourceTree = "<group>"; };
 		65FF0FA9153F4C8E0020C387 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = client.cpp; path = src/client.cpp; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* ResolumeKinectServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResolumeKinectServer; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +203,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65FC745B1550474A00D540C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC746B1550479500D540C6 /* OpenGL.framework in Frameworks */,
+				65FC746D1550479C00D540C6 /* GLUT.framework in Frameworks */,
+				65FC746F155047AD00D540C6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F660486A84900D96B5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,12 +235,16 @@
 				650874A61545F75500420130 /* Kinect */,
 				65EE84441533680A00F07A7F /* ClientServer */,
 				65F397CD154346D900F9379A /* FreeFrame Plugin */,
+				65FC74581550472D00D540C6 /* GLClient */,
 				650874B71545F88200420130 /* Libs */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 				65F397C8154346D300F9379A /* FFGLKinect-Info.plist */,
 				6540072F154419D200AD571D /* CoreFoundation.framework */,
 				65400731154419DA00AD571D /* IOKit.framework */,
 				6508755B1545FB4D00420130 /* OpenGL.framework */,
+				65FC745F1550474A00D540C6 /* GLClient-Info.plist */,
+				65FC746C1550479C00D540C6 /* GLUT.framework */,
+				65FC746E155047AD00D540C6 /* Cocoa.framework */,
 			);
 			name = ResolumeKinectServer;
 			sourceTree = "<group>";
@@ -238,6 +263,7 @@
 				8DD76F6C0486A84900D96B5E /* ResolumeKinectServer */,
 				65EE84481533681F00F07A7F /* ResolumeKinectClient */,
 				65F397C7154346D300F9379A /* FFGLKinect.bundle */,
+				65FC745D1550474A00D540C6 /* GLClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -608,6 +634,8 @@
 				6540074D15441C3300AD571D /* Plugin Code */,
 				654007071544173E00AD571D /* FFGLKinect.cpp */,
 				654007081544173E00AD571D /* FFGLKinect.h */,
+				6532299D154D69C600AA6A52 /* KinectClient.h */,
+				6532299E154D69C600AA6A52 /* KinectClient.cpp */,
 			);
 			name = "FreeFrame Plugin";
 			sourceTree = "<group>";
@@ -637,6 +665,14 @@
 			children = (
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		65FC74581550472D00D540C6 /* GLClient */ = {
+			isa = PBXGroup;
+			children = (
+				65FC74631550476400D540C6 /* glClient.mm */,
+			);
+			name = GLClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -674,6 +710,23 @@
 			productName = FFGLKinect;
 			productReference = 65F397C7154346D300F9379A /* FFGLKinect.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		65FC745C1550474A00D540C6 /* GLClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC74621550474C00D540C6 /* Build configuration list for PBXNativeTarget "GLClient" */;
+			buildPhases = (
+				65FC74591550474A00D540C6 /* Resources */,
+				65FC745A1550474A00D540C6 /* Sources */,
+				65FC745B1550474A00D540C6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLClient;
+			productName = GLClient;
+			productReference = 65FC745D1550474A00D540C6 /* GLClient.app */;
+			productType = "com.apple.product-type.application";
 		};
 		8DD76F620486A84900D96B5E /* kinectServer */ = {
 			isa = PBXNativeTarget;
@@ -715,12 +768,20 @@
 				8DD76F620486A84900D96B5E /* kinectServer */,
 				65EE84471533681F00F07A7F /* kinectClient */,
 				65F397C6154346D300F9379A /* FFGLKinect */,
+				65FC745C1550474A00D540C6 /* GLClient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		65F397C3154346D300F9379A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC74591550474A00D540C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -751,12 +812,20 @@
 				6540074A15441C2400AD571D /* FFGLExtensions.cpp in Sources */,
 				6540074B15441C2400AD571D /* FFGLFBO.cpp in Sources */,
 				6540074C15441C2400AD571D /* FFGLShader.cpp in Sources */,
-				650874AD1545F76000420130 /* KinectControl.cpp in Sources */,
 				650874E91545F8D100420130 /* cameras.c in Sources */,
 				650874EB1545F8D100420130 /* core.c in Sources */,
 				650874F01545F8D100420130 /* registration.c in Sources */,
 				650874F11545F8D100420130 /* tilt.c in Sources */,
 				650874F21545F8D100420130 /* usb_libusb10.c in Sources */,
+				6532299F154D69C600AA6A52 /* KinectClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC745A1550474A00D540C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC74641550476400D540C6 /* glClient.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1369,6 +1438,180 @@
 			};
 			name = Release;
 		};
+		65FC74601550474C00D540C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "GLClient-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/libfreenect/lib/vs2010\"",
+					"\"$(SRCROOT)/libs/libusb/osx/libs\"",
+					"\"$(SRCROOT)/libs/opencv/lib/osx\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-clock.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-command.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-connect_session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-ctx.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-decoder.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-device.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-devpoll.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-dist.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-encoder.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-epoll.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-err.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-fq.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-io_object.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-io_thread.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-ip.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-kqueue.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-lb.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-mailbox.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-named_session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-object.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-options.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-own.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pair.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pgm_receiver.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pgm_sender.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pgm_socket.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pipe.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-poll.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-poller_base.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pull.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-push.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-reaper.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-rep.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-req.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-select.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-signaler.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-socket_base.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-sub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-swap.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-tcp_connecter.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-tcp_listener.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-tcp_socket.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-thread.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-transient_session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-trie.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-uuid.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xpub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xrep.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xreq.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xsub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_connecter.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_engine.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_init.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_listener.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq.la\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GLClient;
+			};
+			name = Debug;
+		};
+		65FC74611550474C00D540C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "GLClient-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/libfreenect/lib/vs2010\"",
+					"\"$(SRCROOT)/libs/libusb/osx/libs\"",
+					"\"$(SRCROOT)/libs/opencv/lib/osx\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-clock.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-command.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-connect_session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-ctx.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-decoder.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-device.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-devpoll.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-dist.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-encoder.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-epoll.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-err.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-fq.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-io_object.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-io_thread.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-ip.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-kqueue.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-lb.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-mailbox.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-named_session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-object.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-options.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-own.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pair.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pgm_receiver.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pgm_sender.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pgm_socket.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pipe.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-poll.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-poller_base.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-pull.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-push.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-reaper.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-rep.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-req.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-select.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-signaler.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-socket_base.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-sub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-swap.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-tcp_connecter.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-tcp_listener.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-tcp_socket.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-thread.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-transient_session.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-trie.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-uuid.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xpub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xrep.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xreq.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-xsub.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_connecter.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_engine.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_init.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq_listener.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq_la-zmq.o\"",
+					"\"$(SRCROOT)/libs/zmq/lib/libzmq.la\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GLClient;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1404,6 +1647,15 @@
 			buildConfigurations = (
 				65F397CA154346D300F9379A /* Debug */,
 				65F397CB154346D300F9379A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC74621550474C00D540C6 /* Build configuration list for PBXNativeTarget "GLClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC74601550474C00D540C6 /* Debug */,
+				65FC74611550474C00D540C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

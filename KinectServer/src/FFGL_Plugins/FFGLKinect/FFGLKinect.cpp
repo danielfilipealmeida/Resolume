@@ -2,21 +2,54 @@
 #include <FFGLLib.h>
 
 
-#include <zmq.hpp>
-#include <string>
-#include <iostream>
-#include <iostream>
-#include "zhelpers.hpp"
+
 
 
 #include "FFGLKinect.h"
 
+
+
 #define FFPARAM_TileX (0)
 #define FFPARAM_TileY (1)
 
+GLuint gl_depth_tex;
 
-zmq::context_t context (1);
-zmq::socket_t socket (context, ZMQ_REQ);
+
+
+
+
+
+/*
+
+
+
+void *clientThread(void *ptr) {
+	
+	// init the client code
+	printf("Connecting to the Kinect Server...\n");
+	socket.connect ("tcp://localhost:5555");
+	clientRunning=true;
+	
+	// init the texure
+	depth = (uint8_t*) malloc(textureSize);
+	
+	
+	while (clientRunning==true) {
+		//printf("getting depth image.\n");
+		s_send(socket, "getDepthmap");
+		std::string requestResult = s_recv(socket);
+		clientThreadLocked=true;
+		//depthMap = (uint8_t *) strdup(requestResult.c_str());
+		memcpy((void *) depth, (void *) requestResult.c_str(), textureSize);
+		
+		clientThreadLocked=false;
+		//free (depthMap);		
+	}
+	free((void *) depth);
+	 
+}
+ */
+
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -68,6 +101,7 @@ ResolumeKinect::ResolumeKinect()
 	// Input properties
 	SetMinInputs(0);
 	SetMaxInputs(0);	
+	
 }
 
 ResolumeKinect::~ResolumeKinect(){
@@ -79,7 +113,6 @@ ResolumeKinect::~ResolumeKinect(){
 
 DWORD ResolumeKinect::InitGL(const FFGLViewportStruct *vp)
 {
-//printf("ResolumneKinect INIT.");
   m_extensions.Initialize();
 
   if (m_extensions.ARB_shader_objects==0)
@@ -101,20 +134,37 @@ DWORD ResolumeKinect::InitGL(const FFGLViewportStruct *vp)
   m_extensions.glUniform1iARB(m_inputTextureLocation, 0);
 
   m_shader.UnbindShader();
+
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+	glClearDepth(1.0);
+	glDepthFunc(GL_LESS);
+    glDepthMask(GL_FALSE);
+	glDisable(GL_DEPTH_TEST);
+	glDisable(GL_BLEND);
+    glDisable(GL_ALPHA_TEST);
+    glEnable(GL_TEXTURE_2D);
+	glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glShadeModel(GL_FLAT);
+
+	// prepare the texture
+	glGenTextures(1, &gl_depth_tex);
+	glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	
- 
-  // init the client code
-  printf("Connecting to the Kinect Server...\n");
-  socket.connect ("tcp://localhost:5555");
-	
+		// init the server
+	initKinectServer();
+
+
 	
   return FF_SUCCESS;
 }
 
 DWORD ResolumeKinect::DeInitGL()
 {
-  m_shader.FreeGLResources();
-  return FF_SUCCESS;
+	stopKinectServer();
+	m_shader.FreeGLResources();
+	return FF_SUCCESS;
 }
 
 DWORD ResolumeKinect::ProcessOpenGL_old(ProcessOpenGLStruct *pGL)
@@ -150,6 +200,7 @@ DWORD ResolumeKinect::ProcessOpenGL_old(ProcessOpenGLStruct *pGL)
   //draw the quad that will be painted by the shader/texture
   glBegin(GL_QUADS);
 
+	
   //lower left
   glTexCoord2f(0,0);
   glVertex2f(-1,-1);
@@ -179,68 +230,61 @@ DWORD ResolumeKinect::ProcessOpenGL_old(ProcessOpenGLStruct *pGL)
 
 DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 {
+	/*
 	if (pGL->numInputTextures<1)
 		return FF_FAIL;
 	
 	if (pGL->inputTextures[0]==NULL)
 		return FF_FAIL;
+	*/
 	
-	
-	//activate our shader
-	//m_shader.BindShader();
-	
-	// bind the Kinect depthTexture
-	
-	//if (kinectControl->updateData() == true)  
-	//kinectControl->bindDepthTexture();
-	
-	
-	FFGLTexCoords maxCoords;
-	maxCoords.s=1.0;
-	maxCoords.t=1.0;
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	glEnable(GL_TEXTURE_2D);
 
 	
+	
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+	glClearDepth(1.0);
+	glDepthFunc(GL_LESS);
+    glDepthMask(GL_FALSE);
+	glDisable(GL_DEPTH_TEST);
+	glDisable(GL_BLEND);
+    glDisable(GL_ALPHA_TEST);
+	glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glShadeModel(GL_FLAT);
+	
 	// get the data
-	printf("getting depth image.\n");
-	s_send(socket, "getDepthmap");
-	std::string requestResult = s_recv(socket);
-	uint8_t *depthMap = (uint8_t *) strdup(requestResult.c_str());
-	
-	
 	glColor4f(1.0, 1.0, 1.0, 1.0);
 	glPushMatrix();
 	
 	//glScalef(0.5, 0.5, 1.0);
+	uint8_t *depthMap = getKinectDepthMap();
+	if (depthMap!=NULL) {
+		glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, depthMap);
+	}
+
 	
-	
-	//draw the quad that will be painted by the shader/texture
 	glBegin(GL_QUADS);
-	
-	//lower left
-	glTexCoord2f(0,0);
-	glVertex2f(-1,-1);
-	
-	//upper left
-	glTexCoord2f(0, maxCoords.t);
-	glVertex2f(-1,1);
-	
-	//upper right
-	glTexCoord2f(maxCoords.s, maxCoords.t);
-	glVertex2f(1,1);
-	
-	//lower right
-	glTexCoord2f(maxCoords.s, 0);
-	glVertex2f(1,-1);
-	
+	glTexCoord2f(0.0,0.0);
+	glVertex2f(-1.0,-1.0);
+	glTexCoord2f(0.0, 1.0);
+	glVertex2f(-1.0,1.0);
+	glTexCoord2f(1.0, 1.0);
+	glVertex2f(1.0,1.0);
+	glTexCoord2f(1.0, 0.0);
+	glVertex2f(1.0,-1.0);
 	glEnd();
 	
+
 	//unbind the shader and texture
 	glBindTexture(GL_TEXTURE_2D, 0);
 	//m_shader.UnbindShader();
 	
 	glPopMatrix();
 	
-	free (depthMap);
+	glFlush();
+	glDisable(GL_TEXTURE_2D);
 
 	
 	return FF_SUCCESS;

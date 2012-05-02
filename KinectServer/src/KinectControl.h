@@ -43,33 +43,8 @@ using namespace std;
 class KinectControl {
 
 public:
-	
-	// freenect thread variables
 
 
-	
-	// freenect config vars
-	freenect_context *f_ctx;
-	freenect_device *f_dev;
-	freenect_video_format requested_format;
-	freenect_video_format current_format;
-	
-	
-	int freenect_angle;
-	int freenect_led;
-	unsigned int user_device_number;
-	
-	// opengl stuff. textures...
-	GLuint gl_depth_tex;
-	GLuint gl_rgb_tex;
-
-	
-	// back: owned by libfreenect (implicit for depth)
-	// mid: owned by callbacks, "latest frame ready"
-	// front: owned by GL, "currently being drawn"
-	uint8_t *depth_mid, *depth_front;
-	uint8_t *rgb_back, *rgb_mid, *rgb_front;
-	
 	
 	bool isInited;
 	
@@ -80,11 +55,10 @@ public:
 	~KinectControl();
 	
 	int initDevice(unsigned int _user_device_number = 1);
-	void initTextures();
 	uint8_t *getDepthMid();
+	uint8_t *getRGB();
 	
 	bool updateData();
-	bool bindDepthTexture();
 	
 	
 };

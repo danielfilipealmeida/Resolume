@@ -1,11 +1,8 @@
 TkinectClient
 v7
 r0
-t356983585.137562
+t357684736.881381
 cCheck dependencies
-cCompileC build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/x86_64/client.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectClient" normal x86_64
-cGenerateDSYMFile "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectClient.dSYM" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectClient"
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004E0FAA5100000000000000EE
@@ -120,13 +117,13 @@ t2
 s0
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/i386/ResolumeKinectClient.LinkFileList
-c000000004F8F2FC10000000000000097
-t1334783937
-s151
+c00000000000000000000000000000000
+t2
+s0
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/i386/client.o
-t1334783938
-s85400
+t2
+s0
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/x86_64/ResolumeKinectClient
 t2
@@ -142,12 +139,12 @@ t1335290556
 s88736
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectClient
-t1335290556
-s378320
+t2
+s0
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectClient.dSYM
-t1335290557
-s102
+t2
+s0
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/libfreenect.h
 c000000004F50B4460000000000005201
@@ -167,6 +164,24 @@ i<limits.h>
 i<sys/time.h>
 i<windows.h>
 
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.h
+c000000004F840BF600000000000025C4
+t1334053878
+s9668
+i<errno.h>
+i<stddef.h>
+i<winsock2.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.hpp
+c000000004F840BF600000000000021C1
+t1334053878
+s8641
+i"zmq.h"
+i<algorithm>
+i<cassert>
+i<cstring>
+i<exception>
+
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.h
 c000000004F95D1D000000000000005C1
 t1335218640
@@ -184,14 +199,13 @@ i<GL/gl.h>
 i<GL/glu.h>
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp
-c000000004F97BAAC000000000000059D
-t1335343788
-s1437
+c000000004F9BF9760000000000000376
+t1335622006
+s886
 i<zmq.hpp>
 i<string>
 i<iostream>
 i<iostream>
-i"KinectControl.h"
 i"zhelpers.hpp"
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/zhelpers.h
@@ -308,7 +322,7 @@ s22078
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies356983585#356983585#0(0"0(0#1#0"8606047808#0"0#
+lSLF07#2@18"Check dependencies357684736#357684737#0(0"0(0#1#0"8643206464#0"0#
 
 CCompileC build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/i386/client.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 s356476737.640192
@@ -435,6 +449,9 @@ o      _main in client.o
 old: symbol(s) not found
 ocollect2: ld returned 1 exit status
 lSLF07#2@169"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/x86_64/ResolumeKinectClient356476738#356476738#0(1569"ld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not foundld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not foundld: warning: in ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)Undefined symbols:  "_zmq_connect", referenced from:      zmq::socket_t::connect(char const*)in client.o  "_zmq_socket", referenced from:      zmq::socket_t::socket_t(zmq::context_t&, int)in client.o  "_zmq_recv", referenced from:      zmq::socket_t::recv(zmq::message_t*, int)in client.o  "_zmq_msg_init", referenced from:      zmq::message_t::message_t()in client.o  "_zmq_errno", referenced from:      zmq::error_t::error_t()in client.o      zmq::socket_t::recv(zmq::message_t*, int)in client.o  "_zmq_msg_data", referenced from:      _main in client.o  "_zmq_init", referenced from:      zmq::context_t::context_t(int)in client.o  "_zmq_msg_close", referenced from:      _main in client.o      zmq::message_t::~message_t()in client.o  "_zmq_close", referenced from:      zmq::socket_t::close()    in client.o  "_zmq_term", referenced from:      zmq::context_t::~context_t()in client.o  "_zmq_msg_init_size", referenced from:      _main in client.o  "_zmq_strerror", referenced from:      zmq::error_t::what() constin client.o  "_zmq_send", referenced from:      _main in client.old: symbol(s) not foundcollect2: ld returned 1 exit status33(22@112"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not found356476738#0#126#0(6@0"356476738#0#0#0#0#0"0(22@112"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not found356476738#126#126#0(6@0"356476738#0#0#0#0#0"0(22@131"In ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)356476738#252#145#0(6@0"356476738#0#0#0#0#0"0(4@32""_zmq_connect", referenced from:356476738#416#35#0(6@0"356476738#0#0#0#0#0"0(13@46"Zmq::socket_t::connect(char const*)in client.o356476738#451#53#0(6@0"356476738#0#0#0#0#0"0(4@31""_zmq_socket", referenced from:356476738#504#34#0(6@0"356476738#0#0#0#0#0"0(13@56"Zmq::socket_t::socket_t(zmq::context_t&, int)in client.o356476738#538#63#0(6@0"356476738#0#0#0#0#0"0(4@29""_zmq_recv", referenced from:356476738#601#32#0(6@0"356476738#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in client.o356476738#633#59#0(6@0"356476738#0#0#0#0#0"0(4@33""_zmq_msg_init", referenced from:356476738#692#36#0(6@0"356476738#0#0#0#0#0"0(13@38"Zmq::message_t::message_t()in client.o356476738#728#45#0(6@0"356476738#0#0#0#0#0"0(4@30""_zmq_errno", referenced from:356476738#773#33#0(6@0"356476738#0#0#0#0#0"0(13@34"Zmq::error_t::error_t()in client.o356476738#806#41#0(6@0"356476738#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in client.o356476738#847#59#0(6@0"356476738#0#0#0#0#0"0(4@33""_zmq_msg_data", referenced from:356476738#906#36#0(6@0"356476738#0#0#0#0#0"0(13@17"_main in client.o356476738#942#24#0(6@0"356476738#0#0#0#0#0"0(4@29""_zmq_init", referenced from:356476738#966#32#0(6@0"356476738#0#0#0#0#0"0(13@41"Zmq::context_t::context_t(int)in client.o356476738#998#48#0(6@0"356476738#0#0#0#0#0"0(4@34""_zmq_msg_close", referenced from:356476738#1046#37#0(6@0"356476738#0#0#0#0#0"0(13@17"_main in client.o356476738#1083#24#0(6@0"356476738#0#0#0#0#0"0(13@39"Zmq::message_t::~message_t()in client.o356476738#1107#46#0(6@0"356476738#0#0#0#0#0"0(4@30""_zmq_close", referenced from:356476738#1153#33#0(6@0"356476738#0#0#0#0#0"0(13@37"Zmq::socket_t::close()    in client.o356476738#1186#44#0(6@0"356476738#0#0#0#0#0"0(4@29""_zmq_term", referenced from:356476738#1230#32#0(6@0"356476738#0#0#0#0#0"0(13@39"Zmq::context_t::~context_t()in client.o356476738#1262#46#0(6@0"356476738#0#0#0#0#0"0(4@38""_zmq_msg_init_size", referenced from:356476738#1308#41#0(6@0"356476738#0#0#0#0#0"0(13@17"_main in client.o356476738#1349#24#0(6@0"356476738#0#0#0#0#0"0(4@33""_zmq_strerror", referenced from:356476738#1373#36#0(6@0"356476738#0#0#0#0#0"0(13@37"Zmq::error_t::what() constin client.o356476738#1409#44#0(6@0"356476738#0#0#0#0#0"0(4@29""_zmq_send", referenced from:356476738#1453#32#0(6@0"356476738#0#0#0#0#0"0(13@17"_main in client.o356476738#1485#24#0(6@0"356476738#0#0#0#0#0"0(13@19"Symbol(s) not found356476738#1509#24#0(6@0"356476738#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status356476738#1533#36#0(6@0"356476738#0#0#0#0#0"0(0#0#0"8617375296#807"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" -L../../zeromq-2.2.0/src "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/x86_64/ResolumeKinectClient.LinkFileList" -mmacosx-version-min=10.6 ../../zeromq-2.2.0/src/libzmq.la -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectClient.build/Objects-normal/x86_64/ResolumeKinectClient"1#
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectClient" normal i386
+r0
 
 CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectClient" normal x86_64
 s356983356.819921

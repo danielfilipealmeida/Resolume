@@ -3,8 +3,10 @@
 
 #include <FFGLShader.h>
 #include "../FFGLPluginSDK.h"
+#include "KinectClient.h"
 
-//#include "../../Extra/KinectControl.h"
+
+
 
 class ResolumeKinect :
 public CFreeFrameGLPlugin

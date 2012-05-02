@@ -1,6 +1,8 @@
 TFFGLKinect
 v7
-r1
+r0
+t357684737.062502
+cCheck dependencies
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004E0FAA5100000000000000EE
@@ -57,6 +59,13 @@ N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
 c000000004CC3CD100000000000000644
 t1287900432
 s1604
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004CC3CD100000000000003197
+t1287900432
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
 
 N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
 c000000004CC3CB720000000000000155
@@ -123,12 +132,28 @@ i<FFGL.h>
 i<FFGLExtensions.h>
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/FFGLSDK_1_5/Include/FreeFrame.h
-c0000000045C6AAEE000000000000232E
-t1170647790
-s9006
+c000000004F98148E0000000000002330
+t1335366798
+s9008
 i<windows.h>
 i<string.h>
 i<stdlib.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp
+c000000004FA1731D0000000000000612
+t1335980829
+s1554
+i"KinectClient.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.h
+c000000004F9D734200000000000001C2
+t1335718722
+s450
+i<pthread.h>
+i<zmq.hpp>
+i<string>
+i<iostream>
+i"zhelpers.hpp"
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/FFGL.o
 t2
@@ -172,6 +197,30 @@ t2
 s0
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/FFGLShader.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/KinectClient.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/cameras.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/core.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/registration.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/tilt.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/usb_libusb10.o
 t2
 s0
 
@@ -435,10 +484,28 @@ c000000004DE299800000000000C4BE34
 t1306696064
 s12893748
 
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.h
+c000000004F840BF600000000000025C4
+t1334053878
+s9668
+i<errno.h>
+i<stddef.h>
+i<winsock2.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.hpp
+c000000004F840BF600000000000021C1
+t1334053878
+s8641
+i"zmq.h"
+i<algorithm>
+i<cassert>
+i<cstring>
+i<exception>
+
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp
-c0000000045C6ADF60000000000002C30
-t1170648566
-s11312
+c000000004F9819780000000000002DF2
+t1335368056
+s11762
 i<FFGL.h>
 i<FFGLExtensions.h>
 i<stdlib.h>
@@ -466,19 +533,20 @@ i"FFGLPluginSDK.h"
 i<memory.h>
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp
-c000000004F93E2790000000000001B52
-t1335091833
-s6994
+c000000004FA173B20000000000001CCC
+t1335980978
+s7372
 i<FFGL.h>
 i<FFGLLib.h>
 i"FFGLKinect.h"
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.h
-c000000004F93E01200000000000004EB
-t1335091218
-s1259
+c000000004F9D4ED900000000000004DE
+t1335709401
+s1246
 i<FFGLShader.h>
 i"../FFGLPluginSDK.h"
+i"KinectClient.h"
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp
 c00000000465EAADA0000000000000C6B
@@ -563,10 +631,33 @@ i<GL/glut.h>
 i<GL/gl.h>
 i<GL/glu.h>
 
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/zhelpers.hpp
+c000000004F7D243C0000000000001A11
+t1333601340
+s6673
+i<zmq.hpp>
+i<iostream>
+i<iomanip>
+i<string>
+i<sstream>
+i<sys/time.h>
+i<time.h>
+i<assert.h>
+i<pthread.h>
+i<stdlib.h>
+i<stdio.h>
+i<stdarg.h>
+i<signal.h>
+
 N/usr/include/assert.h
 c000000004BBD2CE90000000000000DCB
 t1270689001
 s3531
+
+N/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
 
 N/usr/include/mach-o/dyld.h
 c000000004D0890EB0000000000003D47
@@ -588,6 +679,11 @@ c000000004BBD2CE900000000000038F0
 t1270689001
 s14576
 
+N/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
 N/usr/include/stdio.h
 c000000004BBD2CE90000000000004174
 t1270689001
@@ -602,6 +698,11 @@ N/usr/include/string.h
 c000000004BBD2CE90000000000001731
 t1270689001
 s5937
+
+N/usr/include/sys/_types.h
+c000000004CC3DE680000000000001845
+t1287904872
+s6213
 
 N/usr/include/sys/time.h
 c000000004CC3DE680000000000001E17
@@ -633,6 +734,10 @@ c000000004F930F5300000000000002BC
 t1335037779
 s700
 
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies357684736#357684737#0(0"0(0#1#0"8643693056#0"0#
+
 CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/FFGL.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 r0
 
@@ -658,6 +763,24 @@ CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal
 r0
 
 CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/FFGLShader.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/KinectClient.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/x86_64/FFGL.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
@@ -730,6 +853,9 @@ CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Kinec
 r0
 
 CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/FFGLKinect.build/Objects-normal/x86_64/FFGLKinect" normal x86_64
+r0
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/FFGLKinect.bundle/Contents/MacOS/FFGLKinect" normal i386
 r0
 
 CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/FFGLKinect.bundle/Contents/MacOS/FFGLKinect" normal x86_64
