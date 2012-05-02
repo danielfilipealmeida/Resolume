@@ -1,16 +1,16 @@
 TkinectServer
 v7
 r0
-t357036984.161633
+t357309034.389572
 cCheck dependencies
-cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal x86_64
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal i386
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004E0FAA5100000000000000EE
@@ -197,44 +197,44 @@ t1335212659
 s221
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer
-t1335344184
-s519312
+t1335615442
+s462100
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o
-t1335218215
-s65244
+t1335615442
+s66908
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer
 t2
 s0
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer.LinkFileList
-c000000004F95D0270000000000000423
-t1335218215
+c000000004F9BDFD10000000000000423
+t1335615441
 s1059
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o
-t1335218215
+t1335615442
 s47588
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o
-t1335218215
+t1335615442
 s14696
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o
-t1335218215
+t1335615442
 s19648
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o
-t1335218215
-s83736
+t1335615442
+s105276
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o
-t1335218215
+t1335615442
 s11560
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o
-t1335218215
+t1335615442
 s18132
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/ppc/KinectControl.o
@@ -445,6 +445,309 @@ c000000004DE299800000000000C4BE34
 t1306696064
 s12893748
 
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.h
+c000000004F840BF600000000000025C4
+t1334053878
+s9668
+i<errno.h>
+i<stddef.h>
+i<winsock2.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.hpp
+c000000004F840BF600000000000021C1
+t1334053878
+s8641
+i"zmq.h"
+i<algorithm>
+i<cassert>
+i<cstring>
+i<exception>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-clock.o
+c000000004F9ADA3D000000000000226C
+t1335548477
+s8812
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-command.o
+c000000004F9ADA3D00000000000010EC
+t1335548477
+s4332
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-connect_session.o
+c000000004F9ADA3F00000000000221E8
+t1335548479
+s139752
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ctx.o
+c000000004F9ADA3E0000000000050964
+t1335548478
+s330084
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-decoder.o
+c000000004F9ADA3F0000000000007EB0
+t1335548479
+s32432
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-device.o
+c000000004F9ADA4000000000000243C8
+t1335548480
+s148424
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-devpoll.o
+c000000004F9ADA400000000000000564
+t1335548480
+s1380
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-dist.o
+c000000004F9ADA41000000000001D52C
+t1335548481
+s120108
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-encoder.o
+c000000004F9ADA410000000000006EB4
+t1335548481
+s28340
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-epoll.o
+c000000004F9ADA410000000000000564
+t1335548481
+s1380
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-err.o
+c000000004F9ADA410000000000000F20
+t1335548481
+s3872
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-fq.o
+c000000004F9ADA42000000000001BB00
+t1335548482
+s113408
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_object.o
+c000000004F9ADA420000000000016694
+t1335548482
+s91796
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_thread.o
+c000000004F9ADA4300000000000268C4
+t1335548483
+s157892
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ip.o
+c000000004F9ADA44000000000000AFF0
+t1335548484
+s45040
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-kqueue.o
+c000000004F9ADA440000000000014084
+t1335548484
+s82052
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-lb.o
+c000000004F9ADA45000000000001B88C
+t1335548485
+s112780
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-mailbox.o
+c000000004F9ADA450000000000008B60
+t1335548485
+s35680
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-named_session.o
+c000000004F9ADA4600000000000313EC
+t1335548486
+s201708
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-object.o
+c000000004F9ADA47000000000003C5BC
+t1335548487
+s247228
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-options.o
+c000000004F9ADA47000000000000ED80
+t1335548487
+s60800
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-own.o
+c000000004F9ADA480000000000027D08
+t1335548488
+s163080
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pair.o
+c000000004F9ADA49000000000002AF5C
+t1335548489
+s175964
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_receiver.o
+c000000004F9ADA490000000000000568
+t1335548489
+s1384
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_sender.o
+c000000004F9ADA490000000000000568
+t1335548489
+s1384
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_socket.o
+c000000004F9ADA490000000000000568
+t1335548489
+s1384
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pipe.o
+c000000004F9ADA4A0000000000017AE0
+t1335548490
+s96992
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poll.o
+c000000004F9ADA4B000000000001908C
+t1335548491
+s102540
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poller_base.o
+c000000004F9ADA4B0000000000010128
+t1335548491
+s65832
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pub.o
+c000000004F9ADA4D0000000000028648
+t1335548493
+s165448
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pull.o
+c000000004F9ADA4C00000000000293E4
+t1335548492
+s168932
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-push.o
+c000000004F9ADA4C0000000000029424
+t1335548492
+s168996
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-reaper.o
+c000000004F9ADA4D0000000000024C74
+t1335548493
+s150644
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-rep.o
+c000000004F9ADA4E000000000002FFA4
+t1335548494
+s196516
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-req.o
+c000000004F9ADA4F000000000002B474
+t1335548495
+s177268
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-select.o
+c000000004F9ADA4F0000000000015F38
+t1335548495
+s89912
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-session.o
+c000000004F9ADA50000000000002EEE8
+t1335548496
+s192232
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-signaler.o
+c000000004F9ADA5000000000000034D4
+t1335548496
+s13524
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-socket_base.o
+c000000004F9ADA520000000000058590
+t1335548498
+s361872
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-sub.o
+c000000004F9ADA520000000000029444
+t1335548498
+s169028
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-swap.o
+c000000004F9ADA53000000000001CD1C
+t1335548499
+s118044
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_connecter.o
+c000000004F9ADA54000000000000648C
+t1335548500
+s25740
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_listener.o
+c000000004F9ADA540000000000003820
+t1335548500
+s14368
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_socket.o
+c000000004F9ADA5400000000000032B0
+t1335548500
+s12976
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-thread.o
+c000000004F9ADA540000000000001C5C
+t1335548500
+s7260
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-transient_session.o
+c000000004F9ADA55000000000001F72C
+t1335548501
+s128812
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-trie.o
+c000000004F9ADA5500000000000064A4
+t1335548501
+s25764
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-uuid.o
+c000000004F9ADA550000000000002454
+t1335548501
+s9300
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xpub.o
+c000000004F9ADA560000000000029944
+t1335548502
+s170308
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xrep.o
+c000000004F9ADA57000000000004F27C
+t1335548503
+s324220
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xreq.o
+c000000004F9ADA58000000000002B86C
+t1335548504
+s178284
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xsub.o
+c000000004F9ADA59000000000002A920
+t1335548505
+s174368
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq.o
+c000000004F9ADA59000000000003439C
+t1335548505
+s213916
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_connecter.o
+c000000004F9ADA5A000000000001EF7C
+t1335548506
+s126844
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_engine.o
+c000000004F9ADA5B00000000000263C4
+t1335548507
+s156612
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_init.o
+c000000004F9ADA5C000000000002EE3C
+t1335548508
+s192060
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_listener.o
+c000000004F9ADA5C000000000001DE7C
+t1335548508
+s122492
+
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp
 c000000004F95D5D20000000000002750
 t1335219666
@@ -635,11 +938,11 @@ s341
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies357036984#357036984#0(0"0(0#1#0"8618727840#0"0#
+lSLF07#2@18"Check dependencies357309034#357309034#0(0"0(0#1#0"8623227072#0"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s356911015.492639
-e356911016.014850
+s357308242.116601
+e357308242.600590
 r1
 xCompileC
 xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o
@@ -648,11 +951,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp356911015#356911016#0(0"0(0#0#85"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp8609815552#1371"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o"0#
+lSLF07#2@93"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp357308242#357308242#0(0"0(0#0#85"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp8629097600#1402"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
-s356911015.310119
-e356911015.649963
+s357308241.778534
+e357308242.193475
 r1
 xCompileC
 xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o
@@ -661,11 +964,11 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c356911015#356911015#0(0"0(0#0#90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c8609435104#1340"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o"0#
+lSLF07#2@98"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c357308241#357308242#0(0"0(0#0#90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c8620143296#1371"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
-s356911015.311276
-e356911015.462338
+s357308241.779653
+e357308242.088647
 r1
 xCompileC
 xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o
@@ -674,11 +977,11 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c356911015#356911015#0(0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c8609310560#1334"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o"0#
+lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c357308241#357308242#0(0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c8620002880#1365"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
-s356911015.312308
-e356911015.492510
+s357308241.780842
+e357308242.116484
 r1
 xCompileC
 xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o
@@ -687,11 +990,11 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c356911015#356911015#0(0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c8609263424#1350"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o"0#
+lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c357308241#357308242#0(0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c8619609120#1381"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s356911015.463745
-e356911015.969726
+s357308242.088769
+e357308242.642448
 r1
 xCompileC
 xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o
@@ -700,11 +1003,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp356911015#356911015#0(0"0(0#0#78"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp8613334592#1357"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o"0#
+lSLF07#2@86"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp357308242#357308242#0(0"0(0#0#78"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp8629456768#1388"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
-s356911015.313269
-e356911015.463628
+s357308241.782350
+e357308242.086320
 r1
 xCompileC
 xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o
@@ -713,11 +1016,11 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c356911015#356911015#0(0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c8609127456#1334"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o"0#
+lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c357308241#357308242#0(0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c8614656096#1365"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
-s356911015.462462
-e356911015.602201
+s357308242.086537
+e357308242.186462
 r1
 xCompileC
 xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o
@@ -726,7 +1029,7 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c356911015#356911015#0(0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c8604102208#1350"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o"0#
+lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c357308242#357308242#0(0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c8631673280#1381"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/ppc/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal ppc c++ com.apple.compilers.gcc.4_2
 s356910691.410322
@@ -920,103 +1223,17 @@ CCreateUniversalBinary "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/Kinec
 r0
 
 CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal i386
-s356911023.601242
-e356911023.638530
-r0
+s357308242.642538
+e357308242.734498
+r1
 xLd
 x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer
 xnormal
 xi386
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-clock.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-command.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-connect_session.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-ctx.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-decoder.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-device.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-devpoll.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-dist.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-encoder.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-epoll.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-err.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-fq.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-io_object.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-io_thread.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-ip.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-kqueue.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-lb.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-mailbox.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-named_session.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-object.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-options.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-own.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-pair.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-pgm_receiver.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-pgm_sender.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-pgm_socket.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-pipe.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-poll.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-poller_base.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-pub.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-pull.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-push.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-reaper.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-rep.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-req.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-select.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-session.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-signaler.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-socket_base.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-sub.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-swap.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-tcp_connecter.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-tcp_listener.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-tcp_socket.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-thread.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-transient_session.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-trie.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-uuid.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-xpub.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-xrep.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-xreq.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-xsub.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_connecter.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_engine.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_init.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_listener.o, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq.o, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zeromq/src' following -L not found
+old: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)
 old: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)
-oUndefined symbols:
-o  "_zmq_term", referenced from:
-o      zmq::context_t::~context_t()in server.o
-o  "_zmq_close", referenced from:
-o      zmq::socket_t::close()    in server.o
-o  "_zmq_msg_init_size", referenced from:
-o      zmq::message_t::message_t(unsigned long)in server.o
-o  "_zmq_bind", referenced from:
-o      zmq::socket_t::bind(char const*)in server.o
-o  "_zmq_msg_data", referenced from:
-o      zmq::message_t::data()    in server.o
-o  "_zmq_msg_init", referenced from:
-o      zmq::message_t::message_t()in server.o
-o  "_zmq_socket", referenced from:
-o      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o
-o  "_zmq_init", referenced from:
-o      zmq::context_t::context_t(int)in server.o
-o  "_zmq_strerror", referenced from:
-o      zmq::error_t::what() constin server.o
-o  "_zmq_recv", referenced from:
-o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
-o  "_zmq_msg_close", referenced from:
-o      zmq::message_t::~message_t()in server.o
-o  "_zmq_errno", referenced from:
-o      zmq::error_t::error_t()in server.o
-o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
-o      zmq::socket_t::send(zmq::message_t&, int)in server.o
-o  "_zmq_send", referenced from:
-o      zmq::socket_t::send(zmq::message_t&, int)in server.o
-old: symbol(s) not found
-ocollect2: ld returned 1 exit status
-lSLF07#2@101"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer356911023#356911023#0(10207"ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-clock.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-command.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-connect_session.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-ctx.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-decoder.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-device.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-devpoll.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-dist.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-encoder.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-epoll.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-err.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-fq.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-io_object.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-io_thread.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-ip.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-kqueue.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-lb.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-mailbox.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-named_session.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-object.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-options.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-own.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-pair.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-pgm_receiver.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-pgm_sender.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-pgm_socket.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-pipe.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-poll.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-poller_base.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-pub.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-pull.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-push.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-reaper.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-rep.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-req.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-select.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-session.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-signaler.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-socket_base.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-sub.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-swap.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-tcp_connecter.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-tcp_listener.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-tcp_socket.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-thread.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-transient_session.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-trie.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-uuid.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-xpub.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-xrep.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-xreq.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-xsub.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_connecter.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_engine.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_init.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq_listener.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in ../../zeromq-2.2.0/src/libzmq_la-zmq.o, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "_zmq_term", referenced from:      zmq::context_t::~context_t()in server.o  "_zmq_close", referenced from:      zmq::socket_t::close()    in server.o  "_zmq_msg_init_size", referenced from:      zmq::message_t::message_t(unsigned long)in server.o  "_zmq_bind", referenced from:      zmq::socket_t::bind(char const*)in server.o  "_zmq_msg_data", referenced from:      zmq::message_t::data()    in server.o  "_zmq_msg_init", referenced from:      zmq::message_t::message_t()in server.o  "_zmq_socket", referenced from:      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o  "_zmq_init", referenced from:      zmq::context_t::context_t(int)in server.o  "_zmq_strerror", referenced from:      zmq::error_t::what() constin server.o  "_zmq_recv", referenced from:      zmq::socket_t::recv(zmq::message_t*, int)in server.o  "_zmq_msg_close", referenced from:      zmq::message_t::~message_t()in server.o  "_zmq_errno", referenced from:      zmq::error_t::error_t()in server.o      zmq::socket_t::recv(zmq::message_t*, int)in server.o      zmq::socket_t::send(zmq::message_t&, int)in server.o  "_zmq_send", referenced from:      zmq::socket_t::send(zmq::message_t&, int)in server.old: symbol(s) not foundcollect2: ld returned 1 exit status88(22@137"In ../../zeromq-2.2.0/src/libzmq_la-clock.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#0#151#0(6@0"356911023#0#0#0#0#0"0(22@139"In ../../zeromq-2.2.0/src/libzmq_la-command.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#151#153#0(6@0"356911023#0#0#0#0#0"0(22@147"In ../../zeromq-2.2.0/src/libzmq_la-connect_session.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#304#161#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-ctx.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#465#149#0(6@0"356911023#0#0#0#0#0"0(22@139"In ../../zeromq-2.2.0/src/libzmq_la-decoder.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#614#153#0(6@0"356911023#0#0#0#0#0"0(22@138"In ../../zeromq-2.2.0/src/libzmq_la-device.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#767#152#0(6@0"356911023#0#0#0#0#0"0(22@139"In ../../zeromq-2.2.0/src/libzmq_la-devpoll.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#919#153#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-dist.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#1072#150#0(6@0"356911023#0#0#0#0#0"0(22@139"In ../../zeromq-2.2.0/src/libzmq_la-encoder.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#1222#153#0(6@0"356911023#0#0#0#0#0"0(22@137"In ../../zeromq-2.2.0/src/libzmq_la-epoll.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#1375#151#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-err.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#1526#149#0(6@0"356911023#0#0#0#0#0"0(22@134"In ../../zeromq-2.2.0/src/libzmq_la-fq.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#1675#148#0(6@0"356911023#0#0#0#0#0"0(22@141"In ../../zeromq-2.2.0/src/libzmq_la-io_object.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#1823#155#0(6@0"356911023#0#0#0#0#0"0(22@141"In ../../zeromq-2.2.0/src/libzmq_la-io_thread.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#1978#155#0(6@0"356911023#0#0#0#0#0"0(22@134"In ../../zeromq-2.2.0/src/libzmq_la-ip.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#2133#148#0(6@0"356911023#0#0#0#0#0"0(22@138"In ../../zeromq-2.2.0/src/libzmq_la-kqueue.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#2281#152#0(6@0"356911023#0#0#0#0#0"0(22@134"In ../../zeromq-2.2.0/src/libzmq_la-lb.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#2433#148#0(6@0"356911023#0#0#0#0#0"0(22@139"In ../../zeromq-2.2.0/src/libzmq_la-mailbox.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#2581#153#0(6@0"356911023#0#0#0#0#0"0(22@145"In ../../zeromq-2.2.0/src/libzmq_la-named_session.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#2734#159#0(6@0"356911023#0#0#0#0#0"0(22@138"In ../../zeromq-2.2.0/src/libzmq_la-object.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#2893#152#0(6@0"356911023#0#0#0#0#0"0(22@139"In ../../zeromq-2.2.0/src/libzmq_la-options.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#3045#153#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-own.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#3198#149#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-pair.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#3347#150#0(6@0"356911023#0#0#0#0#0"0(22@144"In ../../zeromq-2.2.0/src/libzmq_la-pgm_receiver.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#3497#158#0(6@0"356911023#0#0#0#0#0"0(22@142"In ../../zeromq-2.2.0/src/libzmq_la-pgm_sender.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#3655#156#0(6@0"356911023#0#0#0#0#0"0(22@142"In ../../zeromq-2.2.0/src/libzmq_la-pgm_socket.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#3811#156#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-pipe.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#3967#150#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-poll.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#4117#150#0(6@0"356911023#0#0#0#0#0"0(22@143"In ../../zeromq-2.2.0/src/libzmq_la-poller_base.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#4267#157#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-pub.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#4424#149#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-pull.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#4573#150#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-push.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#4723#150#0(6@0"356911023#0#0#0#0#0"0(22@138"In ../../zeromq-2.2.0/src/libzmq_la-reaper.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#4873#152#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-rep.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#5025#149#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-req.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#5174#149#0(6@0"356911023#0#0#0#0#0"0(22@138"In ../../zeromq-2.2.0/src/libzmq_la-select.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#5323#152#0(6@0"356911023#0#0#0#0#0"0(22@139"In ../../zeromq-2.2.0/src/libzmq_la-session.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#5475#153#0(6@0"356911023#0#0#0#0#0"0(22@140"In ../../zeromq-2.2.0/src/libzmq_la-signaler.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#5628#154#0(6@0"356911023#0#0#0#0#0"0(22@143"In ../../zeromq-2.2.0/src/libzmq_la-socket_base.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#5782#157#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-sub.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#5939#149#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-swap.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#6088#150#0(6@0"356911023#0#0#0#0#0"0(22@145"In ../../zeromq-2.2.0/src/libzmq_la-tcp_connecter.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#6238#159#0(6@0"356911023#0#0#0#0#0"0(22@144"In ../../zeromq-2.2.0/src/libzmq_la-tcp_listener.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#6397#158#0(6@0"356911023#0#0#0#0#0"0(22@142"In ../../zeromq-2.2.0/src/libzmq_la-tcp_socket.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#6555#156#0(6@0"356911023#0#0#0#0#0"0(22@138"In ../../zeromq-2.2.0/src/libzmq_la-thread.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#6711#152#0(6@0"356911023#0#0#0#0#0"0(22@149"In ../../zeromq-2.2.0/src/libzmq_la-transient_session.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#6863#163#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-trie.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#7026#150#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-uuid.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#7176#150#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-xpub.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#7326#150#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-xrep.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#7476#150#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-xreq.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#7626#150#0(6@0"356911023#0#0#0#0#0"0(22@136"In ../../zeromq-2.2.0/src/libzmq_la-xsub.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#7776#150#0(6@0"356911023#0#0#0#0#0"0(22@145"In ../../zeromq-2.2.0/src/libzmq_la-zmq_connecter.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#7926#159#0(6@0"356911023#0#0#0#0#0"0(22@142"In ../../zeromq-2.2.0/src/libzmq_la-zmq_engine.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#8085#156#0(6@0"356911023#0#0#0#0#0"0(22@140"In ../../zeromq-2.2.0/src/libzmq_la-zmq_init.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#8241#154#0(6@0"356911023#0#0#0#0#0"0(22@144"In ../../zeromq-2.2.0/src/libzmq_la-zmq_listener.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#8395#158#0(6@0"356911023#0#0#0#0#0"0(22@135"In ../../zeromq-2.2.0/src/libzmq_la-zmq.o, file was built for unsupported file format which is not the architecture being linked (i386)356911023#8553#149#0(6@0"356911023#0#0#0#0#0"0(22@201"In /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)356911023#8702#215#0(6@0"356911023#0#0#0#0#0"0(4@29""_zmq_term", referenced from:356911023#8936#32#0(6@0"356911023#0#0#0#0#0"0(13@39"Zmq::context_t::~context_t()in server.o356911023#8968#46#0(6@0"356911023#0#0#0#0#0"0(4@30""_zmq_close", referenced from:356911023#9014#33#0(6@0"356911023#0#0#0#0#0"0(13@37"Zmq::socket_t::close()    in server.o356911023#9047#44#0(6@0"356911023#0#0#0#0#0"0(4@38""_zmq_msg_init_size", referenced from:356911023#9091#41#0(6@0"356911023#0#0#0#0#0"0(13@51"Zmq::message_t::message_t(unsigned long)in server.o356911023#9132#58#0(6@0"356911023#0#0#0#0#0"0(4@29""_zmq_bind", referenced from:356911023#9190#32#0(6@0"356911023#0#0#0#0#0"0(13@43"Zmq::socket_t::bind(char const*)in server.o356911023#9222#50#0(6@0"356911023#0#0#0#0#0"0(4@33""_zmq_msg_data", referenced from:356911023#9272#36#0(6@0"356911023#0#0#0#0#0"0(13@37"Zmq::message_t::data()    in server.o356911023#9308#44#0(6@0"356911023#0#0#0#0#0"0(4@33""_zmq_msg_init", referenced from:356911023#9352#36#0(6@0"356911023#0#0#0#0#0"0(13@38"Zmq::message_t::message_t()in server.o356911023#9388#45#0(6@0"356911023#0#0#0#0#0"0(4@31""_zmq_socket", referenced from:356911023#9433#34#0(6@0"356911023#0#0#0#0#0"0(13@56"Zmq::socket_t::socket_t(zmq::context_t&, int)in server.o356911023#9467#63#0(6@0"356911023#0#0#0#0#0"0(4@29""_zmq_init", referenced from:356911023#9530#32#0(6@0"356911023#0#0#0#0#0"0(13@41"Zmq::context_t::context_t(int)in server.o356911023#9562#48#0(6@0"356911023#0#0#0#0#0"0(4@33""_zmq_strerror", referenced from:356911023#9610#36#0(6@0"356911023#0#0#0#0#0"0(13@37"Zmq::error_t::what() constin server.o356911023#9646#44#0(6@0"356911023#0#0#0#0#0"0(4@29""_zmq_recv", referenced from:356911023#9690#32#0(6@0"356911023#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356911023#9722#59#0(6@0"356911023#0#0#0#0#0"0(4@34""_zmq_msg_close", referenced from:356911023#9781#37#0(6@0"356911023#0#0#0#0#0"0(13@39"Zmq::message_t::~message_t()in server.o356911023#9818#46#0(6@0"356911023#0#0#0#0#0"0(4@30""_zmq_errno", referenced from:356911023#9864#33#0(6@0"356911023#0#0#0#0#0"0(13@34"Zmq::error_t::error_t()in server.o356911023#9897#41#0(6@0"356911023#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356911023#9938#59#0(6@0"356911023#0#0#0#0#0"0(13@52"Zmq::socket_t::send(zmq::message_t&, int)in server.o356911023#9997#59#0(6@0"356911023#0#0#0#0#0"0(4@29""_zmq_send", referenced from:356911023#10056#32#0(6@0"356911023#0#0#0#0#0"0(13@52"Zmq::socket_t::send(zmq::message_t&, int)in server.o356911023#10088#59#0(6@0"356911023#0#0#0#0#0"0(13@19"Symbol(s) not found356911023#10147#24#0(6@0"356911023#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status356911023#10171#36#0(6@0"356911023#0#0#0#0#0"0(0#0#0"8608885376#3680"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -L../../zeromq-2.2.0/src "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer.LinkFileList" -framework OpenGL ../../zeromq-2.2.0/src/libzmq_la-clock.o ../../zeromq-2.2.0/src/libzmq_la-command.o ../../zeromq-2.2.0/src/libzmq_la-connect_session.o ../../zeromq-2.2.0/src/libzmq_la-ctx.o ../../zeromq-2.2.0/src/libzmq_la-decoder.o ../../zeromq-2.2.0/src/libzmq_la-device.o ../../zeromq-2.2.0/src/libzmq_la-devpoll.o ../../zeromq-2.2.0/src/libzmq_la-dist.o ../../zeromq-2.2.0/src/libzmq_la-encoder.o ../../zeromq-2.2.0/src/libzmq_la-epoll.o ../../zeromq-2.2.0/src/libzmq_la-err.o ../../zeromq-2.2.0/src/libzmq_la-fq.o ../../zeromq-2.2.0/src/libzmq_la-io_object.o ../../zeromq-2.2.0/src/libzmq_la-io_thread.o ../../zeromq-2.2.0/src/libzmq_la-ip.o ../../zeromq-2.2.0/src/libzmq_la-kqueue.o ../../zeromq-2.2.0/src/libzmq_la-lb.o ../../zeromq-2.2.0/src/libzmq_la-mailbox.o ../../zeromq-2.2.0/src/libzmq_la-named_session.o ../../zeromq-2.2.0/src/libzmq_la-object.o ../../zeromq-2.2.0/src/libzmq_la-options.o ../../zeromq-2.2.0/src/libzmq_la-own.o ../../zeromq-2.2.0/src/libzmq_la-pair.o ../../zeromq-2.2.0/src/libzmq_la-pgm_receiver.o ../../zeromq-2.2.0/src/libzmq_la-pgm_sender.o ../../zeromq-2.2.0/src/libzmq_la-pgm_socket.o ../../zeromq-2.2.0/src/libzmq_la-pipe.o ../../zeromq-2.2.0/src/libzmq_la-poll.o ../../zeromq-2.2.0/src/libzmq_la-poller_base.o ../../zeromq-2.2.0/src/libzmq_la-pub.o ../../zeromq-2.2.0/src/libzmq_la-pull.o ../../zeromq-2.2.0/src/libzmq_la-push.o ../../zeromq-2.2.0/src/libzmq_la-reaper.o ../../zeromq-2.2.0/src/libzmq_la-rep.o ../../zeromq-2.2.0/src/libzmq_la-req.o ../../zeromq-2.2.0/src/libzmq_la-select.o ../../zeromq-2.2.0/src/libzmq_la-session.o ../../zeromq-2.2.0/src/libzmq_la-signaler.o ../../zeromq-2.2.0/src/libzmq_la-socket_base.o ../../zeromq-2.2.0/src/libzmq_la-sub.o ../../zeromq-2.2.0/src/libzmq_la-swap.o ../../zeromq-2.2.0/src/libzmq_la-tcp_connecter.o ../../zeromq-2.2.0/src/libzmq_la-tcp_listener.o ../../zeromq-2.2.0/src/libzmq_la-tcp_socket.o ../../zeromq-2.2.0/src/libzmq_la-thread.o ../../zeromq-2.2.0/src/libzmq_la-transient_session.o ../../zeromq-2.2.0/src/libzmq_la-trie.o ../../zeromq-2.2.0/src/libzmq_la-uuid.o ../../zeromq-2.2.0/src/libzmq_la-xpub.o ../../zeromq-2.2.0/src/libzmq_la-xrep.o ../../zeromq-2.2.0/src/libzmq_la-xreq.o ../../zeromq-2.2.0/src/libzmq_la-xsub.o ../../zeromq-2.2.0/src/libzmq_la-zmq_connecter.o ../../zeromq-2.2.0/src/libzmq_la-zmq_engine.o ../../zeromq-2.2.0/src/libzmq_la-zmq_init.o ../../zeromq-2.2.0/src/libzmq_la-zmq_listener.o ../../zeromq-2.2.0/src/libzmq_la-zmq.o -framework CoreFoundation -framework IOKit "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs/usb-1.0.a" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx/opencv.a" -framework OpenGL -prebind -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer"1#
+lSLF07#2@101"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer357308242#357308242#0(540"ld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zeromq/src' following -L not foundld: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)3(22@114"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zeromq/src' following -L not found357308242#0#128#0(6@0"357308242#0#0#0#0#0"0(22@183"In /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)357308242#128#197#0(6@0"357308242#0#0#0#0#0"0(22@201"In /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)357308242#325#215#0(6@0"357308242#0#0#0#0#0"0(0#0#0"7599087902179817472#7020"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zeromq/src" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer.LinkFileList" -framework OpenGL "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-clock.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-command.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-connect_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ctx.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-decoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-device.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-devpoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-dist.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-encoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-epoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-err.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-fq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ip.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-kqueue.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-lb.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-mailbox.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-named_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-options.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-own.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pair.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_receiver.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_sender.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pipe.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poller_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pull.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-push.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-reaper.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-rep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-req.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-select.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-signaler.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-socket_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-sub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-swap.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-transient_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-trie.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-uuid.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xpub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xrep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xreq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xsub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_engine.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_init.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la" -framework CoreFoundation -framework IOKit "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs/usb-1.0.a" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx/opencv.a" -framework OpenGL -prebind -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer"0#
 
 CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal x86_64
 s357036984.104569

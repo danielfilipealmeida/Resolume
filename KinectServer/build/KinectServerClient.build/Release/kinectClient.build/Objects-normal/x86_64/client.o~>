@@ -1,0 +1,5 @@
+In file included from /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp:10:
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.h:17:20: error: libusb.h: No such file or directory
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp: In function 'int main()':
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp:53: error: cast from 'char*' to 'uint8_t' loses precision
+/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp:53: error: invalid conversion from 'uint8_t' to 'uint8_t*'
