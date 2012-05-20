@@ -29,5 +29,8 @@ bool initKinectServer();
 void *kinectServerExecLoop(void *arg);
 void stopKinectServer();
 uint8_t *getKinectDepthMap();
+uint8_t *getKinectRGB();
+void setKinectMode(uint8_t _kinectMode);
+
 
 #endif
