@@ -1024,6 +1024,7 @@
 					"\"$(SRCROOT)/libs/zmq/include\"",
 					"\"$(SRCROOT)/libs/opencv/include\"",
 					"\"$(SRCROOT)/libs/libusb/osx/include\"",
+					"\"$(SRCROOT)/libs/ffgl\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -1032,7 +1033,6 @@
 				);
 				PREBINDING = YES;
 				SDKROOT = "";
-				ZMQ_ROOT = "\"$(SRCROOT)/libs/zeromq\"";
 			};
 			name = Debug;
 		};
@@ -1047,6 +1047,7 @@
 					"\"$(SRCROOT)/libs/zmq/include\"",
 					"\"$(SRCROOT)/libs/opencv/include\"",
 					"\"$(SRCROOT)/libs/libusb/osx/include\"",
+					"\"$(SRCROOT)/libs/ffgl\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -1055,7 +1056,6 @@
 				);
 				PREBINDING = YES;
 				SDKROOT = "";
-				ZMQ_ROOT = "\"$(SRCROOT)/libs/zeromq\"";
 			};
 			name = Release;
 		};
@@ -1233,7 +1233,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = i386;
 				COPY_PHASE_STRIP = NO;
-				FFGLSDK_ROOT = ../../FFGLSDK_1_5;
+				FFGLSDK_ROOT = "\"$(SRCROOT)/libs/ffgl\"";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -1341,7 +1341,7 @@
 				ARCHS = i386;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FFGLSDK_ROOT = ../../FFGLSDK_1_5;
+				FFGLSDK_ROOT = "\"$(SRCROOT)/libs/ffgl\"";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;

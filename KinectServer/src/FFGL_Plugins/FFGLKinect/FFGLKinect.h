@@ -24,7 +24,7 @@ public:
 	DWORD	SetParameter(const SetParameterStruct* pParam);
 	DWORD	GetParameter(DWORD dwIndex);
 	DWORD	ProcessOpenGL(ProcessOpenGLStruct *pGL);
-	DWORD	ProcessOpenGL_old(ProcessOpenGLStruct *pGL);
+
 	DWORD	InitGL(const FFGLViewportStruct *vp);
 	DWORD	DeInitGL();
 
@@ -42,15 +42,8 @@ public:
 
 protected:
 	// Parameters
-	float m_TileX;
-	float m_TileY;
+	int mode;
 
-	int m_initResources;
-	FFGLExtensions m_extensions;
-	FFGLShader m_shader;
-	GLint m_inputTextureLocation;
-	GLint m_maxCoordsLocation;
-	GLint m_tileAmountLocation;
 };
 
 

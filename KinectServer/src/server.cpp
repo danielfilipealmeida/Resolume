@@ -16,8 +16,8 @@
 
 KinectControl *kinectControl;
 
-
 int fps, frameDuration;
+
 
 bool initKinect() 
 {
@@ -39,15 +39,23 @@ int main ()
 	frameDuration = (int) round(1000.0 / (float) fps);
     
 	//  Prepare our context and socket
-    zmq::context_t context (1);
-    zmq::socket_t socket (context, ZMQ_REP);
-    socket.bind ("tcp://*:5555");
+	zmq::context_t context(1);
+	zmq::socket_t socket(context, ZMQ_REP);
 	
+	try {
+		socket.bind ("tcp://*:5555");
+	} catch (zmq::error_t error) {
+		std::cout << "Error Binding to address" << std::endl;
+		std::cout << error.what();
+	
+		exit(1);
+	}
 	
 	// starting kinect
 	if (initKinect()==false) {
 		std::cout << "Kinect Init Failed. Quiting..." << std::endl;
-		return 1;
+		
+		exit(2);
 	}
 	
     while (true) {
@@ -55,22 +63,18 @@ int main ()
         //  Wait for next request from client
 		std::string request = s_recv(socket);
 		
-		std::cout << "request: "<<request<<std::endl;
-		
-	
-
 		if (request.compare("getDepthmap") == 0) {
-			std::cout<<"sending depth map."<<std::endl;
 			uint8_t *depthMap = kinectControl->getDepthMid();
 			s_send(socket, (char *) depthMap);
 		}
 		
 		if (request.compare("getRGB") == 0) {
-			std::cout<<"sending RGB."<<std::endl;
 			uint8_t *rgb = kinectControl->getRGB();
 			s_send(socket, (char *) rgb);
 		}		
 		usleep(frameDuration);		
     }
-    return 0;
+	
+	socket.close();
+	return 0;
 }

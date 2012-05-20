@@ -1,689 +1,0 @@
-TkinectServer
-v7
-r0
-t357684736.851196
-cCheck dependencies
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004E0FAA5100000000000000EE
-t1309649489
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
-c000000004BBD2CE90000000000000DCB
-t1270689001
-s3531
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
-c000000004BBD2CE900000000000003EB
-t1270689001
-s1003
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
-c000000004BBD2CE900000000000014F0
-t1270689001
-s5360
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004BBD2CE90000000000002DF5
-t1270689001
-s11765
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004BBD2CE90000000000001731
-t1270689001
-s5937
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
-c000000004CC3DE680000000000001E17
-t1287904872
-s7703
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
-c000000004BBD2CE9000000000000178E
-t1270689001
-s6030
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
-c000000004BBD2CE9000000000000563E
-t1270689001
-s22078
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004A11EB2400000000000010DD
-t1242688292
-s4317
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004A11EB240000000000003197
-t1242688292
-s12695
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
-c000000004A11EB24000000000000190C
-t1242688292
-s6412
-
-N/Developer/usr/include/gcc/darwin/4.2/stdint.h
-c000000004CC3D2C2000000000000190C
-t1287901890
-s6412
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
-c000000004CC3CD100000000000000C7E
-t1287900432
-s3198
-i"syslimits.h"
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004CC3CD1000000000000010DD
-t1287900432
-s4317
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
-c000000004CC3CD100000000000000644
-t1287900432
-s1604
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004CC3CD100000000000003197
-t1287900432
-s12695
-i<machine/ansi.h>
-i<sys/_types.h>
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
-c000000004CC3CB720000000000000155
-t1287900018
-s341
-
-N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004E2085850000000000782350
-t1310754181
-s7873360
-
-N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
-c000000004CC42BAC000000000000578C
-t1287924652
-s22412
-
-N/System/Library/Frameworks/IOKit.framework/IOKit
-c000000004E2F655B000000000017B260
-t1311728987
-s1552992
-
-N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
-c000000004BD2501F0000000000025B59
-t1272074271
-s154457
-
-N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
-c000000004BD2501F0000000000003F84
-t1272074271
-s16260
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004EDEBFD00000000000043360
-t1323220944
-s275296
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/KinectControl.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/ResolumeKinectServer
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/ResolumeKinectServer.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/cameras.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/core.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/registration.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/server.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/tilt.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/usb_libusb10.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/KinectControl.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer.LinkFileList
-c000000004F8F2E510000000000000099
-t1334783569
-s153
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/cameras.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/core.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/registration.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/server.o
-t1334783661
-s85168
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/tilt.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/usb_libusb10.o
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectServer
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectServer.dSYM
-t2
-s0
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c
-c000000004F50B446000000000000B26D
-t1330689094
-s45677
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-i"freenect_internal.h"
-i"registration.h"
-i"cameras.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.h
-c000000004F50B4460000000000000599
-t1330689094
-s1433
-i"libfreenect.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c
-c000000004F50B44600000000000014A9
-t1330689094
-s5289
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<stdarg.h>
-i<unistd.h>
-i"freenect_internal.h"
-i"registration.h"
-i"cameras.h"
-i"loader.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/freenect_internal.h
-c000000004F50B4460000000000001786
-t1330689094
-s6022
-i<stdint.h>
-i"libfreenect.h"
-i"libfreenect-registration.h"
-i"libfreenect-audio.h"
-i"usb_libusb10.h"
-i<stdarg.h>
-i<stdio.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib
-c000000004F50B4460000000000002B8E
-t1330689094
-s11150
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/libfreenect-registration.h
-c000000004F50B4460000000000000E63
-t1330689094
-s3683
-i<libfreenect.h>
-i<stdint.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/libfreenect.h
-c000000004F50B4460000000000005201
-t1330689094
-s20993
-i<stdint.h>
-i<libusb-1.0/libusb.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c
-c000000004F50B44600000000000034FF
-t1330689094
-s13567
-i<libfreenect.h>
-i<freenect_internal.h>
-i"registration.h"
-i<stdlib.h>
-i<string.h>
-i<stdio.h>
-i<math.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.h
-c000000004F50B44600000000000005D3
-t1330689094
-s1491
-i"libfreenect.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c
-c000000004F50B4460000000000000D9C
-t1330689094
-s3484
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-i<math.h>
-i"freenect_internal.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c
-c000000004F50B4460000000000002C22
-t1330689094
-s11298
-i<stdio.h>
-i<stdbool.h>
-i<stdlib.h>
-i<string.h>
-i<libusb-1.0/libusb.h>
-i"freenect_internal.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.h
-c000000004F50B4460000000000000CBF
-t1330689094
-s3263
-i<libusb-1.0/libusb.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include/libusb-1.0/libusb.h
-c000000004F50B446000000000000AFE5
-t1330689094
-s45029
-i<stdint.h>
-i<sys/types.h>
-i<time.h>
-i<limits.h>
-i<sys/time.h>
-i<windows.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs/usb-1.0.a
-c000000004F50B446000000000003DF1C
-t1330689094
-s253724
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx/opencv.a
-c000000004DE299800000000000C4BE34
-t1306696064
-s12893748
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.h
-c000000004F840BF600000000000025C4
-t1334053878
-s9668
-i<errno.h>
-i<stddef.h>
-i<winsock2.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.hpp
-c000000004F840BF600000000000021C1
-t1334053878
-s8641
-i"zmq.h"
-i<algorithm>
-i<cassert>
-i<cstring>
-i<exception>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp
-c000000004FA164E900000000000024D0
-t1335977193
-s9424
-i"KinectControl.h"
-i<pthread.h>
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<assert.h>
-i<math.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.h
-c000000004FA16279000000000000037D
-t1335976569
-s893
-i"libfreenect.h"
-i<libusb.h>
-i<iostream>
-i<map>
-i<string>
-i<GLUT/glut.h>
-i<OpenGL/gl.h>
-i<OpenGL/glu.h>
-i<GL/glut.h>
-i<GL/gl.h>
-i<GL/glu.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp
-c000000004FA16CE1000000000000070C
-t1335979233
-s1804
-i<zmq.hpp>
-i<string>
-i<iostream>
-i<unistd.h>
-i"KinectControl.h"
-i"zhelpers.hpp"
-i"math.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/zhelpers.h
-c000000004F83558900000000000013F5
-t1334007177
-s5109
-i<zmq.h>
-i<stdint.h>
-i<stdio.h>
-i<stdlib.h>
-i<stdarg.h>
-i<string.h>
-i<sys/time.h>
-i<time.h>
-i<unistd.h>
-i<assert.h>
-i<signal.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/zhelpers.hpp
-c000000004F7D243C0000000000001A11
-t1333601340
-s6673
-i<zmq.hpp>
-i<iostream>
-i<iomanip>
-i<string>
-i<sstream>
-i<sys/time.h>
-i<time.h>
-i<assert.h>
-i<pthread.h>
-i<stdlib.h>
-i<stdio.h>
-i<stdarg.h>
-i<signal.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.h
-c000000004F7C2CC000000000000025C4
-t1333537984
-s9668
-i<errno.h>
-i<stddef.h>
-i<winsock2.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/zeromq-2.2.0/include/zmq.hpp
-c000000004F68DEE700000000000021C1
-t1332272871
-s8641
-i"zmq.h"
-i<algorithm>
-i<cassert>
-i<cstring>
-i<exception>
-
-N/usr/include/assert.h
-c000000004BBD2CE90000000000000DCB
-t1270689001
-s3531
-
-N/usr/include/errno.h
-c000000004BBD2CE900000000000003EB
-t1270689001
-s1003
-
-N/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/usr/include/pthread.h
-c000000004BBD2CE900000000000038F0
-t1270689001
-s14576
-
-N/usr/include/signal.h
-c000000004BBD2CE900000000000014F0
-t1270689001
-s5360
-
-N/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/usr/include/stdlib.h
-c000000004BBD2CE90000000000002DF5
-t1270689001
-s11765
-
-N/usr/include/string.h
-c000000004BBD2CE90000000000001731
-t1270689001
-s5937
-
-N/usr/include/sys/_types.h
-c000000004CC3DE680000000000001845
-t1287904872
-s6213
-
-N/usr/include/sys/time.h
-c000000004CC3DE680000000000001E17
-t1287904872
-s7703
-
-N/usr/include/sys/types.h
-c000000004CC3DE680000000000002905
-t1287904872
-s10501
-
-N/usr/include/time.h
-c000000004BBD2CE9000000000000178E
-t1270689001
-s6030
-
-N/usr/include/unistd.h
-c000000004BBD2CE9000000000000563E
-t1270689001
-s22078
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies357684736#357684737#0(0"0(0#1#0"8627166880#0"0#
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s356476460.670043
-e356476461.259527
-r1
-xCompileC
-xbuild/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/server.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp356476460#356476461#0(0"0(0#0#78"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp8593570752#1844"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-generated-files.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-own-target-headers.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-all-target-headers.hmap" -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-project-headers.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/server.o"0#
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal x86_64 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal x86_64 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal x86_64 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s356476460.669310
-e356476461.349531
-r1
-xCompileC
-xbuild/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/server.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp356476460#356476461#0(0"0(0#0#78"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp8605600032#1850"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-generated-files.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-own-target-headers.hmap" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-all-target-headers.hmap" -iquote "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/ResolumeKinectServer-project-headers.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/include" -I../../zeromq-2.2.0/include -I../../zeromq-2.2.0/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/DerivedSources/x86_64" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/server.o"0#
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal x86_64 c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal x86_64 c com.apple.compilers.gcc.4_2
-r0
-
-CCreateUniversalBinary "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectServer" normal "x86_64 i386"
-r0
-
-CGenerateDSYMFile "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectServer.dSYM" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectServer"
-r0
-
-CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/ResolumeKinectServer" normal i386
-s356476731.778921
-e356476731.974646
-r0
-xLd
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/ResolumeKinectServer
-xnormal
-xi386
-old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not found
-old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not found
-old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not found
-old: warning: in ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)
-oUndefined symbols:
-o  "_zmq_socket", referenced from:
-o      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o
-o  "_zmq_recv", referenced from:
-o      _main in server.o
-o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
-o  "_zmq_msg_init", referenced from:
-o      _main in server.o
-o      zmq::message_t::message_t()in server.o
-o  "_zmq_errno", referenced from:
-o      zmq::error_t::error_t()in server.o
-o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
-o  "_zmq_msg_size", referenced from:
-o      _main in server.o
-o  "_zmq_msg_data", referenced from:
-o      _main in server.o
-o  "_zmq_bind", referenced from:
-o      zmq::socket_t::bind(char const*)in server.o
-o  "_zmq_init", referenced from:
-o      zmq::context_t::context_t(int)in server.o
-o  "_zmq_msg_close", referenced from:
-o      _main in server.o
-o      zmq::message_t::~message_t()in server.o
-o  "_zmq_close", referenced from:
-o      zmq::socket_t::close()    in server.o
-o  "_zmq_term", referenced from:
-o      zmq::context_t::~context_t()in server.o
-o  "_zmq_strerror", referenced from:
-o      zmq::error_t::what() constin server.o
-old: symbol(s) not found
-ocollect2: ld returned 1 exit status
-lSLF07#2@167"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/ResolumeKinectServer356476731#356476731#0(1686"ld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not foundld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not foundld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not foundld: warning: in ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "_zmq_socket", referenced from:      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o  "_zmq_recv", referenced from:      _main in server.o      zmq::socket_t::recv(zmq::message_t*, int)in server.o  "_zmq_msg_init", referenced from:      _main in server.o      zmq::message_t::message_t()in server.o  "_zmq_errno", referenced from:      zmq::error_t::error_t()in server.o      zmq::socket_t::recv(zmq::message_t*, int)in server.o  "_zmq_msg_size", referenced from:      _main in server.o  "_zmq_msg_data", referenced from:      _main in server.o  "_zmq_bind", referenced from:      zmq::socket_t::bind(char const*)in server.o  "_zmq_init", referenced from:      zmq::context_t::context_t(int)in server.o  "_zmq_msg_close", referenced from:      _main in server.o      zmq::message_t::~message_t()in server.o  "_zmq_close", referenced from:      zmq::socket_t::close()    in server.o  "_zmq_term", referenced from:      zmq::context_t::~context_t()in server.o  "_zmq_strerror", referenced from:      zmq::error_t::what() constin server.old: symbol(s) not foundcollect2: ld returned 1 exit status34(22@112"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not found356476731#0#126#0(6@0"356476731#0#0#0#0#0"0(22@124"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not found356476731#126#138#0(6@0"356476731#0#0#0#0#0"0(22@112"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not found356476731#264#126#0(6@0"356476731#0#0#0#0#0"0(22@129"In ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)356476731#390#143#0(6@0"356476731#0#0#0#0#0"0(4@31""_zmq_socket", referenced from:356476731#552#34#0(6@0"356476731#0#0#0#0#0"0(13@56"Zmq::socket_t::socket_t(zmq::context_t&, int)in server.o356476731#586#63#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_recv", referenced from:356476731#649#32#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#681#24#0(6@0"356476731#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356476731#705#59#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_msg_init", referenced from:356476731#764#36#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#800#24#0(6@0"356476731#0#0#0#0#0"0(13@38"Zmq::message_t::message_t()in server.o356476731#824#45#0(6@0"356476731#0#0#0#0#0"0(4@30""_zmq_errno", referenced from:356476731#869#33#0(6@0"356476731#0#0#0#0#0"0(13@34"Zmq::error_t::error_t()in server.o356476731#902#41#0(6@0"356476731#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356476731#943#59#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_msg_size", referenced from:356476731#1002#36#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#1038#24#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_msg_data", referenced from:356476731#1062#36#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#1098#24#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_bind", referenced from:356476731#1122#32#0(6@0"356476731#0#0#0#0#0"0(13@43"Zmq::socket_t::bind(char const*)in server.o356476731#1154#50#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_init", referenced from:356476731#1204#32#0(6@0"356476731#0#0#0#0#0"0(13@41"Zmq::context_t::context_t(int)in server.o356476731#1236#48#0(6@0"356476731#0#0#0#0#0"0(4@34""_zmq_msg_close", referenced from:356476731#1284#37#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#1321#24#0(6@0"356476731#0#0#0#0#0"0(13@39"Zmq::message_t::~message_t()in server.o356476731#1345#46#0(6@0"356476731#0#0#0#0#0"0(4@30""_zmq_close", referenced from:356476731#1391#33#0(6@0"356476731#0#0#0#0#0"0(13@37"Zmq::socket_t::close()    in server.o356476731#1424#44#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_term", referenced from:356476731#1468#32#0(6@0"356476731#0#0#0#0#0"0(13@39"Zmq::context_t::~context_t()in server.o356476731#1500#46#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_strerror", referenced from:356476731#1546#36#0(6@0"356476731#0#0#0#0#0"0(13@37"Zmq::error_t::what() constin server.o356476731#1582#44#0(6@0"356476731#0#0#0#0#0"0(13@19"Symbol(s) not found356476731#1626#24#0(6@0"356476731#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status356476731#1650#36#0(6@0"356476731#0#0#0#0#0"0(0#0#0"8620772512#895"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" -L../../zeromq-2.2.0/src "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/ResolumeKinectServer.LinkFileList" -mmacosx-version-min=10.6 ../../zeromq-2.2.0/src/libzmq.la -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/i386/ResolumeKinectServer"1#
-
-CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer" normal x86_64
-s356476731.778203
-e356476731.974885
-r0
-xLd
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer
-xnormal
-xx86_64
-old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not found
-old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not found
-old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not found
-old: warning: in ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)
-oUndefined symbols:
-o  "_zmq_socket", referenced from:
-o      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o
-o  "_zmq_recv", referenced from:
-o      _main in server.o
-o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
-o  "_zmq_msg_init", referenced from:
-o      _main in server.o
-o      zmq::message_t::message_t()in server.o
-o  "_zmq_errno", referenced from:
-o      zmq::error_t::error_t()in server.o
-o      zmq::socket_t::recv(zmq::message_t*, int)in server.o
-o  "_zmq_msg_size", referenced from:
-o      _main in server.o
-o  "_zmq_msg_data", referenced from:
-o      _main in server.o
-o  "_zmq_bind", referenced from:
-o      zmq::socket_t::bind(char const*)in server.o
-o  "_zmq_init", referenced from:
-o      zmq::context_t::context_t(int)in server.o
-o  "_zmq_msg_close", referenced from:
-o      _main in server.o
-o      zmq::message_t::~message_t()in server.o
-o  "_zmq_close", referenced from:
-o      zmq::socket_t::close()    in server.o
-o  "_zmq_term", referenced from:
-o      zmq::context_t::~context_t()in server.o
-o  "_zmq_strerror", referenced from:
-o      zmq::error_t::what() constin server.o
-old: symbol(s) not found
-ocollect2: ld returned 1 exit status
-lSLF07#2@169"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer356476731#356476731#0(1688"ld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not foundld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not foundld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not foundld: warning: in ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)Undefined symbols:  "_zmq_socket", referenced from:      zmq::socket_t::socket_t(zmq::context_t&, int)in server.o  "_zmq_recv", referenced from:      _main in server.o      zmq::socket_t::recv(zmq::message_t*, int)in server.o  "_zmq_msg_init", referenced from:      _main in server.o      zmq::message_t::message_t()in server.o  "_zmq_errno", referenced from:      zmq::error_t::error_t()in server.o      zmq::socket_t::recv(zmq::message_t*, int)in server.o  "_zmq_msg_size", referenced from:      _main in server.o  "_zmq_msg_data", referenced from:      _main in server.o  "_zmq_bind", referenced from:      zmq::socket_t::bind(char const*)in server.o  "_zmq_init", referenced from:      zmq::context_t::context_t(int)in server.o  "_zmq_msg_close", referenced from:      _main in server.o      zmq::message_t::~message_t()in server.o  "_zmq_close", referenced from:      zmq::socket_t::close()    in server.o  "_zmq_term", referenced from:      zmq::context_t::~context_t()in server.o  "_zmq_strerror", referenced from:      zmq::error_t::what() constin server.old: symbol(s) not foundcollect2: ld returned 1 exit status34(22@112"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -L not found356476731#0#126#0(6@0"356476731#0#0#0#0#0"0(22@124"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs' following -L not found356476731#126#138#0(6@0"356476731#0#0#0#0#0"0(22@112"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release' following -F not found356476731#264#126#0(6@0"356476731#0#0#0#0#0"0(22@131"In ../../zeromq-2.2.0/src/libzmq.la, file was built for unsupported file format which is not the architecture being linked (x86_64)356476731#390#145#0(6@0"356476731#0#0#0#0#0"0(4@31""_zmq_socket", referenced from:356476731#554#34#0(6@0"356476731#0#0#0#0#0"0(13@56"Zmq::socket_t::socket_t(zmq::context_t&, int)in server.o356476731#588#63#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_recv", referenced from:356476731#651#32#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#683#24#0(6@0"356476731#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356476731#707#59#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_msg_init", referenced from:356476731#766#36#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#802#24#0(6@0"356476731#0#0#0#0#0"0(13@38"Zmq::message_t::message_t()in server.o356476731#826#45#0(6@0"356476731#0#0#0#0#0"0(4@30""_zmq_errno", referenced from:356476731#871#33#0(6@0"356476731#0#0#0#0#0"0(13@34"Zmq::error_t::error_t()in server.o356476731#904#41#0(6@0"356476731#0#0#0#0#0"0(13@52"Zmq::socket_t::recv(zmq::message_t*, int)in server.o356476731#945#59#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_msg_size", referenced from:356476731#1004#36#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#1040#24#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_msg_data", referenced from:356476731#1064#36#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#1100#24#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_bind", referenced from:356476731#1124#32#0(6@0"356476731#0#0#0#0#0"0(13@43"Zmq::socket_t::bind(char const*)in server.o356476731#1156#50#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_init", referenced from:356476731#1206#32#0(6@0"356476731#0#0#0#0#0"0(13@41"Zmq::context_t::context_t(int)in server.o356476731#1238#48#0(6@0"356476731#0#0#0#0#0"0(4@34""_zmq_msg_close", referenced from:356476731#1286#37#0(6@0"356476731#0#0#0#0#0"0(13@17"_main in server.o356476731#1323#24#0(6@0"356476731#0#0#0#0#0"0(13@39"Zmq::message_t::~message_t()in server.o356476731#1347#46#0(6@0"356476731#0#0#0#0#0"0(4@30""_zmq_close", referenced from:356476731#1393#33#0(6@0"356476731#0#0#0#0#0"0(13@37"Zmq::socket_t::close()    in server.o356476731#1426#44#0(6@0"356476731#0#0#0#0#0"0(4@29""_zmq_term", referenced from:356476731#1470#32#0(6@0"356476731#0#0#0#0#0"0(13@39"Zmq::context_t::~context_t()in server.o356476731#1502#46#0(6@0"356476731#0#0#0#0#0"0(4@33""_zmq_strerror", referenced from:356476731#1548#36#0(6@0"356476731#0#0#0#0#0"0(13@37"Zmq::error_t::what() constin server.o356476731#1584#44#0(6@0"356476731#0#0#0#0#0"0(13@19"Symbol(s) not found356476731#1628#24#0(6@0"356476731#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status356476731#1652#36#0(6@0"356476731#0#0#0#0#0"0(0#0#0"8617734176#901"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" -L../../zeromq-2.2.0/src "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/../zeromq-2.2.0/src/.libs" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer.LinkFileList" -mmacosx-version-min=10.6 ../../zeromq-2.2.0/src/libzmq.la -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Release/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer"1#
-
-CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectServer" normal i386
-r0
-
-CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Release/ResolumeKinectServer" normal x86_64
-r0
-

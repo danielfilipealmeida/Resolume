@@ -121,8 +121,6 @@ void depth_cb(freenect_device *dev, void *v_depth, uint32_t timestamp)
 void rgb_cb(freenect_device *dev, void *rgb, uint32_t timestamp)
 {
 	
-	//printf("Kinect RGB Callback Iteration.\n");
-
 	pthread_mutex_lock(&gl_backbuf_mutex);
 
 	// swap buffers
@@ -295,9 +293,12 @@ int KinectControl::initDevice(unsigned int _user_device_number) {
 	
 	user_device_number = _user_device_number;
 	if (freenect_open_device(f_ctx, &f_dev, user_device_number) < 0) {
-		printf("Could not open device\n");
+		this->errorCode = 4;
+		errorString = "Could not open device";
+
+		printf("%s\n", errorString);
 		freenect_shutdown(f_ctx);
-		return 1;
+		return this->errorCode;
 	} else {
 		printf("Kinect device opened.\n");
 		isInited = true;
@@ -308,9 +309,11 @@ int KinectControl::initDevice(unsigned int _user_device_number) {
 	int res;
 	res = pthread_create(&freenect_thread, NULL, freenect_threadfunc, NULL);
 	if (res) {
-		printf("pthread_create failed\n");
+		errorString = "pthread_create failed";
+		printf("%s\n",errorString);
 		freenect_shutdown(f_ctx);
-		return 1;
+		this->errorCode = 5;
+		return this->errorCode;
 	} else {
 		printf("Kinect thread created.\n");
 	}
