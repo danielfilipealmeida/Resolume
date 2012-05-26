@@ -15,6 +15,7 @@ zmq::context_t *context;
 zmq::socket_t *socket;
 
 
+
 void cleanUp() {
 	if (context!=NULL) delete(context);
 	if (socket!=NULL) delete(socket);

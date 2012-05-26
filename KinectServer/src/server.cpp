@@ -90,10 +90,6 @@ int main ()
 				std::cout << error.what();
 				exit(1);				
 			}
-			/*
-			uint8_t *rgb = kinectControl->getRGB();
-			s_send(socket, (char *) rgb);
-			 */
 		}	
 		
 		if (request.compare("getDepthmap") == 0) {		
@@ -111,7 +107,6 @@ int main ()
 			
 		}		
 		
-		//usleep(frameDuration);	
 		s_sleep(frameDuration);
     }
 	

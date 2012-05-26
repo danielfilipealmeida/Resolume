@@ -18,6 +18,7 @@ GLuint gl_depth_tex;
 
 
 
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //  Plugin information
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -61,18 +62,11 @@ char *fragmentShaderCode = (char *)
 ResolumeKinect::ResolumeKinect()
 :CFreeFrameGLPlugin()
 {
-	
-	printf("ResolumeKinnect\n");
 	// Input properties
 	SetMinInputs(1);
 	SetMaxInputs(1);	
-	
-	
 	SetParamInfo(FFPARAM_Mode, "Mode", FF_TYPE_STANDARD, 0.0f);
-
-	 
-	 mode = 1;
-
+	mode = 0;
 }
 
 ResolumeKinect::~ResolumeKinect(){
@@ -91,6 +85,7 @@ DWORD ResolumeKinect::InitGL(const FFGLViewportStruct *vp)
 	
 	// init the server
 	initKinectServer();
+	setKinectMode(mode);
  return FF_SUCCESS;
 }
 
@@ -132,10 +127,10 @@ DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 	
 	//glScalef(0.5, 0.5, 1.0);
 	if (mode == 0 ) {
-		uint8_t *depthMap = getKinectDepthMap();
-		if (depthMap!=NULL) {
+		uint8_t *rangeMap = getKinectDepthMap();
+		if (rangeMap!=NULL) {
 			glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
-			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, depthMap);
+			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, rangeMap);
 		}
 	}
 	
@@ -149,26 +144,23 @@ DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 	
 	glBegin(GL_QUADS);
 	glTexCoord2f(0.0,0.0);
-	glVertex2f(-1.0,-1.0);
-	glTexCoord2f(0.0, 1.0);
 	glVertex2f(-1.0,1.0);
+	glTexCoord2f(0.0, 1.0);
+	glVertex2f(-1.0,-1.0);
 	glTexCoord2f(1.0, 1.0);
-	glVertex2f(1.0,1.0);
-	glTexCoord2f(1.0, 0.0);
 	glVertex2f(1.0,-1.0);
+	glTexCoord2f(1.0, 0.0);
+	glVertex2f(1.0,1.0);
 	glEnd();
 	
-
 	//unbind the shader and texture
 	glBindTexture(GL_TEXTURE_2D, 0);
-	//m_shader.UnbindShader();
 	
 	glPopMatrix();
 	
 	glFlush();
 	glDisable(GL_TEXTURE_2D);
 
-	
 	return FF_SUCCESS;
 }
 
@@ -176,8 +168,7 @@ DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 
 
 DWORD ResolumeKinect::GetParameter(DWORD dwIndex)
-{
-		
+{		
 	DWORD dwRet;
 	switch (dwIndex) {
 
@@ -204,6 +195,7 @@ DWORD ResolumeKinect::SetParameter(const SetParameterStruct* pParam)
 			//mode = *((int *)(unsigned)&(pParam->NewParameterValue));
 				if(val<0.5) mode=0;
 				if(val>=0.5) mode=1;
+				setKinectMode(mode);
 			
 			break;
 

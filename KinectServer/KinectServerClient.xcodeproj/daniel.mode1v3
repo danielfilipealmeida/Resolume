@@ -281,13 +281,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>4</integer>
+									<integer>13</integer>
+									<integer>10</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 13}, {242, 660}}</string>
+							<string>{{0, 9}, {242, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -317,12 +317,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>zhelpers.hpp</string>
+								<string>FFGLKinect.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +332,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>zhelpers.hpp</string>
+										<string>FFGLKinect.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>652CF0681570EFBD00F6B392</string>
+										<string>652CF1201571355100F6B392</string>
 										<key>history</key>
 										<array>
 											<string>6540070A1544174600AD571D</string>
@@ -348,19 +350,19 @@
 											<string>650BC830154840C800E653F8</string>
 											<string>65E9D9EA154C4E89002C3108</string>
 											<string>65FC74131550078E00D540C6</string>
-											<string>65328FC8156041FA00F85B32</string>
-											<string>65EF1C20156C0654000F0009</string>
-											<string>65EF1C21156C0654000F0009</string>
-											<string>65EF1C22156C0654000F0009</string>
 											<string>65EF1C57156C08D0000F0009</string>
 											<string>65EF1C58156C08D0000F0009</string>
 											<string>65EF1C59156C08D0000F0009</string>
-											<string>65EF1CEB156C2695000F0009</string>
 											<string>651FB0A3156EA45C00EF7807</string>
-											<string>651FB160156ED85400EF7807</string>
-											<string>651FB161156ED85400EF7807</string>
 											<string>651FB194156ED9D100EF7807</string>
-											<string>651FB1C1156EDE5600EF7807</string>
+											<string>652CF08A1570F57800F6B392</string>
+											<string>652CF08E1570F57800F6B392</string>
+											<string>652CF09E157125B500F6B392</string>
+											<string>652CF0AA1571263700F6B392</string>
+											<string>652CF0FD15712DB500F6B392</string>
+											<string>652CF0FE15712DB500F6B392</string>
+											<string>652CF11E1571355100F6B392</string>
+											<string>652CF11F1571355100F6B392</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -382,14 +384,12 @@
 							<string>301pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>server.cpp</string>
+								<string>glClient.mm</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -397,11 +397,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>server.cpp</string>
+										<string>glClient.mm</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>652CF0691570EFBD00F6B392</string>
+										<string>652CF1231571355100F6B392</string>
 										<key>history</key>
 										<array>
 											<string>6540070A1544174600AD571D</string>
@@ -416,15 +416,15 @@
 											<string>65E9D9EA154C4E89002C3108</string>
 											<string>65FC74131550078E00D540C6</string>
 											<string>65328FC8156041FA00F85B32</string>
-											<string>65EF1C20156C0654000F0009</string>
-											<string>65EF1C21156C0654000F0009</string>
-											<string>65EF1C6F156C09B3000F0009</string>
-											<string>65EF1C93156C0AA1000F0009</string>
-											<string>65EF1C96156C0AA1000F0009</string>
-											<string>651FB110156ED2D200EF7807</string>
-											<string>651FB164156ED85400EF7807</string>
-											<string>651FB165156ED85400EF7807</string>
-											<string>651FB1C2156EDE5600EF7807</string>
+											<string>652CF0921570F57800F6B392</string>
+											<string>652CF0931570F57800F6B392</string>
+											<string>652CF0941570F57800F6B392</string>
+											<string>652CF0951570F57800F6B392</string>
+											<string>652CF0A3157125B500F6B392</string>
+											<string>652CF0EC15712B0400F6B392</string>
+											<string>652CF10315712E7000F6B392</string>
+											<string>652CF1211571355100F6B392</string>
+											<string>652CF1221571355100F6B392</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -646,6 +646,7 @@
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>65EE814015334B8A00F07A7F</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectServerClient.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -670,7 +671,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>KinectClient.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -687,6 +688,8 @@
 							<string>347pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -739,7 +742,7 @@
 			<key>WindowToolGUID</key>
 			<string>65EE814015334B8A00F07A7F</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -883,14 +886,12 @@
 							<key>Dock</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>KinectClient.cpp</string>
+										<string></string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -911,6 +912,8 @@
 							<string>212pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -946,8 +949,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>65131B301561AE540077B811</string>
-				<string>65131B311561AE540077B811</string>
+				<string>652CF0EF15712B0400F6B392</string>
+				<string>652CF0F015712B0400F6B392</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>

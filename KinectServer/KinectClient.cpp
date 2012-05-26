@@ -8,6 +8,7 @@
  */
 
 #include "KinectClient.h"
+#include "math.h"
 
 uint8_t kinectClientMode;
 
@@ -17,6 +18,7 @@ pthread_t threadID;
 unsigned int depthTextureSize;
 uint8_t *depthMap;
 uint8_t *rgb;
+int fps, frameDuration;
 
 
 zmq::context_t *kinectContext;
@@ -32,11 +34,12 @@ void cleanUp() {
 
 
 void *kinectServerExecLoop(void *arg) {
+	s_catch_signals ();
 	while (clientRunning==true) {
 		clientThreadLocked=true;
 
 		if (kinectClientMode == 0) {
-			s_send(*kinectSocket, "getDepthMapw");
+			s_send(*kinectSocket, "getDepthmap");
 			std::string requestResult = s_recv(*kinectSocket);
 			memcpy((void *) depthMap, (void *) requestResult.c_str(), depthTextureSize);
 		}
@@ -48,8 +51,11 @@ void *kinectServerExecLoop(void *arg) {
 		}
 		
 		clientThreadLocked=false;
-		//free (depthMap);		
+		s_sleep(frameDuration);
+
 	}
+	zmq_close(kinectSocket);
+	zmq_term(kinectContext);
 	free((void *) rgb);
 	free((void *) depthMap);
 }
@@ -66,8 +72,9 @@ bool initKinectServer()
 	kinectContext = new zmq::context_t(1);
 	kinectSocket =new zmq::socket_t(*kinectContext, ZMQ_REQ);
 	
-	kinectClientMode=1;
-
+	kinectClientMode=0;
+	fps = 25;
+	frameDuration = (int) round(1000.0 / (float) fps);
 	
 	depthTextureSize = 640*480*3;
 	depthMap = (uint8_t*) malloc(depthTextureSize);

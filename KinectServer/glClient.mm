@@ -34,6 +34,7 @@
 #define textureWidth 64
 #define textureHeigth 64
 
+int fps, frameDuration;
 
 
 static GLubyte checkTexture[textureWidth][textureHeigth][4];
@@ -68,6 +69,7 @@ uint8_t *depthMap;
 
 
 void *kinectServerExecLoop(void *arg) {
+	s_catch_signals ();
 	while (clientRunning==true) {
 		try{
 			s_send(kinectSocket, "getDepthmap");
@@ -91,7 +93,11 @@ void *kinectServerExecLoop(void *arg) {
 		clientThreadLocked=true;
 		memcpy((void *) depthMap, (void *) requestResult.c_str(), depthTextureSize);
 		clientThreadLocked=false;
+		s_sleep(frameDuration);
+
 	}
+	zmq_close(kinectSocket);
+	zmq_term(kinectContext);
 	free((void *) depthMap);
 }
 
@@ -150,37 +156,23 @@ void init(void) {
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, textureWidth, textureHeigth, 0, GL_RGBA, GL_UNSIGNED_BYTE, checkTexture);
 	
-	
-	
 	// init depth texture
 	glGenTextures(1, &gl_depth_tex);
 	glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	
-	
-	//glMatrixMode(GL_PROJECTION);
-	//glLoadIdentity();
-	//glOrtho(0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
 }
 
 
 void display(void) {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glEnable(GL_TEXTURE_2D);
-	//glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL);
-	//glBindTexture(GL_TEXTURE_2D, checkTexName);
 	glColor3f(1.0, 1.0, 1.0);
 	
-	
-	
-	//uint8_t *depthMap = getKinectDepthMap();
 	if (depthMap!=NULL) {
 		glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
 		glTexImage2D(GL_TEXTURE_2D, 0, 3, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, depthMap);
 	}
-
-	
 	
 	glBegin(GL_QUADS);
 	glTexCoord2f(0,0);
@@ -193,15 +185,6 @@ void display(void) {
 	glVertex2f(-0.8,0.8);	
 	glEnd();
 	
-	
-	/*
-	 glBegin(GL_POLYGON);
-	 glVertex3f(0.25,0.25,0.0);
-	 glVertex3f(0.75,0.25,0.0);
-	 glVertex3f(0.75,0.75,0.0);
-	 glVertex3f(0.25,0.75,0.0);
-	 glEnd();
-	 */
 	glFlush();
 	glDisable(GL_TEXTURE_2D);
 }
@@ -210,7 +193,6 @@ void reshape(int w, int h) {
 	glViewport(0,0,(GLsizei) w, (GLsizei) h);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	//gluOrtho2D(0.0, (GLdouble) w, 0.0, (GLdouble) h);
 	glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
 }
 
@@ -231,6 +213,9 @@ int main (int argc, char **argv) {
 	glutReshapeFunc(reshape);
 	glutIdleFunc(animate);
 	
+	fps = 25;
+	frameDuration = (int) round(1000.0 / (float) fps);
+
 	
 	// init the server
 	initKinectServer();
