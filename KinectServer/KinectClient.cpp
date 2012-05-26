@@ -36,7 +36,7 @@ void *kinectServerExecLoop(void *arg) {
 		clientThreadLocked=true;
 
 		if (kinectClientMode == 0) {
-			s_send(*kinectSocket, "getDepthMap");
+			s_send(*kinectSocket, "getDepthMapw");
 			std::string requestResult = s_recv(*kinectSocket);
 			memcpy((void *) depthMap, (void *) requestResult.c_str(), depthTextureSize);
 		}

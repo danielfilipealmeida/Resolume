@@ -1,5 +1,0 @@
-/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp: In member function 'int KinectControl::initDevice(unsigned int)':
-/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:299: warning: cannot pass objects of non-POD type 'struct std::string' through '...'; call will abort at runtime
-/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:299: warning: format '%s' expects type 'char*', but argument 2 has type 'int'
-/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:313: warning: cannot pass objects of non-POD type 'struct std::string' through '...'; call will abort at runtime
-/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp:313: warning: format '%s' expects type 'char*', but argument 2 has type 'int'

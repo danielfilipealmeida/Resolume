@@ -69,16 +69,28 @@ uint8_t *depthMap;
 
 void *kinectServerExecLoop(void *arg) {
 	while (clientRunning==true) {
-		printf("getting depth image.\n");
-		//s_send(kinectSocket, "getRGB");
-		s_send(kinectSocket, "getDepthmap");
-		std::string requestResult = s_recv(kinectSocket);
-		clientThreadLocked=true;
-		//depthMap = (uint8_t *) strdup(requestResult.c_str());
-		memcpy((void *) depthMap, (void *) requestResult.c_str(), depthTextureSize);
+		try{
+			s_send(kinectSocket, "getDepthmap");
+		} catch (zmq::error_t error) {
+			std::cout << "Error sending request to Kinect Server" << std::endl;
+			std::cout << error.what();
+			exit(1);		
+		}
 		
+		std::string requestResult;
+		try {
+			
+			requestResult = s_recv(kinectSocket);
+		} catch (zmq::error_t error) {
+			std::cout << "Error getting data from Server" << std::endl;
+			std::cout << error.what();
+			
+			exit(1);
+		}
+		
+		clientThreadLocked=true;
+		memcpy((void *) depthMap, (void *) requestResult.c_str(), depthTextureSize);
 		clientThreadLocked=false;
-		//free (depthMap);		
 	}
 	free((void *) depthMap);
 }
@@ -162,7 +174,7 @@ void display(void) {
 	
 	
 	
-	uint8_t *depthMap = getKinectDepthMap();
+	//uint8_t *depthMap = getKinectDepthMap();
 	if (depthMap!=NULL) {
 		glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
 		glTexImage2D(GL_TEXTURE_2D, 0, 3, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, depthMap);
