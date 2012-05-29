@@ -21,6 +21,8 @@ uint8_t *rgb;
 int fps, frameDuration;
 
 
+pthread_mutex_t mymutex = PTHREAD_MUTEX_INITIALIZER;
+
 zmq::context_t *kinectContext;
 zmq::socket_t *kinectSocket;
 
@@ -37,7 +39,7 @@ void *kinectServerExecLoop(void *arg) {
 	s_catch_signals ();
 	while (clientRunning==true) {
 		clientThreadLocked=true;
-
+		pthread_mutex_lock(&mymutex);
 		if (kinectClientMode == 0) {
 			s_send(*kinectSocket, "getDepthmap");
 			std::string requestResult = s_recv(*kinectSocket);
@@ -51,6 +53,7 @@ void *kinectServerExecLoop(void *arg) {
 		}
 		
 		clientThreadLocked=false;
+		pthread_mutex_unlock(&mymutex);
 		s_sleep(frameDuration);
 
 	}
@@ -58,6 +61,7 @@ void *kinectServerExecLoop(void *arg) {
 	zmq_term(kinectContext);
 	free((void *) rgb);
 	free((void *) depthMap);
+	pthread_exit(NULL);
 }
 
 
@@ -102,9 +106,12 @@ bool initKinectServer()
 
 void stopKinectServer() {
 	if (clientRunning== false) return;
+	pthread_mutex_lock(&mymutex);
 	clientRunning = false;
+	pthread_mutex_unlock(&mymutex);
+	//pthread_exit(&threadID);
 	pthread_join(threadID,NULL);
-	cleanUp();
+	//cleanUp();
 }
 
 uint8_t *getKinectDepthMap()

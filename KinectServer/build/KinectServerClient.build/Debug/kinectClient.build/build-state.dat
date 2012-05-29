@@ -50,9 +50,9 @@ i<cstring>
 i<exception>
 
 N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/client.cpp
-c000000004FAED52900000000000004B5
-t1336857897
-s1205
+c000000004FC0BB1400000000000004B6
+t1338030868
+s1206
 i<zmq.hpp>
 i<string>
 i<iostream>
