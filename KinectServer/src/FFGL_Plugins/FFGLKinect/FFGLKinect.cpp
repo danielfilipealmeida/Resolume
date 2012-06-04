@@ -1,23 +1,10 @@
 #include <FFGL.h>
 #include <FFGLLib.h>
-
-
-
-
-
 #include "FFGLKinect.h"
-
-
 
 #define FFPARAM_Mode (0)
 
 GLuint gl_depth_tex;
-
-
-
-
-
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //  Plugin information
@@ -69,9 +56,9 @@ ResolumeKinect::ResolumeKinect()
 	mode = 0;
 }
 
-ResolumeKinect::~ResolumeKinect(){
+ResolumeKinect::~ResolumeKinect()
+{
 	std::cout << "destroying"<< std::endl;
-
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -88,7 +75,7 @@ DWORD ResolumeKinect::InitGL(const FFGLViewportStruct *vp)
 	// init the server
 	initKinectServer();
 	setKinectMode(mode);
- return FF_SUCCESS;
+	return FF_SUCCESS;
 }
 
 DWORD ResolumeKinect::DeInitGL()
@@ -101,7 +88,6 @@ DWORD ResolumeKinect::DeInitGL()
 
 DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 {
-
 	if (pGL->numInputTextures<1)
 		return FF_FAIL;
 	
@@ -110,8 +96,6 @@ DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 	
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glEnable(GL_TEXTURE_2D);
-
-	
 	
 	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 	glClearDepth(1.0);
@@ -128,17 +112,18 @@ DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 	glPushMatrix();
 	
 	//glScalef(0.5, 0.5, 1.0);
-	if (mode == 0 ) {
+	if (mode == 0 ) 
+	{
 		uint8_t *rangeMap = getKinectDepthMap();
-		if (rangeMap!=NULL) {
+		if (rangeMap!=NULL) 
+		{
 			glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
 			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, rangeMap);
 		}
-	}
-	
-	if (mode == 1 ) {
+	} else if (mode == 1 ) {
 		uint8_t *rgbMap = getKinectRGB();
-		if (rgbMap!=NULL) {
+		if (rgbMap!=NULL) 
+		{
 			glBindTexture(GL_TEXTURE_2D, gl_depth_tex);
 			glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 640, 480, 0, GL_RGB, GL_UNSIGNED_BYTE, rgbMap);
 		}
@@ -155,9 +140,8 @@ DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 	glVertex2f(1.0,1.0);
 	glEnd();
 	
-	//unbind the shader and texture
-	glBindTexture(GL_TEXTURE_2D, 0);
-	
+	//unbind the texture
+	glBindTexture(GL_TEXTURE_2D, 0);	
 	glPopMatrix();
 	
 	glFlush();
@@ -166,20 +150,17 @@ DWORD ResolumeKinect::ProcessOpenGL(ProcessOpenGLStruct *pGL)
 	return FF_SUCCESS;
 }
 
-
-
-
 DWORD ResolumeKinect::GetParameter(DWORD dwIndex)
 {		
 	DWORD dwRet;
-	switch (dwIndex) {
+	switch (dwIndex) 
+	{
+		case FFPARAM_Mode:
+		*((float *)(unsigned)&dwRet) = (float)mode;
+			return dwRet;
 
-	case FFPARAM_Mode:
-    *((float *)(unsigned)&dwRet) = (float)mode;
-		return dwRet;
-
-	default:
-		return FF_FAIL;
+		default:
+			return FF_FAIL;
 	}
 		 
 	return FF_FAIL;
@@ -188,26 +169,19 @@ DWORD ResolumeKinect::GetParameter(DWORD dwIndex)
 DWORD ResolumeKinect::SetParameter(const SetParameterStruct* pParam)
 {
 	float val;
-	if (pParam != NULL) {
-		
-		switch (pParam->ParameterNumber) {
-
-		case FFPARAM_Mode:
-				val = *((float *)(unsigned)&(pParam->NewParameterValue));
-			//mode = *((int *)(unsigned)&(pParam->NewParameterValue));
-				if(val<0.5) mode=0;
-				if(val>=0.5) mode=1;
-				setKinectMode(mode);
-			
-			break;
-
-
-		default:
-			return FF_FAIL;
+	if (pParam != NULL) 
+	{		
+		switch (pParam->ParameterNumber) 
+		{
+			case FFPARAM_Mode:
+					val = *((float *)(unsigned)&(pParam->NewParameterValue));
+					mode = (val<0.5) ? 0 : 1;
+					setKinectMode(mode);
+				break;
+			default:
+				return FF_FAIL;
 		}
-
-		return FF_SUCCESS;
-	
+		return FF_SUCCESS;	
 	}
 	 
 	return FF_FAIL;
