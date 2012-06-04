@@ -10,20 +10,7 @@
 #ifndef __KINECTCLIENT_H__
 #define __KINECTCLIENT_H__
 
-
-#include <pthread.h>
-#include <zmq.hpp>
-#include <string>
 #include <iostream>
-#include "zhelpers.hpp"
-
-
-
-
-
-
-
-
 
 bool initKinectServer();
 void *kinectServerExecLoop(void *arg);
