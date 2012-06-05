@@ -5,9 +5,6 @@
 #include "../FFGLPluginSDK.h"
 #include "KinectClient.h"
 
-
-
-
 class ResolumeKinect :
 public CFreeFrameGLPlugin
 {

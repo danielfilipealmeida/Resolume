@@ -1,1034 +1,0 @@
-TFFGLKinect
-v7
-r0
-t360015724.494042
-cCheck dependencies
-cProcessInfoPlistFile "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/Info.plist" FFGLKinect-Info.plist
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGL.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfo.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfoData.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfoData.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginManager.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginSDK.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLKinect.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLExtensions.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLFBO.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLFBO.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLShader.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/KinectClient.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/MacOS/FFGLKinect" normal i386
-cTouch "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle"
-
-N/Developer/usr/include/gcc/darwin/4.2/stdint.h
-c000000004CC3D2C2000000000000190C
-t1287901890
-s6412
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004CC3CD1000000000000010DD
-t1287900432
-s4317
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
-c000000004CC3CD100000000000000644
-t1287900432
-s1604
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004CC3CD100000000000003197
-t1287900432
-s12695
-i<machine/ansi.h>
-i<sys/_types.h>
-
-N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004E2085850000000000782350
-t1310754181
-s7873360
-
-N/System/Library/Frameworks/IOKit.framework/IOKit
-c000000004E2F655B000000000017B260
-t1311728987
-s1552992
-
-N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
-c000000004BD2501F0000000000025B59
-t1272074271
-s154457
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/FFGLSDK_1_5/Include/FFGL.h
-c00000000469BA86C00000000000012A5
-t1184606316
-s4773
-i<windows.h>
-i<gl/gl.h>
-i<OpenGL/gl.h>
-i<GL/gl.h>
-i"FreeFrame.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/FFGLSDK_1_5/Include/FFGLExtensions.h
-c0000000045C6AAEE0000000000006254
-t1170647790
-s25172
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/FFGLSDK_1_5/Include/FFGLFBO.h
-c00000000465F08FA00000000000003B8
-t1180633338
-s952
-i<FFGL.h>
-i<FFGLExtensions.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/FFGLSDK_1_5/Include/FFGLLib.h
-c00000000472DB40A0000000000000C91
-t1194177546
-s3217
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/FFGLSDK_1_5/Include/FFGLShader.h
-c00000000465EAADA00000000000002A8
-t1180609242
-s680
-i<FFGL.h>
-i<FFGLExtensions.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/FFGLSDK_1_5/Include/FreeFrame.h
-c000000004F98148E0000000000002330
-t1335366798
-s9008
-i<windows.h>
-i<string.h>
-i<stdlib.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp
-c000000004FC52FD70000000000000A7E
-t1338322903
-s2686
-i"KinectClient.h"
-i"math.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.h
-c000000004FB176C70000000000000205
-t1337030343
-s517
-i<pthread.h>
-i<zmq.hpp>
-i<string>
-i<iostream>
-i"zhelpers.hpp"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle
-t1338322905
-s102
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/Info.plist
-t1337104155
-s1056
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/MacOS/FFGLKinect
-t1338322905
-s498108
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGL.o
-t1337100736
-s19748
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLExtensions.o
-t1337100736
-s24384
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLFBO.o
-t1337100736
-s19016
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLKinect.LinkFileList
-c000000004FAAE55D00000000000008E1
-t1336599901
-s2273
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLKinect.o
-t1338314176
-s114612
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfo.o
-t1337100736
-s8504
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfoData.o
-t1337100736
-s3624
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginManager.o
-t1337100736
-s13120
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginSDK.o
-t1337100736
-s14524
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLShader.o
-t1337100736
-s21000
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/KinectClient.o
-t1338322905
-s111004
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/cameras.o
-t1337100736
-s45780
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/core.o
-t1337100736
-s14084
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/registration.o
-t1337100736
-s19112
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/tilt.o
-t1337100736
-s11360
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/usb_libusb10.o
-t1337100736
-s17840
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include/FFGL.h
-c00000000469BA86C00000000000012A5
-t1184606316
-s4773
-i<windows.h>
-i<gl/gl.h>
-i<OpenGL/gl.h>
-i<GL/gl.h>
-i"FreeFrame.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include/FFGLExtensions.h
-c0000000045C6AAEE0000000000006254
-t1170647790
-s25172
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include/FFGLFBO.h
-c00000000465F08FA00000000000003B8
-t1180633338
-s952
-i<FFGL.h>
-i<FFGLExtensions.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include/FFGLLib.h
-c00000000472DB40A0000000000000C91
-t1194177546
-s3217
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include/FFGLShader.h
-c00000000465EAADA00000000000002A8
-t1180609242
-s680
-i<FFGL.h>
-i<FFGLExtensions.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include/FreeFrame.h
-c000000004F98148E0000000000002330
-t1335366798
-s9008
-i<windows.h>
-i<string.h>
-i<stdlib.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c
-c000000004F50B446000000000000B26D
-t1330689094
-s45677
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-i"freenect_internal.h"
-i"registration.h"
-i"cameras.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.h
-c000000004F50B4460000000000000599
-t1330689094
-s1433
-i"libfreenect.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c
-c000000004F50B44600000000000014A9
-t1330689094
-s5289
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<stdarg.h>
-i<unistd.h>
-i"freenect_internal.h"
-i"registration.h"
-i"cameras.h"
-i"loader.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/freenect_internal.h
-c000000004F50B4460000000000001786
-t1330689094
-s6022
-i<stdint.h>
-i"libfreenect.h"
-i"libfreenect-registration.h"
-i"libfreenect-audio.h"
-i"usb_libusb10.h"
-i<stdarg.h>
-i<stdio.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib
-c000000004F50B4460000000000002B8E
-t1330689094
-s11150
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/libfreenect-registration.h
-c000000004F50B4460000000000000E63
-t1330689094
-s3683
-i<libfreenect.h>
-i<stdint.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/libfreenect.h
-c000000004F50B4460000000000005201
-t1330689094
-s20993
-i<stdint.h>
-i<libusb-1.0/libusb.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c
-c000000004F50B44600000000000034FF
-t1330689094
-s13567
-i<libfreenect.h>
-i<freenect_internal.h>
-i"registration.h"
-i<stdlib.h>
-i<string.h>
-i<stdio.h>
-i<math.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.h
-c000000004F50B44600000000000005D3
-t1330689094
-s1491
-i"libfreenect.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c
-c000000004F50B4460000000000000D9C
-t1330689094
-s3484
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<unistd.h>
-i<math.h>
-i"freenect_internal.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c
-c000000004F50B4460000000000002C22
-t1330689094
-s11298
-i<stdio.h>
-i<stdbool.h>
-i<stdlib.h>
-i<string.h>
-i<libusb-1.0/libusb.h>
-i"freenect_internal.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.h
-c000000004F50B4460000000000000CBF
-t1330689094
-s3263
-i<libusb-1.0/libusb.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs/usb-1.0.a
-c000000004F50B446000000000003DF1C
-t1330689094
-s253724
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx/opencv.a
-c000000004DE299800000000000C4BE34
-t1306696064
-s12893748
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.h
-c000000004F840BF600000000000025C4
-t1334053878
-s9668
-i<errno.h>
-i<stddef.h>
-i<winsock2.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.hpp
-c000000004F840BF600000000000021C1
-t1334053878
-s8641
-i"zmq.h"
-i<algorithm>
-i<cassert>
-i<cstring>
-i<exception>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp
-c000000004F9819780000000000002DF2
-t1335368056
-s11762
-i<FFGL.h>
-i<FFGLExtensions.h>
-i<stdlib.h>
-i<string.h>
-i<mach-o/dyld.h>
-i<GL/glx.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLFBO.cpp
-c00000000469B6BE8000000000000134B
-t1184590824
-s4939
-i"FFGLFBO.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp
-c00000000472DB6F000000000000010BC
-t1194178288
-s4284
-i"FFGLShader.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp
-c00000000469BD8500000000000002DDD
-t1184618576
-s11741
-i"FFGLPluginSDK.h"
-i<memory.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp
-c000000004FC50DBE00000000000011B7
-t1338314174
-s4535
-i<FFGL.h>
-i<FFGLLib.h>
-i"FFGLKinect.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.h
-c000000004FB413B100000000000003F4
-t1337201585
-s1012
-i<FFGLShader.h>
-i"../FFGLPluginSDK.h"
-i"KinectClient.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp
-c00000000465EAADA0000000000000C6B
-t1180609242
-s3179
-i"FFGLPluginInfo.h"
-i<stdlib.h>
-i<memory.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.h
-c00000000465EAADA0000000000001D21
-t1180609242
-s7457
-i"FFGL.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfoData.cpp
-c0000000045C6ADF60000000000000279
-t1170648566
-s633
-i"FFGLPluginInfo.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.cpp
-c00000000469BD85000000000000012A2
-t1184618576
-s4770
-i"FFGLPluginManager.h"
-i"FFGLPluginSDK.h"
-i<stdlib.h>
-i<memory.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.h
-c00000000469BD8500000000000002A1B
-t1184618576
-s10779
-i"FFGL.h"
-i"FFGLPluginManager_inl.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager_inl.h
-c00000000472DB40A00000000000003DF
-t1194177546
-s991
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.cpp
-c00000000465EAADA0000000000000744
-t1180609242
-s1860
-i"FFGLPluginSDK.h"
-i<stdio.h>
-i<memory.h>
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.h
-c00000000469BD8500000000000001EAF
-t1184618576
-s7855
-i"FFGLPluginManager.h"
-i"FFGLPluginInfo.h"
-
-N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/zhelpers.hpp
-c000000004F7D243C0000000000001A11
-t1333601340
-s6673
-i<zmq.hpp>
-i<iostream>
-i<iomanip>
-i<string>
-i<sstream>
-i<sys/time.h>
-i<time.h>
-i<assert.h>
-i<pthread.h>
-i<stdlib.h>
-i<stdio.h>
-i<stdarg.h>
-i<signal.h>
-
-N/usr/include/assert.h
-c000000004BBD2CE90000000000000DCB
-t1270689001
-s3531
-
-N/usr/include/errno.h
-c000000004BBD2CE900000000000003EB
-t1270689001
-s1003
-
-N/usr/include/mach-o/dyld.h
-c000000004D0890EB0000000000003D47
-t1292407019
-s15687
-
-N/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/usr/include/memory.h
-c000000004BBD2CE90000000000000765
-t1270689001
-s1893
-
-N/usr/include/pthread.h
-c000000004BBD2CE900000000000038F0
-t1270689001
-s14576
-
-N/usr/include/signal.h
-c000000004BBD2CE900000000000014F0
-t1270689001
-s5360
-
-N/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/usr/include/stdlib.h
-c000000004BBD2CE90000000000002DF5
-t1270689001
-s11765
-
-N/usr/include/string.h
-c000000004BBD2CE90000000000001731
-t1270689001
-s5937
-
-N/usr/include/sys/_types.h
-c000000004CC3DE680000000000001845
-t1287904872
-s6213
-
-N/usr/include/sys/time.h
-c000000004CC3DE680000000000001E17
-t1287904872
-s7703
-
-N/usr/include/time.h
-c000000004BBD2CE9000000000000178E
-t1270689001
-s6030
-
-N/usr/include/unistd.h
-c000000004BBD2CE9000000000000563E
-t1270689001
-s22078
-
-N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004CC3CD1000000000000010DD
-t1287900432
-s4317
-
-N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
-c000000004CC3CD100000000000000644
-t1287900432
-s1604
-
-N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004CC3CD100000000000003197
-t1287900432
-s12695
-i<machine/ansi.h>
-i<sys/_types.h>
-
-N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
-c000000004CC3D2C2000000000000190C
-t1287901890
-s6412
-
-N/usr/local/include/libusb-1.0/libusb.h
-c000000004F82EC7E000000000000AFE5
-t1333980286
-s45029
-
-NFFGLKinect-Info.plist
-c000000004F930F5300000000000002BC
-t1335037779
-s700
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies360015724#360015724#0(0"0(0#1#0"8618625728#0"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGL.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.499167
-e358793536.614791
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGL.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp358793536#358793536#0(0"0(0#0#89"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp8609753280#1371"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGL.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGL.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLExtensions.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.614911
-e358793536.785545
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLExtensions.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void* FFGLExtensions::GetProcAddress(char*)':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:60: warning: 'NSIsSymbolNameDefined' is deprecated (declared at /usr/include/mach-o/dyld.h:176)
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:60: warning: 'NSIsSymbolNameDefined' is deprecated (declared at /usr/include/mach-o/dyld.h:176)
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:61: warning: 'NSLookupAndBindSymbol' is deprecated (declared at /usr/include/mach-o/dyld.h:179)
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:61: warning: 'NSLookupAndBindSymbol' is deprecated (declared at /usr/include/mach-o/dyld.h:179)
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void FFGLExtensions::InitMultitexture()':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:92: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:93: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:95: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:96: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:97: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:98: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:99: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:100: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:101: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:102: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:104: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:105: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:106: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:107: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:108: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:109: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:110: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:111: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:113: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:114: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:115: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:116: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:117: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:118: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:119: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:120: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:122: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:123: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:124: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:125: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:126: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:127: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:128: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:129: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void FFGLExtensions::InitARBShaderObjects()':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:148: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:149: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:150: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:151: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:152: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:153: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:154: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:155: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:156: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:157: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:158: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:159: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:160: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:161: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:162: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:163: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:164: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:165: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:166: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:167: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:168: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:169: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:170: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:171: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:172: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:173: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:174: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:175: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:176: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:177: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:178: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:179: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:180: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:181: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:182: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:183: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:184: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:185: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:186: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void FFGLExtensions::InitEXTFramebufferObject()':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:206: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:207: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:208: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:209: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:210: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:211: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:212: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:213: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:214: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:215: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:216: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:217: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:218: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:219: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:220: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:221: warning: deprecated conversion from string constant to 'char*'
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:222: warning: deprecated conversion from string constant to 'char*'
-lSLF07#2@114"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp358793536#358793536#0(17251"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void* FFGLExtensions::GetProcAddress(char*)':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:60: warning: 'NSIsSymbolNameDefined' is deprecated (declared at /usr/include/mach-o/dyld.h:176)/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:60: warning: 'NSIsSymbolNameDefined' is deprecated (declared at /usr/include/mach-o/dyld.h:176)/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:61: warning: 'NSLookupAndBindSymbol' is deprecated (declared at /usr/include/mach-o/dyld.h:179)/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:61: warning: 'NSLookupAndBindSymbol' is deprecated (declared at /usr/include/mach-o/dyld.h:179)/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void FFGLExtensions::InitMultitexture()':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:92: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:93: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:95: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:96: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:97: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:98: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:99: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:100: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:101: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:102: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:104: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:105: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:106: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:107: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:108: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:109: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:110: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:111: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:113: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:114: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:115: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:116: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:117: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:118: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:119: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:120: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:122: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:123: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:124: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:125: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:126: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:127: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:128: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:129: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void FFGLExtensions::InitARBShaderObjects()':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:148: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:149: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:150: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:151: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:152: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:153: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:154: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:155: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:156: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:157: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:158: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:159: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:160: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:161: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:162: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:163: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:164: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:165: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:166: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:167: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:168: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:169: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:170: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:171: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:172: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:173: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:174: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:175: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:176: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:177: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:178: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:179: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:180: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:181: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:182: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:183: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:184: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:185: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:186: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp: In member function 'void FFGLExtensions::InitEXTFramebufferObject()':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:206: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:207: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:208: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:209: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:210: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:211: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:212: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:213: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:214: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:215: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:216: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:217: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:218: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:219: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:220: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:221: warning: deprecated conversion from string constant to 'char*'/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp:222: warning: deprecated conversion from string constant to 'char*'94(22@82"'NSIsSymbolNameDefined' is deprecated (declared at /usr/include/mach-o/dyld.h:176)358793536#174#203#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#60#0#60#0#33"'*' is deprecated (declared at *)0(22@82"'NSIsSymbolNameDefined' is deprecated (declared at /usr/include/mach-o/dyld.h:176)358793536#377#203#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#60#0#60#0#33"'*' is deprecated (declared at *)0(22@82"'NSLookupAndBindSymbol' is deprecated (declared at /usr/include/mach-o/dyld.h:179)358793536#580#203#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#61#0#61#0#33"'*' is deprecated (declared at *)0(22@82"'NSLookupAndBindSymbol' is deprecated (declared at /usr/include/mach-o/dyld.h:179)358793536#783#203#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#61#0#61#0#33"'*' is deprecated (declared at *)0(22@53"Deprecated conversion from string constant to 'char*'358793536#1156#174#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#92#0#92#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#1330#174#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#93#0#93#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#1504#174#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#95#0#95#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#1678#174#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#96#0#96#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#1852#174#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#97#0#97#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#2026#174#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#98#0#98#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#2200#174#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#99#0#99#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#2374#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#100#0#100#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#2549#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#101#0#101#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#2724#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#102#0#102#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#2899#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#104#0#104#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#3074#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#105#0#105#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#3249#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#106#0#106#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#3424#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#107#0#107#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#3599#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#108#0#108#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#3774#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#109#0#109#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#3949#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#110#0#110#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#4124#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#111#0#111#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#4299#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#113#0#113#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#4474#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#114#0#114#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#4649#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#115#0#115#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#4824#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#116#0#116#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#4999#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#117#0#117#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#5174#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#118#0#118#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#5349#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#119#0#119#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#5524#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#120#0#120#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#5699#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#122#0#122#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#5874#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#123#0#123#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#6049#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#124#0#124#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#6224#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#125#0#125#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#6399#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#126#0#126#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#6574#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#127#0#127#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#6749#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#128#0#128#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#6924#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#129#0#129#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#7273#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#148#0#148#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#7448#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#149#0#149#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#7623#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#150#0#150#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#7798#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#151#0#151#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#7973#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#152#0#152#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#8148#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#153#0#153#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#8323#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#154#0#154#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#8498#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#155#0#155#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#8673#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#156#0#156#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#8848#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#157#0#157#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#9023#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#158#0#158#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#9198#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#159#0#159#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#9373#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#160#0#160#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#9548#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#161#0#161#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#9723#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#162#0#162#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#9898#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#163#0#163#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#10073#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#164#0#164#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#10248#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#165#0#165#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#10423#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#166#0#166#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#10598#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#167#0#167#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#10773#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#168#0#168#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#10948#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#169#0#169#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#11123#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#170#0#170#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#11298#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#171#0#171#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#11473#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#172#0#172#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#11648#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#173#0#173#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#11823#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#174#0#174#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#11998#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#175#0#175#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#12173#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#176#0#176#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#12348#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#177#0#177#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#12523#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#178#0#178#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#12698#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#179#0#179#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#12873#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#180#0#180#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#13048#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#181#0#181#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#13223#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#182#0#182#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#13398#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#183#0#183#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#13573#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#184#0#184#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#13748#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#185#0#185#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#13923#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#186#0#186#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#14276#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#206#0#206#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#14451#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#207#0#207#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#14626#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#208#0#208#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#14801#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#209#0#209#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#14976#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#210#0#210#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#15151#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#211#0#211#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#15326#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#212#0#212#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#15501#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#213#0#213#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#15676#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#214#0#214#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#15851#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#215#0#215#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#16026#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#216#0#216#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#16201#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#217#0#217#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#16376#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#218#0#218#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#16551#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#219#0#219#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#16726#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#220#0#220#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#16901#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#221#0#221#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'358793536#17076#175#0(6@106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp357060856#222#0#222#0#49"deprecated conversion from string constant to '*'0(0#0#106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp8612809952#1398"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLExtensions.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLExtensions.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLFBO.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLFBO.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.616171
-e358793536.712515
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLFBO.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLFBO.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@107"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLFBO.cpp358793536#358793536#0(0"0(0#0#99"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLFBO.cpp8612088960#1384"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLFBO.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLFBO.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLKinect.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s360006976.028010
-e360006976.418540
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLKinect.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp360006976#360006976#0(0"0(0#0#106"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp8634923360#1394"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLKinect/FFGLKinect.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLKinect.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfo.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.499836
-e358793536.596226
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfo.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@107"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp358793536#358793536#0(0"0(0#0#99"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp8609648832#1391"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfo.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfo.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfoData.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfoData.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.500521
-e358793536.581430
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfoData.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfoData.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@111"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfoData.cpp358793536#358793536#0(0"0(0#0#103"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfoData.cpp8609475648#1399"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginInfoData.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginInfoData.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginManager.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.501508
-e358793536.616064
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginManager.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.cpp358793536#358793536#0(0"0(0#0#102"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.cpp8609389472#1397"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginManager.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginManager.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginSDK.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.581556
-e358793536.676995
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginSDK.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.cpp358793536#358793536#0(0"0(0#0#98"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.cpp8615273248#1389"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/FFGLPluginSDK.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLPluginSDK.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLShader.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s358793536.677128
-e358793536.772833
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLShader.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp358793536#358793536#0(0"0(0#0#102"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp8611375424#1390"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/FFGL_Plugins/Common/FFGLShader.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLShader.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/KinectClient.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s360015704.600518
-e360015705.239591
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/KinectClient.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp360015704#360015705#0(0"0(0#0#80"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp8595108672#1370"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/KinectClient.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/KinectClient.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
-s358793536.712638
-e358793536.933631
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/cameras.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'stream_process':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:198: warning: passing argument 3 of 'memcpy' as unsigned due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'stream_init':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:229: warning: passing argument 1 of 'malloc' as unsigned due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:239: warning: passing argument 1 of 'malloc' as unsigned due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'send_cmd':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 2 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 3 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 4 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 5 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 7 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 2 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 3 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 4 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 5 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 7 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:718: warning: passing argument 3 of 'memcpy' as unsigned due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:720: warning: passing argument 3 of 'memcpy' as unsigned due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'write_register':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:739: warning: passing argument 2 of 'send_cmd' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'read_register':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:759: warning: passing argument 2 of 'send_cmd' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_reg_info':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:781: warning: passing argument 2 of 'send_cmd' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_reg_pad_info':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:859: warning: passing argument 2 of 'send_cmd' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_reg_const_shift':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:886: warning: passing argument 2 of 'send_cmd' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_zero_plane_info':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:905: warning: passing argument 2 of 'send_cmd' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_start_depth':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:963: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:963: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:964: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:964: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:970: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:970: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:974: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:974: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:979: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:979: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:980: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:980: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:981: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:981: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:982: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:982: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_start_video':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1037: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1037: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1038: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1038: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1039: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1039: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1040: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1040: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1109: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1109: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1110: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1110: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1111: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1111: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1118: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1118: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1123: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1123: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1124: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1124: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1129: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1129: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_stop_depth':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1145: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1145: warning: passing argument 3 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_stop_video':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1166: warning: passing argument 2 of 'write_register' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1166: warning: passing argument 3 of 'write_register' with different width due to prototype
-lSLF07#2@98"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c358793536#358793536#0(13013"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'stream_process':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:198: warning: passing argument 3 of 'memcpy' as unsigned due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'stream_init':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:229: warning: passing argument 1 of 'malloc' as unsigned due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:239: warning: passing argument 1 of 'malloc' as unsigned due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'send_cmd':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 2 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 3 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 4 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 5 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:682: warning: passing argument 7 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 2 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 3 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 4 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 5 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:690: warning: passing argument 7 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:718: warning: passing argument 3 of 'memcpy' as unsigned due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:720: warning: passing argument 3 of 'memcpy' as unsigned due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'write_register':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:739: warning: passing argument 2 of 'send_cmd' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'read_register':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:759: warning: passing argument 2 of 'send_cmd' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_reg_info':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:781: warning: passing argument 2 of 'send_cmd' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_reg_pad_info':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:859: warning: passing argument 2 of 'send_cmd' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_reg_const_shift':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:886: warning: passing argument 2 of 'send_cmd' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_fetch_zero_plane_info':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:905: warning: passing argument 2 of 'send_cmd' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_start_depth':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:963: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:963: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:964: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:964: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:970: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:970: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:974: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:974: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:979: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:979: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:980: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:980: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:981: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:981: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:982: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:982: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_start_video':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1037: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1037: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1038: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1038: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1039: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1039: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1040: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1040: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1109: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1109: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1110: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1110: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1111: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1111: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1118: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1118: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1123: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1123: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1124: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1124: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1129: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1129: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_stop_depth':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1145: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1145: warning: passing argument 3 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c: In function 'freenect_stop_video':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1166: warning: passing argument 2 of 'write_register' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c:1166: warning: passing argument 3 of 'write_register' with different width due to prototype63(22@59"Passing argument 3 of 'memcpy' as unsigned due to prototype358793536#122#165#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#198#0#198#0#0"0(22@59"Passing argument 1 of 'malloc' as unsigned due to prototype358793536#406#165#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#229#0#229#0#0"0(22@59"Passing argument 1 of 'malloc' as unsigned due to prototype358793536#571#165#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#239#0#239#0#0"0(22@75"Passing argument 2 of 'fnusb_control' with different width due to prototype358793536#852#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#682#0#682#0#0"0(22@75"Passing argument 3 of 'fnusb_control' with different width due to prototype358793536#1033#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#682#0#682#0#0"0(22@75"Passing argument 4 of 'fnusb_control' with different width due to prototype358793536#1214#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#682#0#682#0#0"0(22@75"Passing argument 5 of 'fnusb_control' with different width due to prototype358793536#1395#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#682#0#682#0#0"0(22@75"Passing argument 7 of 'fnusb_control' with different width due to prototype358793536#1576#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#682#0#682#0#0"0(22@75"Passing argument 2 of 'fnusb_control' with different width due to prototype358793536#1757#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#690#0#690#0#0"0(22@75"Passing argument 3 of 'fnusb_control' with different width due to prototype358793536#1938#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#690#0#690#0#0"0(22@75"Passing argument 4 of 'fnusb_control' with different width due to prototype358793536#2119#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#690#0#690#0#0"0(22@75"Passing argument 5 of 'fnusb_control' with different width due to prototype358793536#2300#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#690#0#690#0#0"0(22@75"Passing argument 7 of 'fnusb_control' with different width due to prototype358793536#2481#181#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#690#0#690#0#0"0(22@59"Passing argument 3 of 'memcpy' as unsigned due to prototype358793536#2662#165#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#718#0#718#0#0"0(22@59"Passing argument 3 of 'memcpy' as unsigned due to prototype358793536#2827#165#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#720#0#720#0#0"0(22@70"Passing argument 2 of 'send_cmd' with different width due to prototype358793536#3114#176#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#739#0#739#0#0"0(22@70"Passing argument 2 of 'send_cmd' with different width due to prototype358793536#3411#176#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#759#0#759#0#0"0(22@70"Passing argument 2 of 'send_cmd' with different width due to prototype358793536#3718#176#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#781#0#781#0#0"0(22@70"Passing argument 2 of 'send_cmd' with different width due to prototype358793536#4029#176#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#859#0#859#0#0"0(22@70"Passing argument 2 of 'send_cmd' with different width due to prototype358793536#4343#176#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#886#0#886#0#0"0(22@70"Passing argument 2 of 'send_cmd' with different width due to prototype358793536#4657#176#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#905#0#905#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#4961#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#963#0#963#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#5143#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#963#0#963#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#5325#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#964#0#964#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#5507#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#964#0#964#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#5689#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#970#0#970#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#5871#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#970#0#970#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#6053#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#974#0#974#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#6235#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#974#0#974#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#6417#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#979#0#979#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#6599#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#979#0#979#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#6781#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#980#0#980#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#6963#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#980#0#980#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#7145#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#981#0#981#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#7327#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#981#0#981#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#7509#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#982#0#982#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#7691#182#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#982#0#982#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#8001#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1037#0#1037#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#8184#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1037#0#1037#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#8367#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1038#0#1038#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#8550#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1038#0#1038#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#8733#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1039#0#1039#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#8916#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1039#0#1039#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#9099#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1040#0#1040#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#9282#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1040#0#1040#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#9465#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1109#0#1109#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#9648#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1109#0#1109#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#9831#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1110#0#1110#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#10014#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1110#0#1110#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#10197#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1111#0#1111#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#10380#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1111#0#1111#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#10563#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1118#0#1118#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#10746#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1118#0#1118#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#10929#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1123#0#1123#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#11112#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1123#0#1123#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#11295#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1124#0#1124#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#11478#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1124#0#1124#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#11661#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1129#0#1129#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#11844#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1129#0#1129#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#12154#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1145#0#1145#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#12337#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1145#0#1145#0#0"0(22@76"Passing argument 2 of 'write_register' with different width due to prototype358793536#12647#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1166#0#1166#0#0"0(22@76"Passing argument 3 of 'write_register' with different width due to prototype358793536#12830#183#0(6@90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c352381894#1166#0#1166#0#0"0(0#0#90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c8609589376#1345"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/cameras.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
-s358793536.772956
-e358793536.845797
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/core.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c358793536#358793536#0(0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c8612112000#1339"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/core.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
-s358793536.785672
-e358793536.898547
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/registration.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c: In function 'complete_tables':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c:309: warning: passing argument 1 of 'freenect_raw_to_mm' with different width due to prototype
-lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c358793536#358793536#0(319"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c: In function 'complete_tables':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c:309: warning: passing argument 1 of 'freenect_raw_to_mm' with different width due to prototype1(22@80"Passing argument 1 of 'freenect_raw_to_mm' with different width due to prototype358793536#128#191#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c352381894#309#0#309#0#0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c8611805696#1355"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/registration.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
-s358793536.845914
-e358793536.917159
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/tilt.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c: In function 'freenect_update_tilt_state':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 2 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 3 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 4 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 5 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 7 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c: In function 'freenect_set_tilt_degs':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 2 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 3 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 4 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 5 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 7 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c: In function 'freenect_set_led':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 2 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 3 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 4 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 5 of 'fnusb_control' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 7 of 'fnusb_control' with different width due to prototype
-lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c358793536#358793536#0(3034"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c: In function 'freenect_update_tilt_state':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 2 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 3 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 4 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 5 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:52: warning: passing argument 7 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c: In function 'freenect_set_tilt_degs':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 2 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 3 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 4 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 5 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:79: warning: passing argument 7 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c: In function 'freenect_set_led':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 2 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 3 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 4 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 5 of 'fnusb_control' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c:87: warning: passing argument 7 of 'fnusb_control' with different width due to prototype15(22@75"Passing argument 2 of 'fnusb_control' with different width due to prototype358793536#131#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#52#0#52#0#0"0(22@75"Passing argument 3 of 'fnusb_control' with different width due to prototype358793536#308#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#52#0#52#0#0"0(22@75"Passing argument 4 of 'fnusb_control' with different width due to prototype358793536#485#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#52#0#52#0#0"0(22@75"Passing argument 5 of 'fnusb_control' with different width due to prototype358793536#662#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#52#0#52#0#0"0(22@75"Passing argument 7 of 'fnusb_control' with different width due to prototype358793536#839#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#52#0#52#0#0"0(22@75"Passing argument 2 of 'fnusb_control' with different width due to prototype358793536#1143#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#79#0#79#0#0"0(22@75"Passing argument 3 of 'fnusb_control' with different width due to prototype358793536#1320#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#79#0#79#0#0"0(22@75"Passing argument 4 of 'fnusb_control' with different width due to prototype358793536#1497#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#79#0#79#0#0"0(22@75"Passing argument 5 of 'fnusb_control' with different width due to prototype358793536#1674#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#79#0#79#0#0"0(22@75"Passing argument 7 of 'fnusb_control' with different width due to prototype358793536#1851#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#79#0#79#0#0"0(22@75"Passing argument 2 of 'fnusb_control' with different width due to prototype358793536#2149#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#87#0#87#0#0"0(22@75"Passing argument 3 of 'fnusb_control' with different width due to prototype358793536#2326#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#87#0#87#0#0"0(22@75"Passing argument 4 of 'fnusb_control' with different width due to prototype358793536#2503#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#87#0#87#0#0"0(22@75"Passing argument 5 of 'fnusb_control' with different width due to prototype358793536#2680#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#87#0#87#0#0"0(22@75"Passing argument 7 of 'fnusb_control' with different width due to prototype358793536#2857#177#0(6@87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c352381894#87#0#87#0#0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c8609600096#1339"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/tilt.o"0#
-
-CCompileC build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
-s358793536.898686
-e358793536.978787
-r1
-xCompileC
-xbuild/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/usb_libusb10.o
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c: In function 'iso_callback':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:281: warning: passing argument 3 of 'strm->cb' as signed due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c: In function 'fnusb_start_iso':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:329: warning: passing argument 1 of 'malloc' as unsigned due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:340: warning: passing argument 3 of 'libusb_fill_iso_transfer' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:342: warning: passing argument 2 of 'libusb_set_iso_packet_lengths' as unsigned due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c: In function 'fnusb_control':
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 2 of 'libusb_control_transfer' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 3 of 'libusb_control_transfer' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 4 of 'libusb_control_transfer' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 5 of 'libusb_control_transfer' with different width due to prototype
-o/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 7 of 'libusb_control_transfer' with different width due to prototype
-lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c358793536#358793536#0(2089"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c: In function 'iso_callback':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:281: warning: passing argument 3 of 'strm->cb' as signed due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c: In function 'fnusb_start_iso':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:329: warning: passing argument 1 of 'malloc' as unsigned due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:340: warning: passing argument 3 of 'libusb_fill_iso_transfer' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:342: warning: passing argument 2 of 'libusb_set_iso_packet_lengths' as unsigned due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c: In function 'fnusb_control':/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 2 of 'libusb_control_transfer' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 3 of 'libusb_control_transfer' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 4 of 'libusb_control_transfer' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 5 of 'libusb_control_transfer' with different width due to prototype/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c:383: warning: passing argument 7 of 'libusb_control_transfer' with different width due to prototype9(22@59"Passing argument 3 of 'strm->cb' as signed due to prototype358793536#125#170#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#281#0#281#0#0"0(22@59"Passing argument 1 of 'malloc' as unsigned due to prototype358793536#423#170#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#329#0#329#0#0"0(22@86"Passing argument 3 of 'libusb_fill_iso_transfer' with different width due to prototype358793536#593#197#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#340#0#340#0#0"0(22@82"Passing argument 2 of 'libusb_set_iso_packet_lengths' as unsigned due to prototype358793536#790#193#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#342#0#342#0#0"0(22@85"Passing argument 2 of 'libusb_control_transfer' with different width due to prototype358793536#1109#196#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#383#0#383#0#0"0(22@85"Passing argument 3 of 'libusb_control_transfer' with different width due to prototype358793536#1305#196#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#383#0#383#0#0"0(22@85"Passing argument 4 of 'libusb_control_transfer' with different width due to prototype358793536#1501#196#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#383#0#383#0#0"0(22@85"Passing argument 5 of 'libusb_control_transfer' with different width due to prototype358793536#1697#196#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#383#0#383#0#0"0(22@85"Passing argument 7 of 'libusb_control_transfer' with different width due to prototype358793536#1893#196#0(6@95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c352381894#383#0#383#0#0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c8615920512#1355"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wconversion -DTARGET_OS_MAC=1 -D_DEBUG=1 -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/FFGLKinect.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" -I/include -I/src "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Common" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/usb_libusb10.o"0#
-
-CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/MacOS/FFGLKinect" normal i386
-s360015705.239701
-e360015705.369309
-r1
-xLd
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/MacOS/FFGLKinect
-xnormal
-xi386
-old: warning: directory '/src' following -L not found
-old: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Binaries/OSX' following -L not found
-old: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)
-old: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)
-lSLF07#2@124"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/MacOS/FFGLKinect360015705#360015705#0(600"ld: warning: directory '/src' following -L not foundld: warning: directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Binaries/OSX' following -L not foundld: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)4(22@39"Directory '/src' following -L not found360015705#0#53#0(6@0"360015705#0#0#0#0#0"0(22@121"Directory '/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Binaries/OSX' following -L not found360015705#53#135#0(6@0"360015705#0#0#0#0#0"0(22@183"In /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)360015705#188#197#0(6@0"360015705#0#0#0#0#0"0(22@201"In /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)360015705#385#215#0(6@0"360015705#0#0#0#0#0"0(0#0#0"8621575776#7093"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/g++-4.2 -arch i386 -bundle "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -L/src "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl/Binaries/OSX" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/FFGLKinect.build/Objects-normal/i386/FFGLKinect.LinkFileList" -mmacosx-version-min=10.4 -framework OpenGL "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-clock.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-command.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-connect_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ctx.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-decoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-device.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-devpoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-dist.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-encoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-epoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-err.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-fq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ip.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-kqueue.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-lb.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-mailbox.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-named_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-options.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-own.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pair.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_receiver.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_sender.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pipe.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poller_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pull.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-push.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-reaper.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-rep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-req.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-select.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-signaler.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-socket_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-sub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-swap.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-transient_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-trie.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-uuid.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xpub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xrep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xreq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xsub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_engine.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_init.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la" -framework CoreFoundation -framework IOKit "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs/usb-1.0.a" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx/opencv.a" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/MacOS/FFGLKinect"0#
-
-CProcessInfoPlistFile "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/Info.plist" FFGLKinect-Info.plist
-s358796955.455167
-e358796955.457960
-r1
-xProcessInfoPlistFile
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/Info.plist
-xFFGLKinect-Info.plist
-lSLF07#2@29"Process FFGLKinect-Info.plist358796955#358796955#0(0"0(0#0#85"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/FFGLKinect-Info.plist8609501984#281"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    builtin-infoPlistUtility FFGLKinect-Info.plist -expandbuildsettings -platform macosx -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle/Contents/Info.plist"0#
-
-CTouch "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle"
-s360015705.369413
-e360015705.371717
-r1
-xTouch
-x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle
-lSLF07#2@99"Touch /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle360015705#360015705#0(0"0(0#0#0"8620213728#191"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    /usr/bin/touch -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/FFGLKinect.bundle"0#
-
