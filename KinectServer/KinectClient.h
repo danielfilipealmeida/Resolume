@@ -25,7 +25,7 @@
 
 
 
-bool initKinectServer();
+bool initKinectServer(string _protocol="tcp");
 void *kinectServerExecLoop(void *arg);
 void stopKinectServer();
 uint8_t *getKinectDepthMap();

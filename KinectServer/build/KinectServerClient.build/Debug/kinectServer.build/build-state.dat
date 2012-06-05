@@ -1,7 +1,7 @@
 TkinectServer
 v7
 r0
-t360263592.880882
+t360264335.090413
 cCheck dependencies
 cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
 cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
@@ -459,7 +459,7 @@ s341
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies360263592#360263592#0(0"0(0#1#0"27866456492998768#0"0#
+lSLF07#2@18"Check dependencies360264335#360264335#0(0"0(0#1#0"8613132096#0"0#
 
 CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 s359585943.493771

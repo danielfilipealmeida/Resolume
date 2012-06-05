@@ -12,13 +12,16 @@
 
 uint8_t kinectClientMode;
 
-bool	clientThreadLocked;
-bool	clientRunning;
-pthread_t threadID;
-unsigned int depthTextureSize;
-uint8_t *depthMap;
-uint8_t *rgb;
-int fps, frameDuration;
+bool			clientThreadLocked;
+bool			clientRunning;
+pthread_t		threadID;
+unsigned int	depthTextureSize;
+uint8_t			*depthMap;
+uint8_t			*rgb;
+int				fps, frameDuration;
+string			protocol, serverAddress;
+
+
 
 
 pthread_mutex_t mymutex = PTHREAD_MUTEX_INITIALIZER;
@@ -65,13 +68,15 @@ void *kinectServerExecLoop(void *arg) {
 }
 
 
-bool initKinectServer() 
+bool initKinectServer(string _protocol, string _port) 
 {
 	if (clientRunning==true) {
 		std::cout << "initKinectServer: Kinnect Client Already running." << std::endl;
 		return clientRunning;
 	}
 	
+	
+	serverAddress = _protocol + "://localhost:" + _port;
 	
 	kinectContext = new zmq::context_t(1);
 	kinectSocket =new zmq::socket_t(*kinectContext, ZMQ_REQ);
