@@ -31,8 +31,26 @@ bool initKinect()
 }
 
 
-int main () 
+int main (int argc, char* argv[]) 
 {
+	string protocol = "tcp";
+	string port = "5555";
+	string serverAddress;
+
+	// argument handling
+	if (argc>1) 
+	{
+		if ((argv[1] == "tcp")|| (argv[1] == "ipc")) 
+		{
+			protocol = argv[1];
+		}
+		else 
+		{
+			cout << "Invalid protocol. Available protocols [tcp/icp]" << endl;
+			exit(1);
+		}
+	}
+	
 	std::cout << "starting server..."<<std::endl;
 
 
@@ -44,7 +62,10 @@ int main ()
 	zmq::socket_t socket(context, ZMQ_REP);
 	
 	try {
-		socket.bind ("tcp://*:5555");
+		serverAddress = protocol + "//*:" + port;
+		cout << "connectiong to " << serverAddress << "." << endl;
+		//socket.bind ("tcp://*:5555");
+		socket.bind (serverAddress.c_str());
 	} catch (zmq::error_t error) {
 		std::cout << "Error Binding to address" << std::endl;
 		std::cout << error.what();

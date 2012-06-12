@@ -1,0 +1,597 @@
+TkinectServer
+v7
+r0
+t360264335.090413
+cCheck dependencies
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal i386
+
+N/Developer/usr/include/gcc/darwin/4.2/stdint.h
+c000000004CC3D2C2000000000000190C
+t1287901890
+s6412
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004CC3CD100000000000000C7E
+t1287900432
+s3198
+i"syslimits.h"
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004CC3CD1000000000000010DD
+t1287900432
+s4317
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004CC3CD100000000000000644
+t1287900432
+s1604
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004CC3CD100000000000003197
+t1287900432
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
+c000000004CC3CB720000000000000155
+t1287900018
+s341
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004E2085850000000000782350
+t1310754181
+s7873360
+
+N/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004CC42BAC000000000000578C
+t1287924652
+s22412
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004E2F655B000000000017B260
+t1311728987
+s1552992
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004EDEBFD00000000000043360
+t1323220944
+s275296
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer
+t1338031598
+s467156
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o
+t1337893142
+s68748
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer.LinkFileList
+c000000004FAAE9500000000000000423
+t1336600912
+s1059
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o
+t1337100089
+s47588
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o
+t1337100089
+s14696
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o
+t1337100089
+s19648
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o
+t1338031598
+s108316
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o
+t1337100089
+s11560
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o
+t1337100089
+s18132
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/KinectControl.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/cameras.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/core.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/registration.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/tilt.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/usb_libusb10.o
+t2
+s0
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c
+c000000004F50B446000000000000B26D
+t1330689094
+s45677
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i"freenect_internal.h"
+i"registration.h"
+i"cameras.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.h
+c000000004F50B4460000000000000599
+t1330689094
+s1433
+i"libfreenect.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c
+c000000004F50B44600000000000014A9
+t1330689094
+s5289
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdarg.h>
+i<unistd.h>
+i"freenect_internal.h"
+i"registration.h"
+i"cameras.h"
+i"loader.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/freenect_internal.h
+c000000004F50B4460000000000001786
+t1330689094
+s6022
+i<stdint.h>
+i"libfreenect.h"
+i"libfreenect-registration.h"
+i"libfreenect-audio.h"
+i"usb_libusb10.h"
+i<stdarg.h>
+i<stdio.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib
+c000000004F50B4460000000000002B8E
+t1330689094
+s11150
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/libfreenect-registration.h
+c000000004F50B4460000000000000E63
+t1330689094
+s3683
+i<libfreenect.h>
+i<stdint.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/libfreenect.h
+c000000004F50B4460000000000005201
+t1330689094
+s20993
+i<stdint.h>
+i<libusb-1.0/libusb.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c
+c000000004F50B44600000000000034FF
+t1330689094
+s13567
+i<libfreenect.h>
+i<freenect_internal.h>
+i"registration.h"
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+i<math.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.h
+c000000004F50B44600000000000005D3
+t1330689094
+s1491
+i"libfreenect.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c
+c000000004F50B4460000000000000D9C
+t1330689094
+s3484
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i<math.h>
+i"freenect_internal.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c
+c000000004F50B4460000000000002C22
+t1330689094
+s11298
+i<stdio.h>
+i<stdbool.h>
+i<stdlib.h>
+i<string.h>
+i<libusb-1.0/libusb.h>
+i"freenect_internal.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.h
+c000000004F50B4460000000000000CBF
+t1330689094
+s3263
+i<libusb-1.0/libusb.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include/libusb-1.0/libusb.h
+c000000004F50B446000000000000AFE5
+t1330689094
+s45029
+i<stdint.h>
+i<sys/types.h>
+i<time.h>
+i<limits.h>
+i<sys/time.h>
+i<windows.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs/usb-1.0.a
+c000000004F50B446000000000003DF1C
+t1330689094
+s253724
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx/opencv.a
+c000000004DE299800000000000C4BE34
+t1306696064
+s12893748
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.h
+c000000004F840BF600000000000025C4
+t1334053878
+s9668
+i<errno.h>
+i<stddef.h>
+i<winsock2.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include/zmq.hpp
+c000000004F840BF600000000000021C1
+t1334053878
+s8641
+i"zmq.h"
+i<algorithm>
+i<cassert>
+i<cstring>
+i<exception>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp
+c000000004FBEA1160000000000001FCC
+t1337893142
+s8140
+i"KinectControl.h"
+i<pthread.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<math.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.h
+c000000004FBEA09D000000000000038C
+t1337893021
+s908
+i"libfreenect.h"
+i<libusb.h>
+i<iostream>
+i<map>
+i<string>
+i<GLUT/glut.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/glut.h>
+i<GL/gl.h>
+i<GL/glu.h>
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp
+c000000004FC0BDC4000000000000092F
+t1338031556
+s2351
+i<zmq.hpp>
+i<string>
+i<iostream>
+i<unistd.h>
+i"KinectControl.h"
+i"zhelpers.hpp"
+i"math.h"
+
+N/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/zhelpers.hpp
+c000000004F7D243C0000000000001A11
+t1333601340
+s6673
+i<zmq.hpp>
+i<iostream>
+i<iomanip>
+i<string>
+i<sstream>
+i<sys/time.h>
+i<time.h>
+i<assert.h>
+i<pthread.h>
+i<stdlib.h>
+i<stdio.h>
+i<stdarg.h>
+i<signal.h>
+
+N/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/usr/include/sys/_types.h
+c000000004CC3DE680000000000001845
+t1287904872
+s6213
+
+N/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+N/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004CC3CD100000000000000C7E
+t1287900432
+s3198
+i"syslimits.h"
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004CC3CD1000000000000010DD
+t1287900432
+s4317
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004CC3CD100000000000000644
+t1287900432
+s1604
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004CC3CD100000000000003197
+t1287900432
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004CC3D2C2000000000000190C
+t1287901890
+s6412
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
+c000000004CC3CB720000000000000155
+t1287900018
+s341
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies360264335#360264335#0(0"0(0#1#0"8613132096#0"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s359585943.493771
+e359585943.494502
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp359585943#359585943#0(0"0(0#0#85"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp8620586304#1480"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/KinectControl.o"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal i386 c com.apple.compilers.gcc.4_2
+s358792889.083732
+e358792889.330192
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c358792889#358792889#0(0"0(0#0#90"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c8616002080#1449"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/cameras.o"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal i386 c com.apple.compilers.gcc.4_2
+s358792889.084411
+e358792889.196738
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c358792889#358792889#0(0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c8615789760#1443"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/core.o"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal i386 c com.apple.compilers.gcc.4_2
+s358792889.085069
+e358792889.212071
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c358792889#358792889#0(0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c8615572736#1459"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/registration.o"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s359724398.300513
+e359724398.707640
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp359724398#359724398#0(0"0(0#0#78"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp8618491744#1466"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/server.o"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal i386 c com.apple.compilers.gcc.4_2
+s358792889.085980
+e358792889.192661
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c358792889#358792889#0(0"0(0#0#87"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c8615047296#1443"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/tilt.o"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal i386 c com.apple.compilers.gcc.4_2
+s358792889.192785
+e358792889.276854
+r1
+xCompileC
+xbuild/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c358792889#358792889#0(0"0(0#0#95"/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c8613762336#1459"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -gdwarf-2 "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/ResolumeKinectServer.hmap" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/include" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/ffgl" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources/i386" "-I/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/DerivedSources" -c "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/usb_libusb10.o"0#
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/KinectControl.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/KinectControl.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/cameras.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/cameras.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/core.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/core.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/registration.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/registration.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/server.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/src/server.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/tilt.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/tilt.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/usb_libusb10.o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/usb_libusb10.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCreateUniversalBinary "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal "x86_64 i386"
+r0
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer" normal i386
+s359724398.707722
+e359724398.763561
+r1
+xLd
+x/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer
+xnormal
+xi386
+old: warning: directory '/src' following -L not found
+old: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)
+lSLF07#2@101"Link /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer359724398#359724398#0(465"ld: warning: directory '/src' following -L not foundld: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)3(22@39"Directory '/src' following -L not found359724398#0#53#0(6@0"359724398#0#0#0#0#0"0(22@183"In /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la, file was built for unsupported file format which is not the architecture being linked (i386)359724398#53#197#0(6@0"359724398#0#0#0#0#0"0(22@201"In /Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib, file was built for unsupported file format which is not the architecture being linked (i386)359724398#250#215#0(6@0"359724398#0#0#0#0#0"0(0#0#0"8624257984#6943"    cd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -L/src "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs" "-L/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx" "-F/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug" -filelist "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer.LinkFileList" -framework OpenGL "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-clock.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-command.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-connect_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ctx.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-decoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-device.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-devpoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-dist.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-encoder.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-epoll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-err.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-fq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-io_thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-ip.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-kqueue.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-lb.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-mailbox.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-named_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-object.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-options.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-own.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pair.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_receiver.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_sender.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pgm_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pipe.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poll.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-poller_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-pull.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-push.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-reaper.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-rep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-req.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-select.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-signaler.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-socket_base.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-sub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-swap.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-tcp_socket.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-thread.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-transient_session.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-trie.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-uuid.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xpub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xrep.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xreq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-xsub.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_connecter.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_engine.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_init.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq_listener.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq_la-zmq.o" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/zmq/lib/libzmq.la" -framework CoreFoundation -framework IOKit "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libfreenect/lib/vs2010/freenect.lib" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/libusb/osx/libs/usb-1.0.a" "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/libs/opencv/lib/osx/opencv.a" -framework OpenGL -prebind -o "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/Debug/ResolumeKinectServer"0#
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/i386/ResolumeKinectServer" normal i386
+r0
+
+CLd "/Volumes/Macintosh HD2/Users/daniel/XCode/Resolume/KinectServer/build/KinectServerClient.build/Debug/kinectServer.build/Objects-normal/x86_64/ResolumeKinectServer" normal x86_64
+r0
+
