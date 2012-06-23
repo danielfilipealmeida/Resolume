@@ -140,11 +140,7 @@ void *freenect_threadfunc(void *arg) {
 	freenect_start_depth(f_dev);
 	freenect_start_video(f_dev);
 	
-	//printf("'w'-tilt up, 's'-level, 'x'-tilt down, '0'-'6'-select LED mode, 'f'-video format\n");
-	
 	while (!die && freenect_process_events(f_ctx) >= 0) {
-		//printf("Kinect Thread Iteration.\n");
-		//Throttle the text output
 		if (accelCount++ >= 2000)
 		{
 			accelCount = 0;
@@ -153,8 +149,6 @@ void *freenect_threadfunc(void *arg) {
 			state = freenect_get_tilt_state(f_dev);
 			double dx,dy,dz;
 			freenect_get_mks_accel(state, &dx, &dy, &dz);
-			//printf("\r raw acceleration: %4d %4d %4d  mks acceleration: %4f %4f %4f", state->accelerometer_x, state->accelerometer_y, state->accelerometer_z, dx, dy, dz);
-			//fflush(stdout);
 		}
 		
 		if (requested_format != current_format) {
@@ -190,16 +184,7 @@ KinectControl::KinectControl() {
 		return;
 	}
 	
-	int i;
-	/*
-	for (i=0; i<2048; i++) {
-		float v = i/2048.0;
-		v = powf(v, 3)* 6;
-		//v = v*6.0*256.0;
-		t_gamma[i] = v;
-	}
-	*/
-	for (i=0; i<2048; i++) {
+	for (int i=0; i<2048; i++) {
 		float v = i/2048.0;
 		v = powf(v, 3)* 6;
 		t_gamma[i] = v*6*256;
@@ -219,7 +204,6 @@ KinectControl::KinectControl() {
 	depth_mid = NULL;
 	
 	memset(depth_front,0,(640*480*3));
-	//memset(depth_mid,0,(640*480*3));
 	memset(rgb_back,0,(640*480*3));
 	memset(rgb_mid,0,(640*480*3));
 	memset(rgb_front,0,(640*480*3));
@@ -247,8 +231,6 @@ KinectControl::KinectControl() {
 		errorString = "No freenect devices found!";
 		printf("%s\n", errorString.c_str());
 	}
-	
-
 }
 
 
@@ -266,7 +248,6 @@ KinectControl::~KinectControl() {
 	free(rgb_mid);
 	free(rgb_front);
 
-	
 	kinectControlRef = NULL;
 }
 

@@ -15,19 +15,6 @@
 #include "KinectClient.h"
 
 uint8_t kinectClientMode;
-
-<<<<<<< HEAD
-bool			clientThreadLocked;
-bool			clientRunning;
-pthread_t		threadID;
-unsigned int	depthTextureSize;
-uint8_t			*depthMap;
-uint8_t			*rgb;
-int				fps, frameDuration;
-string			protocol, serverAddress;
-
-
-=======
 bool clientThreadLocked;
 bool clientRunning;
 pthread_t threadID;
@@ -35,8 +22,7 @@ unsigned int depthTextureSize;
 uint8_t *depthMap;
 uint8_t *rgb;
 int fps, frameDuration;
->>>>>>> 7b557e60e13bed678e050cc2171960134d9edeff
-
+std::string			protocol, serverAddress;
 pthread_mutex_t mymutex = PTHREAD_MUTEX_INITIALIZER;
 
 zmq::context_t *kinectContext;
@@ -84,7 +70,7 @@ void *kinectServerExecLoop(void *arg)
 }
 
 
-bool initKinectServer(string _protocol, string _port) 
+bool initKinectServer(std::string _protocol, std::string _port, std::string ipcAddress) 
 {
 	if (clientRunning) 
 	{
@@ -92,8 +78,15 @@ bool initKinectServer(string _protocol, string _port)
 		return clientRunning;
 	}
 	
+	if (_protocol == "tcp") 
+	{
 	
-	serverAddress = _protocol + "://localhost:" + _port;
+		serverAddress = _protocol + "://localhost:" + _port;
+	}
+	if (_protocol == "ipc") 
+	{
+		serverAddress = "ipc://"+ipcAddress;
+	}
 	
 	kinectContext = new zmq::context_t(1);
 	kinectSocket = new zmq::socket_t(*kinectContext, ZMQ_REQ);
@@ -107,20 +100,27 @@ bool initKinectServer(string _protocol, string _port)
 	rgb = (uint8_t*) malloc(depthTextureSize);
 	clientRunning = false;
 	
-	printf("Connecting to the Kinect Server...\n");
+	printf("Connecting to the Kinect Server at %s...\n", serverAddress.c_str());
 	try 
 	{
-		kinectSocket->connect ("tcp://localhost:5555");
+		//kinectSocket->connect ("tcp://localhost:5555");
+		kinectSocket->connect (serverAddress.c_str());
 		clientRunning=true;
 	} catch (zmq::error_t error) {
-		std::cout << "Error Binding to address" << std::endl;
+		std::cout << "Error Binding to address" << serverAddress  << std::endl;
 		std::cout << error.what();
 		cleanUp();
 		exit(1);		
 	}
 	
 	// start thread
-	pthread_create(&threadID,NULL,kinectServerExecLoop,NULL);
+	int res = pthread_create(&threadID,NULL,kinectServerExecLoop,NULL);
+	if (res!=0) 
+	{
+		std::cout << "Error starting FFGLKinect Thread"<<std::endl;
+		cleanUp();
+		exit(1);
+	}
 	
 	return clientRunning;
 }

@@ -11,8 +11,9 @@
 #define __KINECTCLIENT_H__
 
 #include <iostream>
+#include <string>
 
-bool initKinectServer(string _protocol="tcp");
+bool initKinectServer(std::string _protocol="ipc", std::string _port="5555", std::string ipcAddress="ffglkinectfeed");
 void *kinectServerExecLoop(void *arg);
 void stopKinectServer();
 uint8_t *getKinectDepthMap();

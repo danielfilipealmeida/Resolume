@@ -33,22 +33,57 @@ bool initKinect()
 
 int main (int argc, char* argv[]) 
 {
-	string protocol = "tcp";
+	string protocol = "ipc";
 	string port = "5555";
+	string ipcAddress = "ffglkinectfeed";
 	string serverAddress;
 
-	// argument handling
+	// argument handling 
 	if (argc>1) 
 	{
-		if ((argv[1] == "tcp")|| (argv[1] == "ipc")) 
+		if ((strcmp (argv[1], "help")==0) || (strcmp (argv[1], "-h")==0))
+		{
+			cout << "usage"<<endl;
+			cout << "    help, -h               This information"<<endl;
+			cout <<	"    <protocol> <port/path> available protocols: tcp, ipc"<<endl;
+			cout << "                           Port is related to tcp protocol and path is for ipc."<<endl<<endl;
+			
+			cout << "examples:"<<endl;
+			cout << "    ResolumeKinectServer tcp 5555"<<endl;
+			cout << "    ResolumeKinectServer ipc ffglkinectfeed"<<endl<<endl;
+			
+			cout << "defaults:"<<endl;
+			cout << "    protocol: " << protocol<<endl;
+			cout << "    port: " << port<<endl;
+			cout << "    ipc path: " << ipcAddress<<endl;
+			exit(0);
+		}
+			 
+			 
+		if ((strcmp (argv[1], "tcp")==0) || (strcmp(argv[1], "ipc")==0)) 
 		{
 			protocol = argv[1];
+			if (argc>2) { 
+				if ((strcmp (argv[2], "")>0)) 
+				{
+					if(strcmp (argv[1], "tcp")==0)
+					{
+						port = argv[2];
+					}
+					if(strcmp (argv[1], "ipc")==0)
+					{
+						ipcAddress = argv[2];
+					}
+				}
+			}
 		}
 		else 
 		{
-			cout << "Invalid protocol. Available protocols [tcp/icp]" << endl;
+			cout << "Invalid protocol. Available protocols [tcp/ipc]. Default protocol: " << protocol << "." << std::endl;
 			exit(1);
 		}
+		
+		
 	}
 	
 	std::cout << "starting server..."<<std::endl;
@@ -62,14 +97,28 @@ int main (int argc, char* argv[])
 	zmq::socket_t socket(context, ZMQ_REP);
 	
 	try {
-		serverAddress = protocol + "//*:" + port;
-		cout << "connectiong to " << serverAddress << "." << endl;
-		//socket.bind ("tcp://*:5555");
-		socket.bind (serverAddress.c_str());
+		if (protocol == "tcp") 
+		{
+			serverAddress = "tcp://*:" + port;
+			cout << "connecting to " << serverAddress << "." << endl;
+			//socket.bind ("tcp://*:5555");
+			
+			socket.bind (serverAddress.c_str());
+			
+		}
+		if (protocol == "ipc") 
+		{
+			serverAddress = "ipc://"+ipcAddress;
+			cout << "connecting to " << serverAddress << "." << endl;
+			
+			socket.bind (serverAddress.c_str());
+		}
+		
+		
 	} catch (zmq::error_t error) {
-		std::cout << "Error Binding to address" << std::endl;
+		std::cout << "Error Binding to address '" << serverAddress << "'." << std::endl;
 		std::cout << error.what();
-	
+		std::cout << std::endl;
 		exit(1);
 	}
 	
